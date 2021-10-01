@@ -1,0 +1,144 @@
+2021-03-23T14:36:23.872264 tid5268 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20210323T143623_pid5232.txt
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] User: Scanner.User
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] Host: DESKTOP-S4KVGR5
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] MMCore version 8.5.0
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] Device API version 67, Module API version 10
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2021-03-23T14:36:23.872264 tid5268 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2021-03-23T14:36:23.887889 tid5268 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2021-03-23T14:36:24.028516 tid3444 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2021-03-23T14:36:24.309770 tid3444 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@4c29d65b
+2021-03-23T14:36:24.309770 tid3444 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@305e7020
+2021-03-23T14:36:24.309770 tid3444 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@2200c550
+2021-03-23T14:36:24.309770 tid3444 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@609a18a0
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@3b58f1fa
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@7458e2a1
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@1f195fc
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin GaussianTrack_@1badd463
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@3fb6772a
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@637050f5
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@18f63055
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@4adf2940
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@10c789fb
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@b22c9df
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@3af2164f
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@6ae2d0b2
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@3e7bfc04
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@1a7df60a
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@4a2af8f5
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@57f5b4d1
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@3b8e80a6
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@8a030d6
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@4ce63606
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@1de4eb5b
+2021-03-23T14:36:24.325395 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@73d4d493
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@49f10a67
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@6fe2161d
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@641a034d
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@70db3331
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@51c293f8
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@d694eca
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@3bbbbafc
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@620e06ce
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@673dd208
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@ba8402c
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@54fedfb6
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@35ad0839
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@72f6f1b6
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@3db158db
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@4640b181
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@4631ff23
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7c6576d5
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin PMQI.AutoWB@4edc024a
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@29de6817
+2021-03-23T14:36:24.341021 tid3444 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2021-03-23T14:36:24.387896 tid3444 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@69022de4
+2021-03-23T14:36:24.387896 tid3444 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@366ef7ba
+2021-03-23T14:36:24.403521 tid3444 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@37ed1dbe
+2021-03-23T14:36:24.403521 tid3444 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@60dc3b82
+2021-03-23T14:36:24.403521 tid3444 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@7afccada
+2021-03-23T14:36:24.403521 tid3444 [IFO,App] Searching for plugins in class loader
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@295a4523
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@6571120a
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@5f3c296b
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@66c360a5
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@24fe2558
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@2945c761
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@6a6078e7
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@63a1bc40
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@f4e40da
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@5a83b00f
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@7b9bd735
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@344e17f9
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@7307f742
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@ffa490e
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@32f9f91d
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@3951f910
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@34b6a6d6
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@438346a3
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@5f9299f5
+2021-03-23T14:36:24.637900 tid3444 [IFO,App] Plugin loading took 609ms
+2021-03-23T14:36:24.637900 tid5268 [IFO,App] Finished waiting for plugins to load
+2021-03-23T14:36:35.919314 tid5268 [IFO,Core] Did unload all devices
+2021-03-23T14:36:35.981814 tid5268 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2021-03-23T14:36:36.013064 tid5268 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2021-03-23T14:36:36.253188 tid5268 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "del_63_-_Intel(R)_Xeon(R)_CPU_E5-262"
+2021-03-23T14:36:36.253188 tid5268 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2021-03-23T14:36:36.253188 tid5268 [IFO,Core] Will initialize 3 devices
+2021-03-23T14:36:36.253188 tid5268 [IFO,Core] Will initialize device COM3
+2021-03-23T14:36:36.259190 tid5268 [IFO,Core] Did initialize device COM3
+2021-03-23T14:36:36.259190 tid5268 [IFO,Core] Will initialize device FreeSerialPort
+2021-03-23T14:36:36.259190 tid5268 [IFO,Core] Did initialize device FreeSerialPort
+2021-03-23T14:36:36.259190 tid5268 [IFO,Core] Will initialize device Camera-1
+2021-03-23T14:36:36.576416 tid5268 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2021-03-23T14:36:36.592427 tid5268 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-03-23T14:36:37.416014 tid5268 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-03-23T14:36:37.671195 tid5268 [IFO,Core] Did initialize device Camera-1
+2021-03-23T14:36:37.671195 tid5268 [IFO,Core] Default camera set to Camera-1
+2021-03-23T14:36:37.671195 tid5268 [IFO,Core] Finished initializing 3 devices
+2021-03-23T14:36:37.671195 tid5268 [IFO,Core] Default camera set to Camera-1
+2021-03-23T14:36:37.674198 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:39.326374 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:39.327375 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:39.339383 tid5268 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2021-03-23T14:36:39.339383 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:39.342386 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:39.342386 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:39.345387 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:39.345387 tid5268 [IFO,App] Finished updating GUI
+2021-03-23T14:36:46.184256 tid5268 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-03-23T14:36:46.186258 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:46.186258 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:46.188259 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:46.188259 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:46.190261 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:46.190261 tid5268 [IFO,App] Finished updating GUI
+2021-03-23T14:36:48.138648 tid5268 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-03-23T14:36:48.481892 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:48.481892 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:48.482893 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:48.482893 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:48.485895 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:48.485895 tid5268 [IFO,App] Finished updating GUI
+2021-03-23T14:36:48.486896 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:48.487897 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:48.487897 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:48.490899 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:48.490899 tid5268 [IFO,App] Finished updating GUI
+2021-03-23T14:36:48.513915 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:48.514916 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:48.514916 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:48.516917 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:48.517918 tid5268 [IFO,App] Finished updating GUI
+2021-03-23T14:36:48.518919 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:48.519919 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:48.519919 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:48.522921 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:48.522921 tid5268 [IFO,App] Finished updating GUI
+2021-03-23T14:36:48.524923 tid5268 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-03-23T14:36:48.524923 tid5268 [IFO,App] Rebuilding config group table
+2021-03-23T14:36:48.524923 tid5268 [IFO,App] Finished rebuilding config group table
+2021-03-23T14:36:48.527925 tid5268 [IFO,Core] Did update system state cache
+2021-03-23T14:36:48.527925 tid5268 [IFO,App] Finished updating GUI

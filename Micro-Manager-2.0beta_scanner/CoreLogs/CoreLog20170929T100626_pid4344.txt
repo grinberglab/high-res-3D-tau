@@ -1,0 +1,275 @@
+2017-09-29T10:06:26.056813 tid5200 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20170929T100626_pid4344.txt
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] User: malegro
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] Host: NEUR-G7W9DH2-DT
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] MMCore version 8.5.0
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] Device API version 67, Module API version 10
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2017-09-29T10:06:26.056813 tid5200 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-09-29T10:06:26.150565 tid9460 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@22a010ba
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@41e80761
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@25c7f37d
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@3ddcc4cd
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@7afccada
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@37567e6c
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@6e72d873
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin GaussianTrack_@35e09eab
+2017-09-29T10:06:26.322443 tid9460 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@2b68989e
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@60e2fbeb
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@75f2edd2
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@10a33ce2
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@4cf221f6
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@290e1513
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@12b31a7c
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@12948069
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@3f406eb6
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@19336006
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@5735b26
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@47e9d9b1
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@41e3a0ec
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@475a07bf
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@67b2b131
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@57f7cdc7
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@4de6f0ef
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@3de4905a
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@68c12474
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@60407166
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@71971eb3
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@14cb754f
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@5e76f2e8
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@c423d4f
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@521d8e9e
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@22e85825
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@43f2f70a
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@626bd9e0
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@6d4c4d61
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@2c6c5356
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@59db9f45
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@61b59919
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@38650646
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.splitview.SplitView@707efa96
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin PMQI.AutoWB@14800aa1
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@443acc67
+2017-09-29T10:06:26.338068 tid9460 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2017-09-29T10:06:26.369319 tid9460 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@2e19fc25
+2017-09-29T10:06:26.369319 tid9460 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@f6d64c5
+2017-09-29T10:06:26.384944 tid9460 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@21453d72
+2017-09-29T10:06:26.384944 tid9460 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@6460029d
+2017-09-29T10:06:26.384944 tid9460 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@6d21f653
+2017-09-29T10:06:26.384944 tid9460 [IFO,App] Searching for plugins in class loader
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@7b0b23cf
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@185c2a25
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@4ad2efa1
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@254ba9a2
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@a6dddcf
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@32fd4662
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@1217e615
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@5f0275fa
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@1a8fa0d1
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@4b8706f6
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@dda2737
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@6d4492fb
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@30cafa1
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@35de7497
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@1fb88122
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@a25ef73
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@408b6c39
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@69e94001
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@506937f9
+2017-09-29T10:06:26.542561 tid9460 [IFO,App] Plugin loading took 392ms
+2017-09-29T10:06:26.542561 tid5200 [IFO,App] Finished waiting for plugins to load
+2017-09-29T10:06:28.188722 tid5200 [IFO,Core] Did unload all devices
+2017-09-29T10:06:28.188722 tid5200 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2017-09-29T10:06:28.188722 tid5200 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2017-09-29T10:06:28.198852 tid5200 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named ""
+2017-09-29T10:06:28.198852 tid5200 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2017-09-29T10:06:28.198852 tid5200 [IFO,Core] Will initialize 3 devices
+2017-09-29T10:06:28.198852 tid5200 [IFO,Core] Will initialize device COM3
+2017-09-29T10:06:28.205855 tid5200 [IFO,Core] Did initialize device COM3
+2017-09-29T10:06:28.205855 tid5200 [IFO,Core] Will initialize device FreeSerialPort
+2017-09-29T10:06:28.206856 tid5200 [IFO,Core] Did initialize device FreeSerialPort
+2017-09-29T10:06:28.206856 tid5200 [IFO,Core] Will initialize device Camera-1
+2017-09-29T10:06:28.425012 tid5200 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2017-09-29T10:06:28.439022 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:06:29.261611 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:06:29.334664 tid5200 [IFO,Core] Did initialize device Camera-1
+2017-09-29T10:06:29.334664 tid5200 [IFO,Core] Default camera set to Camera-1
+2017-09-29T10:06:29.335665 tid5200 [IFO,Core] Finished initializing 3 devices
+2017-09-29T10:06:29.335665 tid5200 [IFO,Core] Default camera set to Camera-1
+2017-09-29T10:06:29.337666 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:06:30.136238 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:06:30.136238 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:06:30.145244 tid5200 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2017-09-29T10:06:30.145244 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:06:30.147246 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:06:30.147246 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:06:30.150248 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:06:30.150248 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:12:21.038587 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:12:21.131654 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:12:21.131654 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:12:21.132655 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:12:21.132655 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:12:21.134656 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:12:21.134656 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:12:21.135657 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:12:21.135657 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:12:21.135657 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:12:21.137658 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:12:21.138659 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:38:02.241543 tid5200 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-09-29T10:38:02.241543 tid5200 [IFO,App] java.lang.NullPointerException
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at com.sun.java.swing.plaf.windows.WindowsFileChooserUI$5.focusGained(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.AWTEventMulticaster.focusGained(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.processFocusEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.processEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Container.processEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.SequencedEvent.dispatch(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Dialog$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Dialog$3.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Dialog.show(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at javax.swing.JFileChooser.showDialog(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at javax.swing.JFileChooser.showOpenDialog(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at edu.ucsf.slidescanner.plugin.SlideScanUI$11.mouseClicked(SlideScanUI.java:425)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.processMouseEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.processEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Container.processEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2017-09-29T10:38:02.241543 tid5200 [IFO,App]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-09-29T10:39:33.694666 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:39:33.696667 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:39:33.696667 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:39:33.697668 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:39:33.697668 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:39:33.699669 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:39:33.699669 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:39:46.495836 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:41:53.283008 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:41:53.285009 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:41:53.285009 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:41:53.286010 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:41:53.286010 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:41:53.288011 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:41:53.288011 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:42:05.663794 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:42:05.666796 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:42:05.666796 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:42:05.666796 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:42:05.666796 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:42:05.669798 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:42:05.669798 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:42:22.065434 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:42:22.068436 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:42:22.068436 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:42:22.068436 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:42:22.068436 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:42:22.070438 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:42:22.071438 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:42:37.970721 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:42:37.973724 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:42:37.973724 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:42:37.973724 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:42:37.973724 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:42:37.975725 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:42:37.975725 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:42:44.229163 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:43:47.910356 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:43:47.912357 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:43:47.913358 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:43:47.913358 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:43:47.913358 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:43:47.915360 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:43:47.916360 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:43:56.060140 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:43:56.062141 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:43:56.062141 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:43:56.063142 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:43:56.063142 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:43:56.065144 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:43:56.065144 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:44:17.831939 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:44:17.833940 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:44:17.833940 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:44:17.834941 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:44:17.834941 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:44:17.836942 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:44:17.837943 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:44:37.933204 tid5200 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-29T10:44:37.935205 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:44:37.936206 tid5200 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-09-29T10:44:37.936206 tid5200 [IFO,App] Rebuilding config group table
+2017-09-29T10:44:37.936206 tid5200 [IFO,App] Finished rebuilding config group table
+2017-09-29T10:44:37.938208 tid5200 [IFO,Core] Did update system state cache
+2017-09-29T10:44:37.938208 tid5200 [IFO,App] Finished updating GUI
+2017-09-29T10:47:08.950755 tid5200 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-09-29T10:47:09.165909 tid5200 [IFO,Core] Did unload all devices
+2017-09-29T10:47:09.165909 tid5200 [IFO,Core] System reset
+2017-09-29T10:47:09.176918 tid5200 [IFO,Core] Core session ended
