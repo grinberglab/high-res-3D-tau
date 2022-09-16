@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>541</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tabFolder">
+    <attribute name="title">
+     <string>Folder</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Images folder:</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="txtImagesFolder">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnOpenImagesFolder">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>40</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Destination folder:</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="txtDestFolder1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnOpenDestFolder1">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>180</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnRun1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>350</y>
+       <width>87</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Run </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCancel1">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>350</y>
+       <width>87</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnOpenRefImage1">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>110</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Reference image:</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="txtRefImage1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabFiles">
+    <attribute name="title">
+     <string>Files</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>131</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Images to segment:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSelectImages">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>100</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCleanImagesList">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>140</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clean</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>131</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Destination folder:</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="txtDestFolder2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnDestFolder2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>280</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnRun2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>350</y>
+       <width>87</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Run </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCancel2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>350</y>
+       <width>87</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listImages">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>421</width>
+       <height>131</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>131</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Reference image:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnOpenRefImage2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>210</y>
+       <width>87</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open...</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="txtRefImage2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
