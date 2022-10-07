@@ -30,7 +30,7 @@ class SegBlockface(SegSlides):
         
     def doSegmentation(self, imgPath, doNcut = False):
         img = io.imread(imgPath)
-        img = xform.rescale(img,0.25)
+        img = xform.rescale(img,0.25, channel_axis = -1)
         img = img_as_ubyte(img)
         
         return SegSlides.doSegmentation(self, img, run_ncut=doNcut)
