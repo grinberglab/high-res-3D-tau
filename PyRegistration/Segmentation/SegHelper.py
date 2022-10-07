@@ -13,7 +13,7 @@ from RectangleManager import RectangleManager
 from skimage import img_as_float,img_as_ubyte
 from skimage import transform as xform
 
-class SegHelper(object):
+class SegHelper(object): 
 
     def __init__(self):
         self.fig, self.ax = plt.subplots()
@@ -23,7 +23,7 @@ class SegHelper(object):
     def getSamplesLAB(path):
         img = io.imread(path)
         img = img_as_float(img)
-        img = xform.rescale(img,0.25)
+        img = xform.rescale(img,0.25,channel_axis = -1)
         
         #select samples
         #sB = sF = (x1,y1,x2,y2) 
@@ -35,7 +35,7 @@ class SegHelper(object):
         idx_sB = sB
         idx_sF = sF
 
-        lab = color.rgb2lab(img)
+        lab = color.rgb2lab(img, channel_axis = -1)
         back = lab[sB[1]:sB[3],sB[0]:sB[2]]
         fore = lab[sF[1]:sF[3],sF[0]:sF[2]]
          
@@ -74,7 +74,7 @@ class SegHelper(object):
     @staticmethod
     def getRefHistogram(imgPath):
         img_tmp = io.imread(imgPath)  # ref histogram
-        img_tmp = xform.rescale(img_tmp, 0.25)
+        img_tmp = xform.rescale(img_tmp, 0.25, channel_axis = -1)
         #img_tmp = img_as_ubyte(img_tmp)
         R = img_tmp[..., 0]
         G = img_tmp[..., 1]

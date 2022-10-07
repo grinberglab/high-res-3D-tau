@@ -22,8 +22,8 @@ def display_edges(image, g, threshold=0.01):
         weight = g[n1][n2]['weight']
         color = cmap(weight)
         color = np.array(color)
-        r1,c1 = map(int, g.node[n1]['centroid'])
-        r2,c2 = map(int, g.node[n2]['centroid'])
+        r1,c1 = map(int, g.nodes[n1]['centroid'])
+        r2,c2 = map(int, g.nodes[n2]['centroid'])
         # if weight >= threshold:
         #     liner,linec = draw.line(r1, c1, r2, c2)
         #     image[liner,linec,...] = color[0:3]*255
@@ -31,9 +31,9 @@ def display_edges(image, g, threshold=0.01):
         image[liner, linec, ...] = color[0:3] * 255
     for node in g.nodes():
         n = node
-        r1, c1 = map(int, g.node[n]['centroid'])
-        circler, circlec = draw.circle(r1, c1, 5)
-        label = g.node[n]['label']
+        r1, c1 = map(int, g.nodes[n]['centroid'])
+        circler, circlec = draw.circle_perimeter(r1, c1, 5, method = 'andres')
+        label = g.nodes[n]['label']
         image[circler, circlec, ...] = [label,100,10]
 
     return image
@@ -43,10 +43,10 @@ def compute_distances(G):
     for ed in G.edges():  # the index in the points array in the same number used in the labels matrix
         n1 = ed[0]
         n2 = ed[1]
-        c1 = G.node[n1]['mean']
-        c2 = G.node[n2]['mean']
-        v1 = G.node[n1]['centroid']
-        v2 = G.node[n2]['centroid']
+        c1 = G.nodes[n1]['mean']
+        c2 = G.nodes[n2]['mean']
+        v1 = G.nodes[n1]['centroid']
+        v2 = G.nodes[n2]['centroid']
         w1 = vector_distance(c1,c2)
         w2 = vector_distance(v1,v2)
         G[n1][n2]['w1'] = w1  # add weight attribute to edge
@@ -115,7 +115,7 @@ def run_ncut(img_dic):
 
     # create a set for edges that are indexes of the points
     edges = set()
-    for n in xrange(delTri.nsimplex):
+    for n in range(delTri.nsimplex):
         edge = sorted([delTri.vertices[n,0], delTri.vertices[n,1]])
         edges.add((edge[0], edge[1]))
         edge = sorted([delTri.vertices[n,0], delTri.vertices[n,2]])
@@ -150,11 +150,11 @@ def run_ncut(img_dic):
 
         col = points[n][1]
         row = points[n][0]
-        graph.node[n]['centroid'] = np.array([row,col])
-        graph.node[n]['mean'] = np.array([mL,mA,mB])
-        graph.node[n]['mean_rgb'] = np.array([mR,mG,mBB])
-        graph.node[n]['label'] = 0
-        graph.node[n]['mask_label'] = n+1
+        graph.nodes[n]['centroid'] = np.array([row,col])
+        graph.nodes[n]['mean'] = np.array([mL,mA,mB])
+        graph.nodes[n]['mean_rgb'] = np.array([mR,mG,mBB])
+        graph.nodes[n]['label'] = 0
+        graph.nodes[n]['mask_label'] = n+1
 
         # plt.plot(col,row,'go',markersize=10)
 
@@ -180,7 +180,7 @@ def run_ncut(img_dic):
 
     # trim graph to leave only nodes that are connected to the main object
     node_dic = graph[main_node]
-    nodes = node_dic.keys()
+    nodes = list(node_dic.keys())
     nodes.insert(0,main_node)
     nodes.sort()
     graph2 = graph.subgraph(nodes).copy()
@@ -195,16 +195,16 @@ def run_ncut(img_dic):
     # plt.imshow(img_g)
 
     # get structures of interest
-    ncut_label = graph2.node[main_node]['label']
+    ncut_label = graph2.nodes[main_node]['label']
     # nodes that have structure of interest label
     brain_nodes = []
     brain_labels = []
     for nn in graph2.nodes():
-        if graph2.node[nn]['label'] == ncut_label:
+        if graph2.nodes[nn]['label'] == ncut_label:
             brain_nodes.append(nn)
-            brain_labels.append(graph.node[nn]['mask_label'])
+            brain_labels.append(graph.nodes[nn]['mask_label'])
 
-    mask_final = np.zeros(mask.shape)
+    mask_final = np.zeros(mask.shape, dtype=np.uint8)
     for bl in brain_labels:
         idx2 = nonzero(labels == bl)
         mask_final[idx2[0],idx2[1]] = True

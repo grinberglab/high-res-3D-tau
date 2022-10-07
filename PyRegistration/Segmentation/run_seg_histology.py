@@ -46,6 +46,7 @@ def main():
         newMaskName = mask_dir + 'mask_' + name
          
         mask,img = segHisto.doLABSegmentation(fPath)
+        mask = mask.astype(np.ubyte)
          
         io.imsave(newName,img)
         io.imsave(newMaskName,mask)

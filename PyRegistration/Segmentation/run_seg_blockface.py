@@ -4,6 +4,8 @@ Created on May 23, 2016
 @author: Maryana Alegro
 '''
 
+import matplotlib as mpl
+mpl.use('tkagg')
 import glob
 from SegBlockface import SegBlockface
 from SegHelper import SegHelper

@@ -57,7 +57,7 @@ def cut_threshold(labels, rag, thresh, in_place=True):
     map_array = np.arange(labels.max() + 1, dtype=labels.dtype)
     for i, nodes in enumerate(comps):
         for node in nodes:
-            for label in rag.node[node]['labels']:
+            for label in rag.nodes[node]['labels']:
                 map_array[label] = i
 
     return map_array[labels]
@@ -221,7 +221,7 @@ def get_min_ncut(ev, d, w, num_cuts):
 
 def _label_all(rag,label):
     for nd in rag.nodes():
-        rag.node[nd]['label'] = label
+        rag.nodes[nd]['label'] = label
 
 
 def _ncut_relabel(rag, thresh, num_cuts):
