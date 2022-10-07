@@ -1,0 +1,716 @@
+2017-08-25T12:15:07.563409 tid1876 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.0beta_170704\CoreLogs\CoreLog20170825T121507_pid4460.txt
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] User: Maryana
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] Host: DESKTOP-GNS4JAE
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] MMCore version 8.5.0
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] Device API version 67, Module API version 10
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] Operating System: Windows 8 (amd64) 6.2
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_45, 64-bit
+2017-08-25T12:15:07.563409 tid1876 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-08-25T12:15:07.688411 tid2520 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.0beta_170704/mmplugins
+2017-08-25T12:15:09.913695 tid2520 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@442982d8
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@67384a6a
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@107aa187
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@6302ae84
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@6e3e28
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@575c13ef
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@c4ce427
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin GaussianTrack_@c16c2c0
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@44285d14
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@66c54654
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@218c6982
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@962e703
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@3c2c7ac5
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@c303a60
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@347b21ea
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@4e1d2b8e
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@5d169fb2
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@784e8edc
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@6d854b38
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@3cbe7667
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@7c4f8358
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@4838462a
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@66869470
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.splitview.SplitView@d7b79a6
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin PMQI.AutoWB@256f8834
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@3d57211f
+2017-08-25T12:15:09.926939 tid2520 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.0beta_170704/mmautofocus
+2017-08-25T12:15:10.098817 tid2520 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@50739aa3
+2017-08-25T12:15:10.098817 tid2520 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@e4eb585
+2017-08-25T12:15:10.098817 tid2520 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@5c48cd13
+2017-08-25T12:15:10.098817 tid2520 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@904eabb
+2017-08-25T12:15:10.098817 tid2520 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@e2942da
+2017-08-25T12:15:10.114442 tid2520 [IFO,App] Searching for plugins in class loader
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@70bb6255
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@1e34f445
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@2690ed81
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@54c707c1
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@56ce3b62
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@7d9ccb73
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@40b890dc
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@152e7cb6
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@1bf1e666
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@19de041e
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@5cf346dc
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@2735877f
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@2b52b6f5
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@4cd297c0
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@6d3d422d
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@50c3d062
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@421906df
+2017-08-25T12:15:10.239444 tid2520 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@79123c5f
+2017-08-25T12:15:10.255069 tid2520 [IFO,App] Found plugin slidescan.SlideScan@132f4538
+2017-08-25T12:15:10.255069 tid2520 [IFO,App] Plugin loading took 2567ms
+2017-08-25T12:15:10.255069 tid1876 [IFO,App] Finished waiting for plugins to load
+2017-08-25T12:15:19.852381 tid1876 [IFO,Core] Did unload all devices
+2017-08-25T12:15:19.885834 tid1876 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2017-08-25T12:15:19.901459 tid1876 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2017-08-25T12:15:20.040245 tid1876 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named ""
+2017-08-25T12:15:20.040245 tid1876 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2017-08-25T12:15:20.040245 tid1876 [IFO,Core] Will initialize 3 devices
+2017-08-25T12:15:20.040245 tid1876 [IFO,Core] Will initialize device COM3
+2017-08-25T12:15:20.057256 tid1876 [IFO,Core] Did initialize device COM3
+2017-08-25T12:15:20.057256 tid1876 [IFO,Core] Will initialize device FreeSerialPort
+2017-08-25T12:15:20.057256 tid1876 [IFO,Core] Did initialize device FreeSerialPort
+2017-08-25T12:15:20.057256 tid1876 [IFO,Core] Will initialize device Camera-1
+2017-08-25T12:15:20.301430 tid1876 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2017-08-25T12:15:20.316441 tid1876 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-25T12:15:20.756755 tid1876 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-25T12:15:20.844818 tid1876 [IFO,Core] Did initialize device Camera-1
+2017-08-25T12:15:20.844818 tid1876 [IFO,Core] Default camera set to Camera-1
+2017-08-25T12:15:20.844818 tid1876 [IFO,Core] Finished initializing 3 devices
+2017-08-25T12:15:20.844818 tid1876 [IFO,Core] Default camera set to Camera-1
+2017-08-25T12:15:20.847820 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:15:21.994637 tid1876 [IFO,App] Rebuilding config group table
+2017-08-25T12:15:21.994637 tid1876 [IFO,App] Finished rebuilding config group table
+2017-08-25T12:15:22.006646 tid1876 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.0beta_170704\MMStartup.bsh) not present
+2017-08-25T12:15:22.006646 tid1876 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-25T12:15:22.008647 tid1876 [IFO,App] Rebuilding config group table
+2017-08-25T12:15:22.008647 tid1876 [IFO,App] Finished rebuilding config group table
+2017-08-25T12:15:22.011649 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:15:22.011649 tid1876 [IFO,App] Finished updating GUI
+2017-08-25T12:18:00.839477 tid1876 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-25T12:18:00.972571 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:18:00.972571 tid1876 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-25T12:18:00.973572 tid1876 [IFO,App] Rebuilding config group table
+2017-08-25T12:18:00.973572 tid1876 [IFO,App] Finished rebuilding config group table
+2017-08-25T12:18:00.976574 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:18:00.976574 tid1876 [IFO,App] Finished updating GUI
+2017-08-25T12:18:00.977575 tid1876 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-25T12:18:00.978576 tid1876 [IFO,App] Rebuilding config group table
+2017-08-25T12:18:00.978576 tid1876 [IFO,App] Finished rebuilding config group table
+2017-08-25T12:18:00.980577 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:18:00.980577 tid1876 [IFO,App] Finished updating GUI
+2017-08-25T12:22:05.281720 tid1876 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-25T12:22:05.283721 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:22:05.283721 tid1876 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-25T12:22:05.284722 tid1876 [IFO,App] Rebuilding config group table
+2017-08-25T12:22:05.284722 tid1876 [IFO,App] Finished rebuilding config group table
+2017-08-25T12:22:05.287724 tid1876 [IFO,Core] Did update system state cache
+2017-08-25T12:22:05.287724 tid1876 [IFO,App] Finished updating GUI
+2017-08-25T12:22:10.599511 tid3656 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2017-08-25T12:22:11.602225 tid3656 [IFO,App] EDTHangLogger: Event handling has exceeded at least 1000 ms (currently 5501 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at sun.java2d.Disposer.run(Disposer.java:127)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 11 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:265)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(WToolkit.java:293)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 15 [AWT-EventQueue-0] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at slidescan.StageController.getStageMsg(StageController.java:85)
+                                   [       ]   at slidescan.StageController.findHome(StageController.java:71)
+                                   [       ]   at slidescan.SlideScanUI$7.mouseClicked(SlideScanUI.java:354)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+                                   [       ]   at java.awt.Component.processMouseEvent(Component.java:6300)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+                                   [       ]   at java.awt.Component.processEvent(Component.java:6062)
+                                   [       ]   at java.awt.Container.processEvent(Container.java:2039)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Component.java:4660)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2097)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4245)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2083)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Window.java:2489)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+                                   [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:647)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:645)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                   [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+                                   [       ] Thread 18 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 19 [User profile save thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 20 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Thread.java:1530)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:512)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+                                   [       ] Thread 23 [TimerQueue] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at javax.swing.TimerQueue.run(TimerQueue.java:232)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 24 [D3D Screen Updater] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at sun.java2d.d3d.D3DScreenUpdateManager.run(D3DScreenUpdateManager.java:419)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 25 [Thread-4] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at bsh.util.JConsole$BlockingPipedInputStream.read(JConsole.java:771)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at java.io.InputStream.read(InputStream.java:82)
+                                   [       ]   at bsh.util.JConsole.inPipeWatcher(JConsole.java:667)
+                                   [       ]   at bsh.util.JConsole.run(JConsole.java:677)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 26 [BeanShell interpreter] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:310)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+                                   [       ]   at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+                                   [       ]   at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+                                   [       ]   at java.io.InputStreamReader.read(InputStreamReader.java:167)
+                                   [       ]   at bsh.JavaCharStream.FillBuff(JavaCharStream.java:160)
+                                   [       ]   at bsh.JavaCharStream.ReadByte(JavaCharStream.java:188)
+                                   [       ]   at bsh.JavaCharStream.readChar(JavaCharStream.java:289)
+                                   [       ]   at bsh.JavaCharStream.BeginToken(JavaCharStream.java:209)
+                                   [       ]   at bsh.ParserTokenManager.getNextToken(ParserTokenManager.java:2072)
+                                   [       ]   at bsh.Parser.jj_ntk(Parser.java:6022)
+                                   [       ]   at bsh.Parser.Line(Parser.java:163)
+                                   [       ]   at bsh.Interpreter.Line(Interpreter.java:1011)
+                                   [       ]   at bsh.Interpreter.run(Interpreter.java:462)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 33 [Swing-Shell] WAITING
+                                   [       ]   at sun.misc.Unsafe.park(Native Method)
+                                   [       ]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:156)
+                                   [       ]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1987)
+                                   [       ]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:399)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:957)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:917)
+                                   [       ]   at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Win32ShellFolderManager2.java:492)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+2017-08-25T12:22:19.746031 tid1876 [IFO,App] EDTHangLogger: First heartbeat after miss (13647 ms since timebase)
+2017-08-25T12:22:53.507096 tid1876 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-25T12:26:41.674739 tid3656 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2017-08-25T12:26:42.676453 tid3656 [IFO,App] EDTHangLogger: Event handling has exceeded at least 1001 ms (currently 5501 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at sun.java2d.Disposer.run(Disposer.java:127)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 11 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:265)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(WToolkit.java:293)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 15 [AWT-EventQueue-0] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at slidescan.StageController.getStageMsg(StageController.java:85)
+                                   [       ]   at slidescan.StageController.findHome(StageController.java:71)
+                                   [       ]   at slidescan.SlideScanUI$7.mouseClicked(SlideScanUI.java:354)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+                                   [       ]   at java.awt.Component.processMouseEvent(Component.java:6300)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+                                   [       ]   at java.awt.Component.processEvent(Component.java:6062)
+                                   [       ]   at java.awt.Container.processEvent(Container.java:2039)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Component.java:4660)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2097)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4245)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2083)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Window.java:2489)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+                                   [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:647)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:645)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                   [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+                                   [       ] Thread 18 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 19 [User profile save thread] RUNNABLE
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 20 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Thread.java:1530)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:512)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+                                   [       ] Thread 23 [TimerQueue] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at javax.swing.TimerQueue.run(TimerQueue.java:232)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 24 [D3D Screen Updater] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at sun.java2d.d3d.D3DScreenUpdateManager.run(D3DScreenUpdateManager.java:419)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 25 [Thread-4] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at bsh.util.JConsole$BlockingPipedInputStream.read(JConsole.java:771)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at java.io.InputStream.read(InputStream.java:82)
+                                   [       ]   at bsh.util.JConsole.inPipeWatcher(JConsole.java:667)
+                                   [       ]   at bsh.util.JConsole.run(JConsole.java:677)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 26 [BeanShell interpreter] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:310)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+                                   [       ]   at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+                                   [       ]   at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+                                   [       ]   at java.io.InputStreamReader.read(InputStreamReader.java:167)
+                                   [       ]   at bsh.JavaCharStream.FillBuff(JavaCharStream.java:160)
+                                   [       ]   at bsh.JavaCharStream.ReadByte(JavaCharStream.java:188)
+                                   [       ]   at bsh.JavaCharStream.readChar(JavaCharStream.java:289)
+                                   [       ]   at bsh.JavaCharStream.BeginToken(JavaCharStream.java:209)
+                                   [       ]   at bsh.ParserTokenManager.getNextToken(ParserTokenManager.java:2072)
+                                   [       ]   at bsh.Parser.jj_ntk(Parser.java:6022)
+                                   [       ]   at bsh.Parser.Line(Parser.java:163)
+                                   [       ]   at bsh.Interpreter.Line(Interpreter.java:1011)
+                                   [       ]   at bsh.Interpreter.run(Interpreter.java:462)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 33 [Swing-Shell] WAITING
+                                   [       ]   at sun.misc.Unsafe.park(Native Method)
+                                   [       ]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:156)
+                                   [       ]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1987)
+                                   [       ]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:399)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:957)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:917)
+                                   [       ]   at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Win32ShellFolderManager2.java:492)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 38 [Live mode image grabber] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.waitForNextDisplay(SnapLiveManager.java:296)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:262)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 40 [Thread-7] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.updateMetadata(MetadataPanel.java:262)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.access$000(MetadataPanel.java:62)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel$1.run(MetadataPanel.java:107)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 41 [Thread-8] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.updateComments(CommentsPanel.java:180)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.access$000(CommentsPanel.java:46)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel$1.run(CommentsPanel.java:67)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 42 [Scrollbar panel update thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.runUpdateThread(ScrollerPanel.java:422)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.access$100(ScrollerPanel.java:68)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel$1.run(ScrollerPanel.java:192)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 45 [zSelector] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at ij.gui.StackWindow.run(StackWindow.java:226)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 478 [FPS display blank] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:509)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+2017-08-25T12:26:56.683438 tid1876 [IFO,App] EDTHangLogger: First heartbeat after miss (19509 ms since timebase)
+2017-08-25T12:32:02.714583 tid3656 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2017-08-25T12:32:03.716296 tid3656 [IFO,App] EDTHangLogger: Event handling has exceeded at least 1001 ms (currently 5501 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at sun.java2d.Disposer.run(Disposer.java:127)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 11 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:265)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(WToolkit.java:293)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 15 [AWT-EventQueue-0] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at slidescan.StageController.getStageMsg(StageController.java:85)
+                                   [       ]   at slidescan.StageController.findHome(StageController.java:71)
+                                   [       ]   at slidescan.SlideScanUI$7.mouseClicked(SlideScanUI.java:354)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+                                   [       ]   at java.awt.Component.processMouseEvent(Component.java:6300)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+                                   [       ]   at java.awt.Component.processEvent(Component.java:6062)
+                                   [       ]   at java.awt.Container.processEvent(Container.java:2039)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Component.java:4660)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2097)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4245)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2083)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Window.java:2489)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+                                   [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:647)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:645)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                   [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+                                   [       ] Thread 18 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 19 [User profile save thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 20 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Thread.java:1530)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:512)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+                                   [       ] Thread 23 [TimerQueue] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at javax.swing.TimerQueue.postExpiredTimers(TimerQueue.java:214)
+                                   [       ]   at javax.swing.TimerQueue.run(TimerQueue.java:230)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 24 [D3D Screen Updater] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at sun.java2d.d3d.D3DScreenUpdateManager.run(D3DScreenUpdateManager.java:419)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 25 [Thread-4] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at bsh.util.JConsole$BlockingPipedInputStream.read(JConsole.java:771)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at java.io.InputStream.read(InputStream.java:82)
+                                   [       ]   at bsh.util.JConsole.inPipeWatcher(JConsole.java:667)
+                                   [       ]   at bsh.util.JConsole.run(JConsole.java:677)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 26 [BeanShell interpreter] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:310)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+                                   [       ]   at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+                                   [       ]   at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+                                   [       ]   at java.io.InputStreamReader.read(InputStreamReader.java:167)
+                                   [       ]   at bsh.JavaCharStream.FillBuff(JavaCharStream.java:160)
+                                   [       ]   at bsh.JavaCharStream.ReadByte(JavaCharStream.java:188)
+                                   [       ]   at bsh.JavaCharStream.readChar(JavaCharStream.java:289)
+                                   [       ]   at bsh.JavaCharStream.BeginToken(JavaCharStream.java:209)
+                                   [       ]   at bsh.ParserTokenManager.getNextToken(ParserTokenManager.java:2072)
+                                   [       ]   at bsh.Parser.jj_ntk(Parser.java:6022)
+                                   [       ]   at bsh.Parser.Line(Parser.java:163)
+                                   [       ]   at bsh.Interpreter.Line(Interpreter.java:1011)
+                                   [       ]   at bsh.Interpreter.run(Interpreter.java:462)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 33 [Swing-Shell] WAITING
+                                   [       ]   at sun.misc.Unsafe.park(Native Method)
+                                   [       ]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:156)
+                                   [       ]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1987)
+                                   [       ]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:399)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:957)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:917)
+                                   [       ]   at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Win32ShellFolderManager2.java:492)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 38 [Live mode image grabber] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.waitForNextDisplay(SnapLiveManager.java:296)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:262)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 40 [Thread-7] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.updateMetadata(MetadataPanel.java:262)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.access$000(MetadataPanel.java:62)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel$1.run(MetadataPanel.java:107)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 41 [Thread-8] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.updateComments(CommentsPanel.java:180)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.access$000(CommentsPanel.java:46)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel$1.run(CommentsPanel.java:67)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 42 [Scrollbar panel update thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.runUpdateThread(ScrollerPanel.java:422)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.access$100(ScrollerPanel.java:68)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel$1.run(ScrollerPanel.java:192)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 45 [zSelector] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at ij.gui.StackWindow.run(StackWindow.java:226)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 1090 [FPS display blank] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:509)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+2017-08-25T12:32:18.461807 tid1876 [IFO,App] EDTHangLogger: First heartbeat after miss (20247 ms since timebase)
+2017-08-25T12:37:47.242169 tid3656 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2017-08-25T12:37:48.243883 tid3656 [IFO,App] EDTHangLogger: Event handling has exceeded at least 1001 ms (currently 5501 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+                                   [       ]   at sun.java2d.Disposer.run(Disposer.java:127)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 11 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:265)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(WToolkit.java:293)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 15 [AWT-EventQueue-0] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at slidescan.StageController.getStageMsg(StageController.java:85)
+                                   [       ]   at slidescan.StageController.findHome(StageController.java:71)
+                                   [       ]   at slidescan.SlideScanUI$7.mouseClicked(SlideScanUI.java:354)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:253)
+                                   [       ]   at java.awt.Component.processMouseEvent(Component.java:6300)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+                                   [       ]   at java.awt.Component.processEvent(Component.java:6062)
+                                   [       ]   at java.awt.Container.processEvent(Container.java:2039)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Component.java:4660)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2097)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4245)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Container.java:2083)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Window.java:2489)
+                                   [       ]   at java.awt.Component.dispatchEvent(Component.java:4488)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+                                   [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                   [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:647)
+                                   [       ]   at java.awt.EventQueue$3.run(EventQueue.java:645)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                   [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+                                   [       ] Thread 18 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 19 [User profile save thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 20 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Thread.java:1530)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:512)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+                                   [       ] Thread 23 [TimerQueue] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at javax.swing.TimerQueue.run(TimerQueue.java:232)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 24 [D3D Screen Updater] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at sun.java2d.d3d.D3DScreenUpdateManager.run(D3DScreenUpdateManager.java:419)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 25 [Thread-4] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at bsh.util.JConsole$BlockingPipedInputStream.read(JConsole.java:771)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at java.io.InputStream.read(InputStream.java:82)
+                                   [       ]   at bsh.util.JConsole.inPipeWatcher(JConsole.java:667)
+                                   [       ]   at bsh.util.JConsole.run(JConsole.java:677)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 26 [BeanShell interpreter] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:310)
+                                   [       ]   at java.io.PipedInputStream.read(PipedInputStream.java:361)
+                                   [       ]   at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+                                   [       ]   at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+                                   [       ]   at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+                                   [       ]   at java.io.InputStreamReader.read(InputStreamReader.java:167)
+                                   [       ]   at bsh.JavaCharStream.FillBuff(JavaCharStream.java:160)
+                                   [       ]   at bsh.JavaCharStream.ReadByte(JavaCharStream.java:188)
+                                   [       ]   at bsh.JavaCharStream.readChar(JavaCharStream.java:289)
+                                   [       ]   at bsh.JavaCharStream.BeginToken(JavaCharStream.java:209)
+                                   [       ]   at bsh.ParserTokenManager.getNextToken(ParserTokenManager.java:2072)
+                                   [       ]   at bsh.Parser.jj_ntk(Parser.java:6022)
+                                   [       ]   at bsh.Parser.Line(Parser.java:163)
+                                   [       ]   at bsh.Interpreter.Line(Interpreter.java:1011)
+                                   [       ]   at bsh.Interpreter.run(Interpreter.java:462)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 33 [Swing-Shell] WAITING
+                                   [       ]   at sun.misc.Unsafe.park(Native Method)
+                                   [       ]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:156)
+                                   [       ]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1987)
+                                   [       ]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:399)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:957)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:917)
+                                   [       ]   at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Win32ShellFolderManager2.java:492)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 38 [Live mode image grabber] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.waitForNextDisplay(SnapLiveManager.java:296)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:262)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 40 [Thread-7] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.updateMetadata(MetadataPanel.java:262)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.access$000(MetadataPanel.java:62)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel$1.run(MetadataPanel.java:107)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 41 [Thread-8] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.updateComments(CommentsPanel.java:180)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.access$000(CommentsPanel.java:46)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel$1.run(CommentsPanel.java:67)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 42 [Scrollbar panel update thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.runUpdateThread(ScrollerPanel.java:422)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.access$100(ScrollerPanel.java:68)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel$1.run(ScrollerPanel.java:192)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 45 [zSelector] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at ij.gui.StackWindow.run(StackWindow.java:226)
+                                   [       ]   at java.lang.Thread.run(Thread.java:662)
+                                   [       ] Thread 1747 [FPS display blank] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.util.TimerThread.mainLoop(Timer.java:509)
+                                   [       ]   at java.util.TimerThread.run(Timer.java:462)
+2017-08-25T12:37:59.643009 tid1876 [IFO,App] EDTHangLogger: First heartbeat after miss (16901 ms since timebase)
+2017-08-25T12:46:04.912962 tid1876 [IFO,App] Error: Invalid pixel coordinates 8048, 2832
+2017-08-25T13:42:54.034365 tid1876 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-08-25T13:42:54.260526 tid1876 [IFO,Core] Did unload all devices
+2017-08-25T13:42:54.260526 tid1876 [IFO,Core] System reset
+2017-08-25T13:42:54.294550 tid1876 [IFO,Core] Core session ended

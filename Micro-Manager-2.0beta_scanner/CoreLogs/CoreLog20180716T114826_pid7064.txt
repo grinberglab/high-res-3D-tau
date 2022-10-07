@@ -1,0 +1,347 @@
+2018-07-16T11:48:26.771468 tid6924 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20180716T114826_pid7064.txt
+2018-07-16T11:48:26.771468 tid6924 [IFO,App] User: Scanner.User
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] Host: DESKTOP-S4KVGR5
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] MMCore version 8.5.0
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] Device API version 67, Module API version 10
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2018-07-16T11:48:26.787093 tid6924 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2018-07-16T11:48:26.912094 tid1956 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2018-07-16T11:48:29.083997 tid1956 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@4b7d03c5
+2018-07-16T11:48:29.083997 tid1956 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@2aaf914c
+2018-07-16T11:48:29.083997 tid1956 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@2206270b
+2018-07-16T11:48:29.083997 tid1956 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@41ed54a0
+2018-07-16T11:48:29.083997 tid1956 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@1c04ec59
+2018-07-16T11:48:29.083997 tid1956 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@24442c76
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@2f6a23cf
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin GaussianTrack_@6155035a
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@6360f5bf
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@70b11164
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@78ecf608
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@d0cc53e
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@41697023
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@71412b61
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@442982d8
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@7c40627c
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@6701fa9e
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@32eccfe7
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@594560cf
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@2b071e12
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@604745cf
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@67384a6a
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@209daa17
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@4f09dcbb
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@107aa187
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@6e3e28
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@45b2b450
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@575c13ef
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@c4ce427
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@c16c2c0
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@57a3eab6
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@44285d14
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@218c6982
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@3c2c7ac5
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@c303a60
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@347b21ea
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@4e1d2b8e
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@5d169fb2
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@6d854b38
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@4a0d81b4
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@3cbe7667
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7c4f8358
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin PMQI.AutoWB@4838462a
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@66869470
+2018-07-16T11:48:29.099623 tid1956 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2018-07-16T11:48:29.193374 tid1956 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@7fc4a2d3
+2018-07-16T11:48:29.193374 tid1956 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@6cb49b19
+2018-07-16T11:48:29.193374 tid1956 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@65c2fee
+2018-07-16T11:48:29.193374 tid1956 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@516f3619
+2018-07-16T11:48:29.208999 tid1956 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@21ce9f9d
+2018-07-16T11:48:29.208999 tid1956 [IFO,App] Searching for plugins in class loader
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@dbb205a
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@7848fbc0
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@7f8837f1
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@4810f0a0
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@5025bd56
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@5db18235
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@30db95a1
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@203c9616
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@69a18ee2
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@6dabcd9b
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@2a47b35d
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@4950b45a
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@5170a650
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@3ab6f7f5
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@425113f0
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@58f41393
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@314585
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@22cb1edc
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@45570f5c
+2018-07-16T11:48:29.380877 tid1956 [IFO,App] Plugin loading took 2468ms
+2018-07-16T11:48:29.380877 tid6924 [IFO,App] Finished waiting for plugins to load
+2018-07-16T11:48:34.537192 tid6924 [IFO,Core] Did unload all devices
+2018-07-16T11:48:34.568443 tid6924 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2018-07-16T11:48:34.599694 tid6924 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2018-07-16T11:48:34.635617 tid6924 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "1-40cb-ace4-e0e5d05f0c9f} CdRom0 SWD"
+2018-07-16T11:48:34.635617 tid6924 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2018-07-16T11:48:34.635617 tid6924 [IFO,Core] Will initialize 3 devices
+2018-07-16T11:48:34.635617 tid6924 [IFO,Core] Will initialize device COM3
+2018-07-16T11:48:34.645622 tid6924 [IFO,Core] Did initialize device COM3
+2018-07-16T11:48:34.645622 tid6924 [IFO,Core] Will initialize device FreeSerialPort
+2018-07-16T11:48:34.645622 tid6924 [IFO,Core] Did initialize device FreeSerialPort
+2018-07-16T11:48:34.645622 tid6924 [IFO,Core] Will initialize device Camera-1
+2018-07-16T11:48:34.846765 tid6924 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2018-07-16T11:48:34.861776 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T11:48:35.301088 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T11:48:35.412167 tid6924 [IFO,Core] Did initialize device Camera-1
+2018-07-16T11:48:35.412167 tid6924 [IFO,Core] Default camera set to Camera-1
+2018-07-16T11:48:35.412167 tid6924 [IFO,Core] Finished initializing 3 devices
+2018-07-16T11:48:35.412167 tid6924 [IFO,Core] Default camera set to Camera-1
+2018-07-16T11:48:35.415169 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:36.966271 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:36.967271 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:36.978279 tid6924 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2018-07-16T11:48:36.978279 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:48:36.980281 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:36.980281 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:36.983283 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:36.983283 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:48:41.616574 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T11:48:41.774686 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:41.775687 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:48:41.776688 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:41.776688 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:41.778689 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:41.778689 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:48:41.779689 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:48:41.780691 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:41.780691 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:41.783692 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:41.783692 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:48:41.805708 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:48:41.805708 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:41.805708 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:41.808710 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:41.808710 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:48:41.809711 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:48:41.810711 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:41.810711 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:41.813714 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:41.813714 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:48:41.814714 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:48:41.815715 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:48:41.815715 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:48:41.817716 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:48:41.818717 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:49:44.890946 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T11:49:44.893948 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:49:44.893948 tid6924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-16T11:49:44.894949 tid6924 [IFO,App] Rebuilding config group table
+2018-07-16T11:49:44.894949 tid6924 [IFO,App] Finished rebuilding config group table
+2018-07-16T11:49:44.897951 tid6924 [IFO,Core] Did update system state cache
+2018-07-16T11:49:44.897951 tid6924 [IFO,App] Finished updating GUI
+2018-07-16T11:49:44.963998 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T12:10:05.288323 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T12:12:44.761589 tid3508 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T13:34:50.947813 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-16T13:45:49.263386 tid2556 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-17T10:10:45.955089 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-17T20:55:57.090182 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at org.micromanager.display.internal.LUTMaster.updateDisplayLUTs(LUTMaster.java:286)
+                                   [       ]   at org.micromanager.display.internal.LUTMaster.initializeDisplay(LUTMaster.java:261)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.showImage(CanvasUpdateQueue.java:335)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.consumeImages(CanvasUpdateQueue.java:238)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.access$000(CanvasUpdateQueue.java:70)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue$2.run(CanvasUpdateQueue.java:260)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.Dialog$1.run(Unknown Source)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2018-07-18T06:17:11.223451 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-18T09:38:14.872857 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T09:44:07.455751 tid6040 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T11:23:06.770041 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T11:24:58.069093 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T11:26:41.221356 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T11:38:22.371353 tid4556 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T12:40:58.808631 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T12:43:10.633776 tid5944 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T15:01:54.157235 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T15:02:20.472629 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T15:09:21.374577 tid6924 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2018-07-18T15:09:21.374577 tid6924 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2018-07-18T15:09:31.928073 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T15:10:25.542153 tid6924 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2018-07-18T15:10:25.542153 tid6924 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2018-07-18T15:10:33.892083 tid2000 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T16:50:03.587347 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T16:57:40.563917 tid2008 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T16:59:36.914788 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-18T17:01:59.251158 tid6236 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-19T09:55:26.629505 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-19T17:23:13.794962 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-07-19T19:11:50.891772 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-20T00:03:48.111490 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-07-20T08:56:09.547479 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-20T14:46:31.038731 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-20T23:48:26.970193 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-07-21T11:08:20.163349 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-21T12:12:22.559436 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-21T15:59:18.600890 tid1084 [IFO,App] Thread 362912 (Live mode image grabber) terminated with uncaught exception
+2018-07-21T15:59:18.600890 tid1084 [IFO,App] java.lang.OutOfMemoryError: Direct buffer memory
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at java.nio.Bits.reserveMemory(Unknown Source)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at java.nio.DirectByteBuffer.<init>(Unknown Source)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at java.nio.ByteBuffer.allocateDirect(Unknown Source)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.internal.utils.DirectBuffers.bufferFromBytes(DirectBuffers.java:20)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.internal.utils.DirectBuffers.bufferFromArray(DirectBuffers.java:73)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:142)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:92)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.internal.SnapLiveManager.grabAndAddImages(SnapLiveManager.java:330)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:263)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+2018-07-21T15:59:18.600890 tid1084 [IFO,App]   at java.lang.Thread.run(Unknown Source)
+2018-07-23T10:23:21.687672 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-23T13:01:54.417124 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-07-23T18:59:31.150257 tid6492 [IFO,App] Thread 574887 (Live mode image grabber) terminated with uncaught exception
+2018-07-23T18:59:31.150257 tid6492 [IFO,App] java.lang.OutOfMemoryError: Direct buffer memory
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at java.nio.Bits.reserveMemory(Unknown Source)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at java.nio.DirectByteBuffer.<init>(Unknown Source)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at java.nio.ByteBuffer.allocateDirect(Unknown Source)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.internal.utils.DirectBuffers.bufferFromBytes(DirectBuffers.java:20)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.internal.utils.DirectBuffers.bufferFromArray(DirectBuffers.java:73)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:142)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:92)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.internal.SnapLiveManager.grabAndAddImages(SnapLiveManager.java:330)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:263)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+2018-07-23T18:59:31.150257 tid6492 [IFO,App]   at java.lang.Thread.run(Unknown Source)
+2018-07-24T11:35:37.032782 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-24T20:15:29.127318 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-25T06:37:26.350639 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-25T07:22:02.623480 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-25T09:16:16.645096 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T09:16:55.373023 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T09:19:26.407622 tid5020 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T11:01:19.735998 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T11:04:10.835544 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T11:13:54.236481 tid2512 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T16:03:16.072582 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T16:16:43.795272 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-25T16:19:59.579836 tid3300 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-26T08:44:23.652066 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-26T08:48:08.567158 tid6184 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-26T14:51:06.915969 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-26T15:30:13.317023 tid6336 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T08:55:41.590720 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T09:04:49.127617 tid6924 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2018-07-27T09:04:49.127617 tid6924 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2018-07-27T09:26:33.056454 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T09:31:27.324460 tid7084 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T10:18:05.260370 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T10:26:06.846419 tid400 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T11:52:06.402414 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T11:55:29.115510 tid1676 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T13:36:34.336668 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T13:39:24.741792 tid6392 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T14:05:40.944202 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T14:12:25.887816 tid3536 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T14:57:39.742765 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T15:00:13.577531 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T15:03:04.745793 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-27T15:13:55.810489 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-27T16:23:47.927551 tid700 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-30T10:30:57.954032 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-30T21:18:50.362810 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-30T22:22:07.460228 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-30T22:45:01.010801 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-07-31T02:45:14.010658 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-07-31T09:01:38.759863 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T09:50:21.727355 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T10:31:18.046150 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T12:35:45.116883 tid3160 [IFO,App] Thread 1005328 (Live mode image grabber) terminated with uncaught exception
+2018-07-31T12:35:45.116883 tid3160 [IFO,App] java.lang.OutOfMemoryError: Direct buffer memory
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at java.nio.Bits.reserveMemory(Unknown Source)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at java.nio.DirectByteBuffer.<init>(Unknown Source)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at java.nio.ByteBuffer.allocateDirect(Unknown Source)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.internal.utils.DirectBuffers.bufferFromBytes(DirectBuffers.java:20)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.internal.utils.DirectBuffers.bufferFromArray(DirectBuffers.java:73)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:142)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:92)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.internal.SnapLiveManager.grabAndAddImages(SnapLiveManager.java:330)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:263)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+2018-07-31T12:35:45.116883 tid3160 [IFO,App]   at java.lang.Thread.run(Unknown Source)
+2018-07-31T13:28:24.402288 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T13:33:04.282485 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T13:33:45.750419 tid6572 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T14:29:22.382647 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T14:35:53.785180 tid1792 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T16:38:19.483437 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-07-31T16:40:53.248615 tid6596 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T08:48:33.071375 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T08:50:59.283226 tid6168 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T10:01:30.638018 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T10:07:42.911575 tid2900 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T11:14:31.500225 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T11:16:57.063612 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T11:19:35.626723 tid5220 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T13:15:06.233661 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T13:20:43.783737 tid7096 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T14:44:51.912035 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T14:54:07.893427 tid2888 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T15:33:09.014804 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T15:37:08.824130 tid6412 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T16:46:02.565823 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T16:50:58.879790 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-01T16:59:31.470754 tid252 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-02T11:16:24.181055 tid6924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-08-02T12:59:58.919656 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-08-02T17:48:21.045677 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-08-05T15:19:03.790098 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-08-05T22:21:59.152120 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-08-06T04:04:08.631897 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-08-06T15:18:18.200281 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2018-08-07T00:54:39.731694 tid6924 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2018-08-07T02:22:32.651325 tid6924 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]

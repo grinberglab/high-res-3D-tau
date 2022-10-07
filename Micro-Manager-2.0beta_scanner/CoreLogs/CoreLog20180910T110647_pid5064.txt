@@ -1,0 +1,336 @@
+2018-09-10T11:06:47.531029 tid4880 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20180910T110647_pid5064.txt
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] User: Scanner.User
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] Host: DESKTOP-S4KVGR5
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] MMCore version 8.5.0
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] Device API version 67, Module API version 10
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2018-09-10T11:06:47.531029 tid4880 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2018-09-10T11:06:47.546655 tid4880 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2018-09-10T11:06:47.671656 tid6176 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@315863e4
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@2f6a23cf
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@5dd41318
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@e31bcc8
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@72a60191
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@78ecf608
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@71412b61
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin GaussianTrack_@6d87275d
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@6701fa9e
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@594560cf
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@59d6e3d2
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@2b071e12
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@604745cf
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@67384a6a
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@4f09dcbb
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@6302ae84
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@450f8ee4
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@6e3e28
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@45b2b450
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@5e20dcb7
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@3f7aa2a8
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@c4ce427
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@c16c2c0
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@2a4bd173
+2018-09-10T11:06:49.921684 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@57a3eab6
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@35f6ef01
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@66c54654
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@218c6982
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@c303a60
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@32487ae0
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@7fefa490
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@5d169fb2
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@4a0d81b4
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@7c4f8358
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@4838462a
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@d7b79a6
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@3d57211f
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@233f99af
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@49e4585
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@32e62121
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@228917a2
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.splitview.SplitView@566e9e64
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin PMQI.AutoWB@7860e390
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@20fc40ae
+2018-09-10T11:06:49.937310 tid6176 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2018-09-10T11:06:50.015435 tid6176 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@5c48cd13
+2018-09-10T11:06:50.015435 tid6176 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@655e3dc4
+2018-09-10T11:06:50.015435 tid6176 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@36e3fd79
+2018-09-10T11:06:50.015435 tid6176 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@4e6d670a
+2018-09-10T11:06:50.031061 tid6176 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@40d1e07c
+2018-09-10T11:06:50.031061 tid6176 [IFO,App] Searching for plugins in class loader
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@2a47b35d
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@4950b45a
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@5170a650
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@3ab6f7f5
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@425113f0
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@58f41393
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@314585
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@22cb1edc
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@45570f5c
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@56b18494
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@20773d03
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@7446a09b
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@48da5bc0
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@77bdbf9d
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@4a6f19d5
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@44091520
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@304a0ac5
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@4d092447
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@132cd8d4
+2018-09-10T11:06:50.156063 tid6176 [IFO,App] Plugin loading took 2485ms
+2018-09-10T11:06:50.156063 tid4880 [IFO,App] Finished waiting for plugins to load
+2018-09-10T11:06:52.671720 tid4880 [IFO,Core] Did unload all devices
+2018-09-10T11:06:52.702970 tid4880 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2018-09-10T11:06:52.734220 tid4880 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2018-09-10T11:06:52.774082 tid4880 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "A97ADB-1490-4310-8700-18832530342B} "
+2018-09-10T11:06:52.774082 tid4880 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2018-09-10T11:06:52.774082 tid4880 [IFO,Core] Will initialize 3 devices
+2018-09-10T11:06:52.774082 tid4880 [IFO,Core] Will initialize device COM3
+2018-09-10T11:06:52.778083 tid4880 [IFO,Core] Did initialize device COM3
+2018-09-10T11:06:52.778083 tid4880 [IFO,Core] Will initialize device FreeSerialPort
+2018-09-10T11:06:52.778083 tid4880 [IFO,Core] Did initialize device FreeSerialPort
+2018-09-10T11:06:52.778083 tid4880 [IFO,Core] Will initialize device Camera-1
+2018-09-10T11:06:52.978225 tid4880 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2018-09-10T11:06:52.992235 tid4880 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-09-10T11:06:53.432547 tid4880 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-09-10T11:06:53.559638 tid4880 [IFO,Core] Did initialize device Camera-1
+2018-09-10T11:06:53.559638 tid4880 [IFO,Core] Default camera set to Camera-1
+2018-09-10T11:06:53.559638 tid4880 [IFO,Core] Finished initializing 3 devices
+2018-09-10T11:06:53.559638 tid4880 [IFO,Core] Default camera set to Camera-1
+2018-09-10T11:06:53.562640 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:06:55.140761 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:06:55.140761 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:06:55.152770 tid4880 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2018-09-10T11:06:55.152770 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:06:55.154771 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:06:55.154771 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:06:55.157773 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:06:55.157773 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:07:00.470547 tid4880 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-09-10T11:07:00.635664 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:00.635664 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:07:00.636665 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:07:00.636665 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:07:00.639666 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:00.639666 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:07:00.640668 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:07:00.641668 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:07:00.641668 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:07:00.643670 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:00.643670 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:07:00.702711 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:07:00.703712 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:07:00.703712 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:07:00.705713 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:00.705713 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:07:00.707715 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:07:00.707715 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:07:00.707715 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:07:00.710717 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:00.710717 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:07:00.711718 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:07:00.712718 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:07:00.712718 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:07:00.715720 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:00.715720 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:07:02.941991 tid4880 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-09-10T11:07:11.828182 tid4880 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2018-09-10T11:07:11.831184 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:11.831184 tid4880 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-09-10T11:07:11.832185 tid4880 [IFO,App] Rebuilding config group table
+2018-09-10T11:07:11.832185 tid4880 [IFO,App] Finished rebuilding config group table
+2018-09-10T11:07:11.834187 tid4880 [IFO,Core] Did update system state cache
+2018-09-10T11:07:11.834187 tid4880 [IFO,App] Finished updating GUI
+2018-09-10T11:11:01.274959 tid4880 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2018-09-10T11:11:01.274959 tid4880 [IFO,App] java.lang.NumberFormatException: For input string: ""
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.lang.NumberFormatException.forInputString(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at edu.ucsf.slidescanner.plugin.SlideScanUI$8.mouseClicked(SlideScanUI.java:379)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Component.processMouseEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Component.processEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Container.processEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:01.274959 tid4880 [IFO,App]   at java.awt.EventDispatchThread.run(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2018-09-10T11:11:14.422297 tid4880 [IFO,App] java.lang.NumberFormatException: For input string: ""
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.lang.NumberFormatException.forInputString(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at edu.ucsf.slidescanner.plugin.SlideScanUI$8.mouseClicked(SlideScanUI.java:379)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Component.processMouseEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Component.processEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Container.processEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:14.422297 tid4880 [IFO,App]   at java.awt.EventDispatchThread.run(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2018-09-10T11:11:35.137010 tid4880 [IFO,App] java.lang.NumberFormatException: For input string: ""
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.lang.NumberFormatException.forInputString(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at edu.ucsf.slidescanner.plugin.SlideScanUI$8.mouseClicked(SlideScanUI.java:379)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Component.processMouseEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Component.processEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Container.processEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:35.137010 tid4880 [IFO,App]   at java.awt.EventDispatchThread.run(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2018-09-10T11:11:51.103350 tid4880 [IFO,App] java.lang.NumberFormatException: For input string: ""
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.lang.NumberFormatException.forInputString(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.lang.Integer.parseInt(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at edu.ucsf.slidescanner.plugin.SlideScanUI$8.mouseClicked(SlideScanUI.java:379)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Component.processMouseEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Component.processEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Container.processEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.Component.dispatchEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2018-09-10T11:11:51.103350 tid4880 [IFO,App]   at java.awt.EventDispatchThread.run(Unknown Source)
+2018-09-10T13:00:58.661372 tid4880 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at org.micromanager.display.internal.LUTMaster.updateDisplayLUTs(LUTMaster.java:286)
+                                   [       ]   at org.micromanager.display.internal.LUTMaster.initializeDisplay(LUTMaster.java:261)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.showImage(CanvasUpdateQueue.java:335)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.consumeImages(CanvasUpdateQueue.java:238)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.access$000(CanvasUpdateQueue.java:70)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue$2.run(CanvasUpdateQueue.java:260)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.Dialog$1.run(Unknown Source)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)

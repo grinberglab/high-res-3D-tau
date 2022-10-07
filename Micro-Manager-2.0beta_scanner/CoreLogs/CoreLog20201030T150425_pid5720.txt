@@ -1,0 +1,567 @@
+2020-10-30T15:04:25.918044 tid1068 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20201030T150425_pid5720.txt
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] User: Scanner.User
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] Host: DESKTOP-S4KVGR5
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] MMCore version 8.5.0
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] Device API version 67, Module API version 10
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2020-10-30T15:04:25.918044 tid1068 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2020-10-30T15:04:25.933669 tid1068 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2020-10-30T15:04:26.089921 tid3292 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2020-10-30T15:04:26.371175 tid3292 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@206e41b5
+2020-10-30T15:04:26.371175 tid3292 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@4f62198b
+2020-10-30T15:04:26.371175 tid3292 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@50fa70a4
+2020-10-30T15:04:26.371175 tid3292 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@6d080876
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@66e7b3f2
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@78ba6c13
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@de16483
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin GaussianTrack_@488ddb93
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@773829d5
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@3d73eca6
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@5898bbf6
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@daa0e3b
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@178c4a7f
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@7b6ee3ec
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@2a8c7be5
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@2967c5e3
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@1ebafdff
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@77a9f87c
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@30b48b11
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@377f4fbb
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@74893969
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@5d185844
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@694b081b
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@23e45a5c
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@64e8606c
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@4548e798
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@355ccfb1
+2020-10-30T15:04:26.386800 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@604788d5
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@7f342545
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@18f2225f
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@19195c2b
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@66200db9
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@396cbd97
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@60d3ade7
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@693e4a5a
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@459d3b3a
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@7121fd61
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@6e82254d
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@7aec898a
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@3f3a0212
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@795e0c2b
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7c34151f
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin PMQI.AutoWB@5d59054d
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@7f6b321b
+2020-10-30T15:04:26.402425 tid3292 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2020-10-30T15:04:26.449301 tid3292 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@3fb6772a
+2020-10-30T15:04:26.449301 tid3292 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@5d684e26
+2020-10-30T15:04:26.464926 tid3292 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@3dde8aa8
+2020-10-30T15:04:26.464926 tid3292 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@56b61c3
+2020-10-30T15:04:26.464926 tid3292 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@19d03a4e
+2020-10-30T15:04:26.464926 tid3292 [IFO,App] Searching for plugins in class loader
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@7db06a21
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@4907dcfe
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@2e67cd84
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@20e5ace9
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@46bb05de
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@207e5619
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@439ce47a
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@715c2843
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@595780d9
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@7fcc5461
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@3fb7edd3
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@445ed853
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@2ecc5436
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@24bb6086
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@9be1041
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@1d1d2066
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@633a1778
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@7adafa2c
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@3e5e9db7
+2020-10-30T15:04:26.668053 tid3292 [IFO,App] Plugin loading took 579ms
+2020-10-30T15:04:26.668053 tid1068 [IFO,App] Finished waiting for plugins to load
+2020-10-30T15:04:30.371224 tid1068 [IFO,Core] Did unload all devices
+2020-10-30T15:04:30.371224 tid1068 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2020-10-30T15:04:30.371224 tid1068 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2020-10-30T15:04:30.383912 tid1068 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named ""
+2020-10-30T15:04:30.383912 tid1068 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2020-10-30T15:04:30.383912 tid1068 [IFO,Core] Will initialize 3 devices
+2020-10-30T15:04:30.383912 tid1068 [IFO,Core] Will initialize device COM3
+2020-10-30T15:04:30.388914 tid1068 [IFO,Core] Did initialize device COM3
+2020-10-30T15:04:30.388914 tid1068 [IFO,Core] Will initialize device FreeSerialPort
+2020-10-30T15:04:30.389915 tid1068 [IFO,Core] Did initialize device FreeSerialPort
+2020-10-30T15:04:30.389915 tid1068 [IFO,Core] Will initialize device Camera-1
+2020-10-30T15:04:30.598062 tid1068 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2020-10-30T15:04:30.613073 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-10-30T15:04:31.053386 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-10-30T15:04:31.300561 tid1068 [IFO,Core] Did initialize device Camera-1
+2020-10-30T15:04:31.300561 tid1068 [IFO,Core] Default camera set to Camera-1
+2020-10-30T15:04:31.300561 tid1068 [IFO,Core] Finished initializing 3 devices
+2020-10-30T15:04:31.300561 tid1068 [IFO,Core] Default camera set to Camera-1
+2020-10-30T15:04:31.303563 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:32.862670 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:32.862670 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:32.874678 tid1068 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2020-10-30T15:04:32.874678 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:32.877680 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:32.877680 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:32.880683 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:32.880683 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:04:41.218601 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-10-30T15:04:41.221603 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:41.221603 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:41.222604 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:41.223605 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:41.225606 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:41.225606 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:04:44.783131 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-10-30T15:04:45.118369 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:45.119370 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:45.120371 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:45.120371 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:45.122372 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:45.122372 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:04:45.123373 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:45.124374 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:45.124374 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:45.127376 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:45.127376 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:04:45.133380 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:45.134381 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:45.134381 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:45.136382 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:45.136382 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:04:45.138383 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:45.139384 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:45.139384 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:45.142386 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:45.142386 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:04:45.143387 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-10-30T15:04:45.144388 tid1068 [IFO,App] Rebuilding config group table
+2020-10-30T15:04:45.144388 tid1068 [IFO,App] Finished rebuilding config group table
+2020-10-30T15:04:45.147390 tid1068 [IFO,Core] Did update system state cache
+2020-10-30T15:04:45.147390 tid1068 [IFO,App] Finished updating GUI
+2020-10-30T15:06:58.061644 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-10-30T15:18:35.562751 tid5560 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T13:41:15.239309 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T13:49:48.428013 tid2908 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T15:23:00.738447 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T15:25:48.457568 tid1436 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T16:45:04.454500 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T16:48:20.369566 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-02T16:49:25.572793 tid3600 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-03T09:17:55.999866 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-03T09:22:22.808980 tid1292 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2020-11-03T09:22:23.889747 tid1292 [IFO,App] EDTHangLogger: Event handling has exceeded at least 1067 ms (currently 5726 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at sun.java2d.Disposer.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 11 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 15 [AWT-EventQueue-0] RUNNABLE
+                                   [       ]   at sun.awt.windows.WPopupMenuPeer._show(Native Method)
+                                   [       ]   at sun.awt.windows.WPopupMenuPeer.show(Unknown Source)
+                                   [       ]   at java.awt.PopupMenu.show(Unknown Source)
+                                   [       ]   at ij.gui.ImageCanvas.handlePopupMenu(ImageCanvas.java:1166)
+                                   [       ]   at ij.gui.ImageCanvas.mousePressed(ImageCanvas.java:1019)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+                                   [       ] Thread 18 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 19 [User profile save thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 20 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Unknown Source)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Unknown Source)
+                                   [       ]   at java.util.TimerThread.run(Unknown Source)
+                                   [       ] Thread 23 [TimerQueue] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at javax.swing.TimerQueue.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 24 [D3D Screen Updater] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at sun.java2d.d3d.D3DScreenUpdateManager.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 25 [Thread-4] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at bsh.util.JConsole$BlockingPipedInputStream.read(JConsole.java:771)
+                                   [       ]   at java.io.PipedInputStream.read(Unknown Source)
+                                   [       ]   at java.io.InputStream.read(Unknown Source)
+                                   [       ]   at bsh.util.JConsole.inPipeWatcher(JConsole.java:667)
+                                   [       ]   at bsh.util.JConsole.run(JConsole.java:677)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 26 [BeanShell interpreter] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.io.PipedInputStream.read(Unknown Source)
+                                   [       ]   at java.io.PipedInputStream.read(Unknown Source)
+                                   [       ]   at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+                                   [       ]   at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+                                   [       ]   at sun.nio.cs.StreamDecoder.read(Unknown Source)
+                                   [       ]   at java.io.InputStreamReader.read(Unknown Source)
+                                   [       ]   at bsh.JavaCharStream.FillBuff(JavaCharStream.java:160)
+                                   [       ]   at bsh.JavaCharStream.ReadByte(JavaCharStream.java:188)
+                                   [       ]   at bsh.JavaCharStream.readChar(JavaCharStream.java:289)
+                                   [       ]   at bsh.JavaCharStream.BeginToken(JavaCharStream.java:209)
+                                   [       ]   at bsh.ParserTokenManager.getNextToken(ParserTokenManager.java:2072)
+                                   [       ]   at bsh.Parser.jj_ntk(Parser.java:6022)
+                                   [       ]   at bsh.Parser.Line(Parser.java:163)
+                                   [       ]   at bsh.Interpreter.Line(Interpreter.java:1011)
+                                   [       ]   at bsh.Interpreter.run(Interpreter.java:462)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 33 [Swing-Shell] WAITING
+                                   [       ]   at sun.misc.Unsafe.park(Native Method)
+                                   [       ]   at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+                                   [       ]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+                                   [       ]   at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+                                   [       ]   at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 43 [Thread-7] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.updateMetadata(MetadataPanel.java:262)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.access$000(MetadataPanel.java:62)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel$1.run(MetadataPanel.java:107)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 44 [Thread-8] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.updateComments(CommentsPanel.java:180)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.access$000(CommentsPanel.java:46)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel$1.run(CommentsPanel.java:67)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 8041 [Live mode image grabber] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.waitForNextDisplay(SnapLiveManager.java:296)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.grabImages(SnapLiveManager.java:262)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.access$000(SnapLiveManager.java:55)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager$1.run(SnapLiveManager.java:166)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 8042 [Scrollbar panel update thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.runUpdateThread(ScrollerPanel.java:422)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel.access$100(ScrollerPanel.java:68)
+                                   [       ]   at org.micromanager.display.internal.ScrollerPanel$1.run(ScrollerPanel.java:192)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 8043 [zSelector] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at ij.gui.StackWindow.run(StackWindow.java:226)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 8533 [FPS display blank] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.util.TimerThread.mainLoop(Unknown Source)
+                                   [       ]   at java.util.TimerThread.run(Unknown Source)
+2020-11-03T09:22:49.899210 tid1068 [IFO,App] EDTHangLogger: First heartbeat after miss (31748 ms since timebase)
+2020-11-03T09:22:50.073333 tid1068 [IFO,App] Error consuming images
+                                   [       ] java.lang.ArithmeticException: / by zero in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at org.micromanager.display.internal.ContrastCalculator$InternalCalculator.calculate(ContrastCalculator.java:286)
+                                   [       ]   at org.micromanager.display.internal.ContrastCalculator.calculateHistogram(ContrastCalculator.java:508)
+                                   [       ]   at org.micromanager.display.internal.ContrastCalculator.calculateHistogramWithSettings(ContrastCalculator.java:544)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.updateHistogram(CanvasUpdateQueue.java:426)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.scheduleHistogramUpdate(CanvasUpdateQueue.java:384)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.showImage(CanvasUpdateQueue.java:315)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.consumeImages(CanvasUpdateQueue.java:238)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.access$000(CanvasUpdateQueue.java:70)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue$1.run(CanvasUpdateQueue.java:163)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2020-11-03T09:24:21.252057 tid2424 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-03T09:57:01.118161 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-03T10:05:56.459308 tid1176 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-03T13:18:10.701374 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-03T13:38:33.392279 tid1496 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T09:20:33.461078 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T09:24:55.050426 tid4896 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T10:25:08.514373 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T10:30:34.092571 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T10:30:57.126543 tid5428 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T11:41:57.830226 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T11:53:43.843133 tid2164 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T13:16:44.489706 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-04T13:23:01.995326 tid4888 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-05T15:09:09.249080 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-05T15:12:40.531537 tid1548 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-05T16:27:39.733644 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-05T16:35:45.553618 tid2156 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:22:07.689799 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:23:26.616824 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:23:26.618825 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:23:26.618825 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-11-09T16:23:26.619826 tid1068 [IFO,App] Rebuilding config group table
+2020-11-09T16:23:26.619826 tid1068 [IFO,App] Finished rebuilding config group table
+2020-11-09T16:23:26.622828 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:23:26.622828 tid1068 [IFO,App] Finished updating GUI
+2020-11-09T16:24:15.256092 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:24:15.259094 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:24:15.259094 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-11-09T16:24:15.260095 tid1068 [IFO,App] Rebuilding config group table
+2020-11-09T16:24:15.260095 tid1068 [IFO,App] Finished rebuilding config group table
+2020-11-09T16:24:15.262097 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:24:15.262097 tid1068 [IFO,App] Finished updating GUI
+2020-11-09T16:25:22.320154 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:25:22.323156 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:25:22.323156 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-11-09T16:25:22.324157 tid1068 [IFO,App] Rebuilding config group table
+2020-11-09T16:25:22.324157 tid1068 [IFO,App] Finished rebuilding config group table
+2020-11-09T16:25:22.326158 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:25:22.326158 tid1068 [IFO,App] Finished updating GUI
+2020-11-09T16:27:32.321035 tid6140 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:29:36.481168 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:30:20.435652 tid2356 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:31:10.695708 tid1292 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2020-11-09T16:31:11.697419 tid1292 [IFO,App] EDTHangLogger: Event handling has exceeded at least 1001 ms (currently 5501 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at sun.java2d.Disposer.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 11 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 15 [AWT-EventQueue-0] TIMED_WAITING
+                                   [       ]   at java.io.FileOutputStream.writeBytes(Native Method)
+                                   [       ]   at java.io.FileOutputStream.write(Unknown Source)
+                                   [       ]   at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+                                   [       ]   at java.io.BufferedOutputStream.flush(Unknown Source)
+                                   [       ]   at java.io.PrintStream.newLine(Unknown Source)
+                                   [       ]   at java.io.PrintStream.println(Unknown Source)
+                                   [       ]   at edu.ucsf.slidescanner.plugin.StageController.findHome(StageController.java:74)
+                                   [       ]   at edu.ucsf.slidescanner.plugin.SlideScanUI$7.mouseClicked(SlideScanUI.java:363)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseClicked(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+                                   [       ] Thread 18 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 19 [User profile save thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 20 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Unknown Source)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Unknown Source)
+                                   [       ]   at java.util.TimerThread.run(Unknown Source)
+                                   [       ] Thread 23 [TimerQueue] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at javax.swing.TimerQueue.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 24 [D3D Screen Updater] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at sun.java2d.d3d.D3DScreenUpdateManager.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 25 [Thread-4] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at bsh.util.JConsole$BlockingPipedInputStream.read(JConsole.java:771)
+                                   [       ]   at java.io.PipedInputStream.read(Unknown Source)
+                                   [       ]   at java.io.InputStream.read(Unknown Source)
+                                   [       ]   at bsh.util.JConsole.inPipeWatcher(JConsole.java:667)
+                                   [       ]   at bsh.util.JConsole.run(JConsole.java:677)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 26 [BeanShell interpreter] TIMED_WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.io.PipedInputStream.read(Unknown Source)
+                                   [       ]   at java.io.PipedInputStream.read(Unknown Source)
+                                   [       ]   at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+                                   [       ]   at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+                                   [       ]   at sun.nio.cs.StreamDecoder.read(Unknown Source)
+                                   [       ]   at java.io.InputStreamReader.read(Unknown Source)
+                                   [       ]   at bsh.JavaCharStream.FillBuff(JavaCharStream.java:160)
+                                   [       ]   at bsh.JavaCharStream.ReadByte(JavaCharStream.java:188)
+                                   [       ]   at bsh.JavaCharStream.readChar(JavaCharStream.java:289)
+                                   [       ]   at bsh.JavaCharStream.BeginToken(JavaCharStream.java:209)
+                                   [       ]   at bsh.ParserTokenManager.getNextToken(ParserTokenManager.java:2072)
+                                   [       ]   at bsh.Parser.jj_ntk(Parser.java:6022)
+                                   [       ]   at bsh.Parser.Line(Parser.java:163)
+                                   [       ]   at bsh.Interpreter.Line(Interpreter.java:1011)
+                                   [       ]   at bsh.Interpreter.run(Interpreter.java:462)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 33 [Swing-Shell] WAITING
+                                   [       ]   at sun.misc.Unsafe.park(Native Method)
+                                   [       ]   at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+                                   [       ]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+                                   [       ]   at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+                                   [       ]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+                                   [       ]   at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 43 [Thread-7] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.updateMetadata(MetadataPanel.java:262)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel.access$000(MetadataPanel.java:62)
+                                   [       ]   at org.micromanager.display.internal.inspector.MetadataPanel$1.run(MetadataPanel.java:107)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 44 [Thread-8] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.updateComments(CommentsPanel.java:180)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel.access$000(CommentsPanel.java:46)
+                                   [       ]   at org.micromanager.display.internal.inspector.CommentsPanel$1.run(CommentsPanel.java:67)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+2020-11-09T16:31:22.505091 tid1068 [IFO,App] EDTHangLogger: First heartbeat after miss (16309 ms since timebase)
+2020-11-09T16:33:28.848773 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:33:41.952200 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:33:41.954201 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:33:41.954201 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-11-09T16:33:41.955202 tid1068 [IFO,App] Rebuilding config group table
+2020-11-09T16:33:41.955202 tid1068 [IFO,App] Finished rebuilding config group table
+2020-11-09T16:33:41.958204 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T16:33:41.958204 tid1068 [IFO,App] Finished updating GUI
+2020-11-09T16:34:53.204090 tid3804 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:36:20.496237 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:39:27.803883 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:40:04.909497 tid5440 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:42:05.752730 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:43:19.656710 tid1084 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:44:55.552405 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T16:45:29.656677 tid4036 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:00:10.710870 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:00:10.713872 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T17:00:10.713872 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-11-09T17:00:10.714873 tid1068 [IFO,App] Rebuilding config group table
+2020-11-09T17:00:10.714873 tid1068 [IFO,App] Finished rebuilding config group table
+2020-11-09T17:00:10.717875 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T17:00:10.717875 tid1068 [IFO,App] Finished updating GUI
+2020-11-09T17:00:10.772914 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:02:04.214762 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:02:04.216763 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T17:02:04.216763 tid1068 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-11-09T17:02:04.217764 tid1068 [IFO,App] Rebuilding config group table
+2020-11-09T17:02:04.217764 tid1068 [IFO,App] Finished rebuilding config group table
+2020-11-09T17:02:04.220766 tid1068 [IFO,Core] Did update system state cache
+2020-11-09T17:02:04.220766 tid1068 [IFO,App] Finished updating GUI
+2020-11-09T17:05:18.222938 tid5056 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:08:05.030828 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:09:22.763005 tid5600 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:23:24.782946 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-09T17:24:22.001527 tid6136 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T10:43:27.013996 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T10:50:41.733925 tid2924 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T11:25:42.340032 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T11:26:16.700834 tid5428 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T13:43:38.013628 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T13:50:02.019618 tid1068 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2020-11-10T13:50:02.020619 tid1068 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2020-11-10T13:50:27.582196 tid1068 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2020-11-10T13:50:27.582196 tid1068 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2020-11-10T13:51:02.593579 tid1068 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2020-11-10T13:51:02.593579 tid1068 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2020-11-10T13:51:08.842692 tid1088 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T15:00:37.074167 tid1068 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-10T15:03:38.310592 tid5604 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2020-11-12T11:11:19.900212 tid1068 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2020-11-12T11:11:20.160397 tid1068 [IFO,Core] Did unload all devices
+2020-11-12T11:11:20.160397 tid1068 [IFO,Core] System reset
+2020-11-12T11:11:20.233448 tid1068 [IFO,Core] Core session ended

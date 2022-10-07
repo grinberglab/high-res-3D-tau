@@ -1,0 +1,191 @@
+2019-08-19T13:35:41.654343 tid5988 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20190819T133539_pid6128.txt
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] User: Scanner.User
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] Host: DESKTOP-S4KVGR5
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] MMCore version 8.5.0
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] Device API version 67, Module API version 10
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2019-08-19T13:35:41.654343 tid5988 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2019-08-19T13:35:41.826220 tid5988 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2019-08-19T13:35:46.326269 tid2640 [IFO,App] EDTHangLogger: Missed heartbeat; waiting to see if we are stuck on a single event
+2019-08-19T13:35:47.201278 tid5328 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2019-08-19T13:35:47.841910 tid2640 [IFO,App] EDTHangLogger: Event handling has exceeded at least 999 ms (currently 5490 ms since heartbeat timebase)
+                                   [       ] Stack traces follow (note: thread states queried later than stack traces)
+                                   [       ] Thread 2 [Reference Handler] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+                                   [       ] Thread 3 [Finalizer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+                                   [       ] Thread 4 [Signal Dispatcher] RUNNABLE
+                                   [       ] Thread 5 [Attach Listener] RUNNABLE
+                                   [       ] Thread 10 [Java2D Disposer] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+                                   [       ]   at sun.java2d.Disposer.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 12 [AWT-Windows] RUNNABLE
+                                   [       ]   at sun.awt.windows.WToolkit.eventLoop(Native Method)
+                                   [       ]   at sun.awt.windows.WToolkit.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 15 [AWT-Shutdown] WAITING
+                                   [       ]   at java.lang.Object.wait(Native Method)
+                                   [       ]   at java.lang.Object.wait(Object.java:485)
+                                   [       ]   at sun.awt.AWTAutoShutdown.run(Unknown Source)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 16 [AWT-EventQueue-0] TIMED_WAITING
+                                   [       ]   at java.util.zip.ZipFile.read(Native Method)
+                                   [       ]   at java.util.zip.ZipFile.access$1200(Unknown Source)
+                                   [       ]   at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+                                   [       ]   at java.util.zip.ZipFile$1.fill(Unknown Source)
+                                   [       ]   at java.util.zip.InflaterInputStream.read(Unknown Source)
+                                   [       ]   at sun.misc.Resource.getBytes(Unknown Source)
+                                   [       ]   at java.net.URLClassLoader.defineClass(Unknown Source)
+                                   [       ]   at java.net.URLClassLoader.access$000(Unknown Source)
+                                   [       ]   at java.net.URLClassLoader$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.net.URLClassLoader.findClass(Unknown Source)
+                                   [       ]   at java.lang.ClassLoader.loadClass(Unknown Source)
+                                   [       ]   at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+                                   [       ]   at java.lang.ClassLoader.loadClass(Unknown Source)
+                                   [       ]   at org.micromanager.internal.MMStudio.<init>(MMStudio.java:256)
+                                   [       ]   at MMStudioPlugin$1.run(MMStudioPlugin.java:77)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+                                   [       ] Thread 19 [DestroyJavaVM] RUNNABLE
+                                   [       ] Thread 20 [User profile save thread] TIMED_WAITING
+                                   [       ]   at java.lang.Thread.sleep(Native Method)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:191)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+                                   [       ] Thread 21 [EDTHangLogger timer] RUNNABLE
+                                   [       ]   at java.lang.Thread.dumpThreads(Native Method)
+                                   [       ]   at java.lang.Thread.getAllStackTraces(Unknown Source)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.checkForHang(EDTHangLogger.java:233)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger.access$200(EDTHangLogger.java:34)
+                                   [       ]   at org.micromanager.internal.diagnostics.EDTHangLogger$4.run(EDTHangLogger.java:220)
+                                   [       ]   at java.util.TimerThread.mainLoop(Unknown Source)
+                                   [       ]   at java.util.TimerThread.run(Unknown Source)
+                                   [       ] Thread 22 [Plugin loading thread] RUNNABLE
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.loadPlugins(DefaultPluginManager.java:111)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.access$000(DefaultPluginManager.java:46)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$1.run(DefaultPluginManager.java:80)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+                                   [       ] Thread 23 [Pipeline Class loading thread] BLOCKED
+                                   [       ]   at java.lang.Class.forName0(Native Method)
+                                   [       ]   at java.lang.Class.forName(Unknown Source)
+                                   [       ]   at org.micromanager.internal.MMStudio$1.run(MMStudio.java:472)
+2019-08-19T13:36:02.748320 tid5988 [IFO,App] Warning: Plugin loading did not finish within 15 seconds; continuing anyway
+2019-08-19T13:36:18.060984 tid5988 [IFO,App] EDTHangLogger: First heartbeat after miss (36228 ms since timebase)
+2019-08-19T13:36:18.357863 tid7108 [IFO,App] Unable to move C:\Users\Scanner.User\AppData\Local\Micro-Manager\profile-1.txt to C:\Users\Scanner.User\AppData\Local\Micro-Manager\profile-1.txt-autobak; aborting file export.
+                                   [       ] java.io.IOException: Unable to delete C:\Users\Scanner.User\AppData\Local\Micro-Manager\profile-1.txt in Thread[User profile save thread,6,main]
+                                   [       ]   at com.google.common.io.Files.move(Files.java:672)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.exportPropertyMapToFile(DefaultUserProfile.java:592)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.exportProfileToFile(DefaultUserProfile.java:557)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:202)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+2019-08-19T13:36:20.998515 tid5328 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@72270fc4
+2019-08-19T13:36:21.107891 tid5328 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@28b53b32
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@74e51bda
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@6d87c12a
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@614a616
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@1e4218cb
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@7ea96606
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin GaussianTrack_@236954e1
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@4c9549af
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@7d98d9cf
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@3e03e574
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@71cd427a
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@5ac791f4
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@643f58bb
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@233e9934
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@32bed1fd
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@dcc5312
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@6161c9d1
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@5b08ea49
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@2d7892d5
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@46eff545
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@33cfa965
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@67a4076
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@441e064c
+2019-08-19T13:36:21.123517 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@f2f8a84
+2019-08-19T13:36:21.201642 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@60328c40
+2019-08-19T13:36:21.201642 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@1695ef17
+2019-08-19T13:36:21.201642 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@4d83da96
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@76d3046
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@117c4779
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@6fa37fac
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@2c4f71a3
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@6cb101cf
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@6e61a414
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@4c5b55a9
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@48b524aa
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@4c825cf3
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@2a47cc3
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@3c789d63
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@12a4ed99
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@9eae15f
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.splitview.SplitView@1b72290f
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin PMQI.AutoWB@63e5a5dc
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@79ec41c0
+2019-08-19T13:36:21.217268 tid5328 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2019-08-19T13:36:22.107901 tid5328 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@10fd0a62
+2019-08-19T13:36:22.107901 tid5328 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@10ba5a81
+2019-08-19T13:36:22.107901 tid5328 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@31f9b804
+2019-08-19T13:36:22.107901 tid5328 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@39b1ff47
+2019-08-19T13:36:22.154777 tid5328 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@7cd47880
+2019-08-19T13:36:22.154777 tid5328 [IFO,App] Searching for plugins in class loader
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@2025b64d
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@be389b8
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@7669521
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@5fc8ad52
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@6feb139e
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@32552379
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@738bf6bf
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@69f4b0dc
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@3f8771dc
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@55444319
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@74914a0a
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@6e94124f
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@3b3e3940
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@7220b722
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@41d753b7
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@1fb93526
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@3850620f
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@2555e3ab
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@29d602b3
+2019-08-19T13:36:23.436041 tid5328 [IFO,App] Plugin loading took 36235ms
+2019-08-19T13:36:24.857931 tid7108 [IFO,App] Unable to move C:\Users\Scanner.User\AppData\Local\Micro-Manager\profile-1.txt to C:\Users\Scanner.User\AppData\Local\Micro-Manager\profile-1.txt-autobak; aborting file export.
+                                   [       ] java.io.FileNotFoundException: C:\Users\Scanner.User\AppData\Local\Micro-Manager\profile-1.txt (The process cannot access the file because it is being used by another process) in Thread[User profile save thread,6,main]
+                                   [       ]   at java.io.FileInputStream.open(Native Method)
+                                   [       ]   at java.io.FileInputStream.<init>(Unknown Source)
+                                   [       ]   at com.google.common.io.Files$FileByteSource.openStream(Files.java:126)
+                                   [       ]   at com.google.common.io.Files$FileByteSource.openStream(Files.java:116)
+                                   [       ]   at com.google.common.io.ByteSource.copyTo(ByteSource.java:254)
+                                   [       ]   at com.google.common.io.Files.copy(Files.java:442)
+                                   [       ]   at com.google.common.io.Files.move(Files.java:667)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.exportPropertyMapToFile(DefaultUserProfile.java:592)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.exportProfileToFile(DefaultUserProfile.java:557)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.runSaveThread(DefaultUserProfile.java:202)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile.access$000(DefaultUserProfile.java:22)
+                                   [       ]   at org.micromanager.internal.utils.DefaultUserProfile$1.run(DefaultUserProfile.java:168)
+2019-08-19T13:37:00.582681 tid5988 [IFO,Core] Did unload all devices
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
