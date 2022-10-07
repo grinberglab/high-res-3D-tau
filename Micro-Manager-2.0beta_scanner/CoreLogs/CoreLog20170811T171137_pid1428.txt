@@ -1,0 +1,920 @@
+2017-08-11T17:11:37.042876 tid7760 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.0beta_170704\CoreLogs\CoreLog20170811T171137_pid1428.txt
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] User: Maryana
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] Host: DESKTOP-GNS4JAE
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] MMCore version 8.5.0
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] Device API version 67, Module API version 10
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] Operating System: Windows 8 (amd64) 6.2
+2017-08-11T17:11:37.042876 tid7760 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_45, 64-bit
+2017-08-11T17:11:37.058501 tid7760 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-08-11T17:11:37.183503 tid7128 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.0beta_170704/mmplugins
+2017-08-11T17:11:37.355379 tid7128 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@7b48392
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@1d382926
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@407e75d2
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@2e694f12
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@4c345b43
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@1dff2e1b
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@c3fa6cd
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin GaussianTrack_@26dfe303
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@2052d1a4
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@34cef6f1
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@7fb6634c
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@1f315415
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@5f873eb2
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@2825491d
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@31304043
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@2b76086d
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@52234265
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@8dc1f04
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@64c272bc
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@5e6ffd79
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@a6a435f
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@466d1750
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@a1e940b
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.splitview.SplitView@5d89635d
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin PMQI.AutoWB@66da9ea4
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@1ae555bd
+2017-08-11T17:11:37.370574 tid7128 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.0beta_170704/mmautofocus
+2017-08-11T17:11:37.401825 tid7128 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@53706eb7
+2017-08-11T17:11:37.401825 tid7128 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@135c40eb
+2017-08-11T17:11:37.401825 tid7128 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@49594a88
+2017-08-11T17:11:37.401825 tid7128 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@77a9f87c
+2017-08-11T17:11:37.417450 tid7128 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@54128635
+2017-08-11T17:11:37.417450 tid7128 [IFO,App] Searching for plugins in class loader
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@59db9f45
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@61b59919
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@59566a6c
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@6239da8a
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@443acc67
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@7041a12f
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@7d59ea8e
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@63fb050c
+2017-08-11T17:11:37.573702 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@4e4b12d9
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@62946d22
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@4545f5e3
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@531ed166
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@31a734ff
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@1624e801
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@5a9bc984
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@29cb2795
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@32b3a5a0
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@303ec561
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Found plugin slidescan.SlideScan@79429cb2
+2017-08-11T17:11:37.589327 tid7128 [IFO,App] Plugin loading took 406ms
+2017-08-11T17:11:37.589327 tid7760 [IFO,App] Finished waiting for plugins to load
+2017-08-11T17:11:39.167472 tid7760 [IFO,Core] Did unload all devices
+2017-08-11T17:11:39.167472 tid7760 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2017-08-11T17:11:39.167472 tid7760 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2017-08-11T17:11:39.176857 tid7760 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "ap HarddiskVolumeShadowCopy2 Windows"
+2017-08-11T17:11:39.176857 tid7760 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2017-08-11T17:11:39.176857 tid7760 [IFO,Core] Will initialize 3 devices
+2017-08-11T17:11:39.176857 tid7760 [IFO,Core] Will initialize device COM3
+2017-08-11T17:11:39.182860 tid7760 [IFO,Core] Did initialize device COM3
+2017-08-11T17:11:39.182860 tid7760 [IFO,Core] Will initialize device FreeSerialPort
+2017-08-11T17:11:39.182860 tid7760 [IFO,Core] Did initialize device FreeSerialPort
+2017-08-11T17:11:39.182860 tid7760 [IFO,Core] Will initialize device Camera-1
+2017-08-11T17:11:39.383002 tid7760 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2017-08-11T17:11:39.398013 tid7760 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-11T17:11:39.837325 tid7760 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-11T17:11:39.924386 tid7760 [IFO,Core] Did initialize device Camera-1
+2017-08-11T17:11:39.924386 tid7760 [IFO,Core] Default camera set to Camera-1
+2017-08-11T17:11:39.925387 tid7760 [IFO,Core] Finished initializing 3 devices
+2017-08-11T17:11:39.925387 tid7760 [IFO,Core] Default camera set to Camera-1
+2017-08-11T17:11:39.927388 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:41.023167 tid7760 [IFO,App] Rebuilding config group table
+2017-08-11T17:11:41.023167 tid7760 [IFO,App] Finished rebuilding config group table
+2017-08-11T17:11:41.035175 tid7760 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.0beta_170704\MMStartup.bsh) not present
+2017-08-11T17:11:41.035175 tid7760 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-11T17:11:41.038177 tid7760 [IFO,App] Rebuilding config group table
+2017-08-11T17:11:41.038177 tid7760 [IFO,App] Finished rebuilding config group table
+2017-08-11T17:11:41.040178 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:41.041179 tid7760 [IFO,App] Finished updating GUI
+2017-08-11T17:11:48.787678 tid7760 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-11T17:11:48.916769 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:48.916769 tid7760 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-11T17:11:48.917770 tid7760 [IFO,App] Rebuilding config group table
+2017-08-11T17:11:48.917770 tid7760 [IFO,App] Finished rebuilding config group table
+2017-08-11T17:11:48.920773 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:48.920773 tid7760 [IFO,App] Finished updating GUI
+2017-08-11T17:11:48.921773 tid7760 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-11T17:11:48.922774 tid7760 [IFO,App] Rebuilding config group table
+2017-08-11T17:11:48.922774 tid7760 [IFO,App] Finished rebuilding config group table
+2017-08-11T17:11:48.924775 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:48.924775 tid7760 [IFO,App] Finished updating GUI
+2017-08-11T17:11:57.766681 tid7760 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-11T17:11:57.767682 tid7760 [IFO,App] Rebuilding config group table
+2017-08-11T17:11:57.767682 tid7760 [IFO,App] Finished rebuilding config group table
+2017-08-11T17:11:57.769683 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:57.769683 tid7760 [IFO,App] Finished updating GUI
+2017-08-11T17:11:57.771685 tid7760 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-11T17:11:57.772685 tid7760 [IFO,App] Rebuilding config group table
+2017-08-11T17:11:57.772685 tid7760 [IFO,App] Finished rebuilding config group table
+2017-08-11T17:11:57.774687 tid7760 [IFO,Core] Did update system state cache
+2017-08-11T17:11:57.774687 tid7760 [IFO,App] Finished updating GUI
+2017-08-11T17:12:12.269976 tid7760 [IFO,App] Error: Invalid pixel coordinates 5324, 3004
+2017-08-11T17:12:34.693729 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:34.693729 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:34.694730 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:36.714164 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:36.714164 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:38.708580 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:38.708580 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:40.714003 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:40.714003 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:42.719426 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:42.719426 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:44.726851 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:44.726851 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:46.744283 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:46.745284 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:46.745284 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:48.751708 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:48.751708 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:50.758133 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:50.758133 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:52.766558 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:52.766558 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:55.724658 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:55.724658 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:55.725659 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:55.725659 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:55.725659 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:55.725659 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:57.732083 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:57.732083 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:12:59.736505 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:12:59.736505 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:01.743930 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:01.743930 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:03.757360 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:03.757360 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:05.766786 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:05.766786 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:07.774211 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:07.774211 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:09.782637 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:09.782637 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:11.791062 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:11.791062 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:13.805492 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:13.806493 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:13.806493 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:16.778602 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:16.778602 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:18.790030 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:18.790030 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:18.790030 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:18.790030 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:18.790030 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:18.790030 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:18.790030 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:18.791031 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:20.813467 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:20.813467 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:22.824894 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:22.824894 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:24.833320 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:24.833320 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:24.833320 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:24.833320 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:24.833320 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:24.833320 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:24.833320 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:24.833320 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:24.834320 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:26.840745 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:26.840745 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:28.851172 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:28.851172 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:28.852173 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:30.860598 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:30.860598 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:30.861599 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:41.142897 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:41.142897 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:43.157327 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:43.157327 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:43.158328 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:43.158328 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:46.176470 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:46.176470 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:46.176470 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:46.176470 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:46.176470 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:46.176470 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:46.176470 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:46.176470 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:46.177470 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:48.188898 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:48.188898 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:50.200326 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:50.200326 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:52.207751 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:52.207751 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:52.208752 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-11T17:13:54.216177 tid7760 [IFO,App] java.lang.IllegalArgumentException: width*height!=pixels.length
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at ij.process.ColorProcessor.<init>(ColorProcessor.java:50)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at org.micromanager.data.internal.DefaultImageJConverter.createProcessor(DefaultImageJConverter.java:63)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:232)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-11T17:13:54.216177 tid7760 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-11T17:13:54.217177 tid7760 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)

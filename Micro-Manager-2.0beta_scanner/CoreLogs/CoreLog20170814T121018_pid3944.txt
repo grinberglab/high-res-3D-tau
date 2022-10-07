@@ -1,0 +1,418 @@
+2017-08-14T12:10:18.433522 tid260 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.0beta_170704\CoreLogs\CoreLog20170814T121018_pid3944.txt
+2017-08-14T12:10:18.433522 tid260 [IFO,App] User: Maryana
+2017-08-14T12:10:18.433522 tid260 [IFO,App] Host: DESKTOP-GNS4JAE
+2017-08-14T12:10:18.433522 tid260 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2017-08-14T12:10:18.433522 tid260 [IFO,App] MMCore version 8.5.0
+2017-08-14T12:10:18.433522 tid260 [IFO,App] Device API version 67, Module API version 10
+2017-08-14T12:10:18.433522 tid260 [IFO,App] Operating System: Windows 8 (amd64) 6.2
+2017-08-14T12:10:18.433522 tid260 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_45, 64-bit
+2017-08-14T12:10:18.433522 tid260 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                  [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-08-14T12:10:18.574148 tid7176 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.0beta_170704/mmplugins
+2017-08-14T12:10:18.761650 tid7176 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@3df89785
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@25a9cf52
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@144f3ba2
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@e31bcc8
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@70b11164
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@41697023
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@14d55de
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin GaussianTrack_@6701fa9e
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@604745cf
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@107aa187
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@450f8ee4
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@575c13ef
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@c16c2c0
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@57a3eab6
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@35f6ef01
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@962e703
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@c303a60
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@347b21ea
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@4e1d2b8e
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@6d854b38
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@3cbe7667
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@4838462a
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@d7b79a6
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.splitview.SplitView@3d57211f
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin PMQI.AutoWB@2482c23d
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@32e62121
+2017-08-14T12:10:18.767702 tid7176 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.0beta_170704/mmautofocus
+2017-08-14T12:10:18.798952 tid7176 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@68e0ada6
+2017-08-14T12:10:18.798952 tid7176 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@59cc5d23
+2017-08-14T12:10:18.814578 tid7176 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@7f162a9c
+2017-08-14T12:10:18.814578 tid7176 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1eb7d25
+2017-08-14T12:10:18.814578 tid7176 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@63a0eec3
+2017-08-14T12:10:18.814578 tid7176 [IFO,App] Searching for plugins in class loader
+2017-08-14T12:10:19.002079 tid7176 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@1420ca8b
+2017-08-14T12:10:19.002079 tid7176 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@6399f443
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@126212dd
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@1e35ecd
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@5a2445d7
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@718ddc48
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@5f5fc606
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@2cfb1135
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@47e779a7
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@7817bcd4
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@10b173c3
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@35703484
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@622209db
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@6d87c12a
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@569c6f2
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@7ea96606
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@4c9549af
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@7d98d9cf
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Found plugin slidescan.SlideScan@62bc36ff
+2017-08-14T12:10:19.017705 tid7176 [IFO,App] Plugin loading took 443ms
+2017-08-14T12:10:19.017705 tid260 [IFO,App] Finished waiting for plugins to load
+2017-08-14T12:10:22.065222 tid260 [IFO,Core] Did unload all devices
+2017-08-14T12:10:22.065222 tid260 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2017-08-14T12:10:22.065222 tid260 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2017-08-14T12:10:22.070660 tid260 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "04fb951ed} HDAUDIO#FUNC_01&VEN_10EC&"
+2017-08-14T12:10:22.070660 tid260 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2017-08-14T12:10:22.070660 tid260 [IFO,Core] Will initialize 3 devices
+2017-08-14T12:10:22.070660 tid260 [IFO,Core] Will initialize device COM3
+2017-08-14T12:10:22.074661 tid260 [IFO,Core] Did initialize device COM3
+2017-08-14T12:10:22.074661 tid260 [IFO,Core] Will initialize device FreeSerialPort
+2017-08-14T12:10:22.074661 tid260 [IFO,Core] Did initialize device FreeSerialPort
+2017-08-14T12:10:22.074661 tid260 [IFO,Core] Will initialize device Camera-1
+2017-08-14T12:10:22.275804 tid260 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2017-08-14T12:10:22.290815 tid260 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-14T12:10:22.730127 tid260 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-14T12:10:22.819190 tid260 [IFO,Core] Did initialize device Camera-1
+2017-08-14T12:10:22.819190 tid260 [IFO,Core] Default camera set to Camera-1
+2017-08-14T12:10:22.819190 tid260 [IFO,Core] Finished initializing 3 devices
+2017-08-14T12:10:22.819190 tid260 [IFO,Core] Default camera set to Camera-1
+2017-08-14T12:10:22.822192 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:24.077083 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:24.077083 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:24.090092 tid260 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.0beta_170704\MMStartup.bsh) not present
+2017-08-14T12:10:24.090092 tid260 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-14T12:10:24.093094 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:24.093094 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:24.095096 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:24.095096 tid260 [IFO,App] Finished updating GUI
+2017-08-14T12:10:27.645616 tid260 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-14T12:10:27.647617 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:27.648618 tid260 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-14T12:10:27.649619 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:27.649619 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:27.651620 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:27.651620 tid260 [IFO,App] Finished updating GUI
+2017-08-14T12:10:37.547645 tid260 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-08-14T12:10:37.678738 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:37.678738 tid260 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-14T12:10:37.679738 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:37.679738 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:37.682740 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:37.682740 tid260 [IFO,App] Finished updating GUI
+2017-08-14T12:10:37.683741 tid260 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-14T12:10:37.684742 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:37.684742 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:37.686743 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:37.686743 tid260 [IFO,App] Finished updating GUI
+2017-08-14T12:10:45.510452 tid260 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-14T12:10:45.511453 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:45.511453 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:45.513454 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:45.513454 tid260 [IFO,App] Finished updating GUI
+2017-08-14T12:10:45.515456 tid260 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-08-14T12:10:45.516457 tid260 [IFO,App] Rebuilding config group table
+2017-08-14T12:10:45.516457 tid260 [IFO,App] Finished rebuilding config group table
+2017-08-14T12:10:45.518458 tid260 [IFO,Core] Did update system state cache
+2017-08-14T12:10:45.518458 tid260 [IFO,App] Finished updating GUI
+2017-08-14T12:10:53.608201 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getAnyImage(StorageSinglePlaneTiffSeries.java:276)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getAnyImage(DefaultDatastore.java:152)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.setImagePlusMetadata(DefaultDisplayWindow.java:617)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:312)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:10:53.609202 tid260 [IFO,App] Error: Unable to get an image for setting ImageJ metadata properties
+2017-08-14T12:10:53.703269 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getImage(DefaultDatastore.java:144)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getImage(MMVirtualStack.java:136)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:227)
+                                  [       ]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:10:53.704269 tid260 [IFO,App] Error: Tried to get a processor for an invalid image index 1 which ImageJ treats as <channel: 0, position: 0, time: 0, z: 0>
+2017-08-14T12:10:53.704269 tid260 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-14T12:10:53.704269 tid260 [IFO,App] java.lang.NullPointerException
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at ij.ImagePlus.setProcessor2(ImagePlus.java:562)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:629)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-14T12:10:53.704269 tid260 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:11:21.930305 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getAnyImage(StorageSinglePlaneTiffSeries.java:276)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getAnyImage(DefaultDatastore.java:152)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.setImagePlusMetadata(DefaultDisplayWindow.java:617)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:312)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:11:21.930305 tid260 [IFO,App] Error: Unable to get an image for setting ImageJ metadata properties
+2017-08-14T12:11:21.985344 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getImage(DefaultDatastore.java:144)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getImage(MMVirtualStack.java:136)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:227)
+                                  [       ]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:11:21.985344 tid260 [IFO,App] Error: Tried to get a processor for an invalid image index 1 which ImageJ treats as <channel: 0, position: 0, time: 0, z: 0>
+2017-08-14T12:11:21.985344 tid260 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-14T12:11:21.985344 tid260 [IFO,App] java.lang.NullPointerException
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at ij.ImagePlus.setProcessor2(ImagePlus.java:562)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:629)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-14T12:11:21.985344 tid260 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:11:49.882146 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getAnyImage(StorageSinglePlaneTiffSeries.java:276)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getAnyImage(DefaultDatastore.java:152)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.setImagePlusMetadata(DefaultDisplayWindow.java:617)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:312)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:11:49.882146 tid260 [IFO,App] Error: Unable to get an image for setting ImageJ metadata properties
+2017-08-14T12:11:49.938186 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getImage(DefaultDatastore.java:144)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getImage(MMVirtualStack.java:136)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:227)
+                                  [       ]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:11:49.939186 tid260 [IFO,App] Error: Tried to get a processor for an invalid image index 1 which ImageJ treats as <channel: 0, position: 0, time: 0, z: 0>
+2017-08-14T12:11:49.939186 tid260 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-14T12:11:49.939186 tid260 [IFO,App] java.lang.NullPointerException
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at ij.ImagePlus.setProcessor2(ImagePlus.java:562)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:629)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-14T12:11:49.939186 tid260 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:12:01.095106 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getAnyImage(StorageSinglePlaneTiffSeries.java:276)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getAnyImage(DefaultDatastore.java:152)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.setImagePlusMetadata(DefaultDisplayWindow.java:617)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:312)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:12:01.095106 tid260 [IFO,App] Error: Unable to get an image for setting ImageJ metadata properties
+2017-08-14T12:12:01.150145 tid260 [IFO,App] 
+                                  [       ] java.lang.IllegalArgumentException: Unsupported number of bytes per component in Thread[AWT-EventQueue-0,6,main]
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.setBytesPerComponent(DefaultImage.java:205)
+                                  [       ]   at org.micromanager.data.internal.DefaultImage.<init>(DefaultImage.java:173)
+                                  [       ]   at org.micromanager.data.internal.StorageSinglePlaneTiffSeries.getImage(StorageSinglePlaneTiffSeries.java:261)
+                                  [       ]   at org.micromanager.data.internal.DefaultDatastore.getImage(DefaultDatastore.java:144)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getImage(MMVirtualStack.java:136)
+                                  [       ]   at org.micromanager.display.internal.MMVirtualStack.getProcessor(MMVirtualStack.java:227)
+                                  [       ]   at ij.ImagePlus.setStack(ImagePlus.java:624)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+                                  [       ]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+                                  [       ]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+                                  [       ]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+                                  [       ]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+                                  [       ]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+                                  [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                  [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+                                  [       ]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+                                  [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+                                  [       ]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+                                  [       ]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:12:01.150145 tid260 [IFO,App] Error: Tried to get a processor for an invalid image index 1 which ImageJ treats as <channel: 0, position: 0, time: 0, z: 0>
+2017-08-14T12:12:01.151145 tid260 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2017-08-14T12:12:01.151145 tid260 [IFO,App] java.lang.NullPointerException
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at ij.ImagePlus.setProcessor2(ImagePlus.java:562)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at ij.ImagePlus.setStack(ImagePlus.java:629)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.makeGUI(DefaultDisplayWindow.java:314)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow.access$100(DefaultDisplayWindow.java:99)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at org.micromanager.display.internal.DefaultDisplayWindow$3.run(DefaultDisplayWindow.java:303)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:672)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventQueue.access$400(EventQueue.java:81)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:633)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventQueue$2.run(EventQueue.java:631)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventQueue.dispatchEvent(EventQueue.java:642)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+2017-08-14T12:12:01.151145 tid260 [IFO,App]   at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2017-08-14T12:12:25.395192 tid260 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount

@@ -1,0 +1,692 @@
+2021-04-14T16:15:22.266970 tid2824 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20210414T161522_pid3868.txt
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] User: Scanner.User
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] Host: DESKTOP-S4KVGR5
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] MMCore version 8.5.0
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] Device API version 67, Module API version 10
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2021-04-14T16:15:22.266970 tid2824 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2021-04-14T16:15:22.423222 tid3308 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2021-04-14T16:15:22.704476 tid3308 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@2200c550
+2021-04-14T16:15:22.704476 tid3308 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@3152bdc7
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@52cab854
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@3fb6772a
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@4adf2940
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@10c789fb
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@46f20434
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin GaussianTrack_@3af2164f
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@25aa0a15
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@1a7df60a
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@4a2af8f5
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@56b61c3
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@4cdf4bfc
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@57f5b4d1
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@3b8e80a6
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@1de4eb5b
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@19d03a4e
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@1ad5cabc
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@6fe2161d
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@5bf2af1c
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@38a36b53
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@70db3331
+2021-04-14T16:15:22.720101 tid3308 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@46fe0fd9
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@51c293f8
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@49c4a5ec
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@3bbbbafc
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@21f11507
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@5a9b8ff9
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@19d8f162
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@673dd208
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@7e3eec1a
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@35ad0839
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@4640b181
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@7c6576d5
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@4edc024a
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@4883d37a
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@2cd5276a
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@5e0eb724
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@4f536eec
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@6e9770a3
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@52e3fda4
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7621447f
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin PMQI.AutoWB@8a2023
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@6c43da1b
+2021-04-14T16:15:22.735727 tid3308 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2021-04-14T16:15:22.782603 tid3308 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@ffeef1
+2021-04-14T16:15:22.782603 tid3308 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@683c9314
+2021-04-14T16:15:22.798228 tid3308 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@1cecd92c
+2021-04-14T16:15:22.798228 tid3308 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@f8600d6
+2021-04-14T16:15:22.798228 tid3308 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@76705d28
+2021-04-14T16:15:22.798228 tid3308 [IFO,App] Searching for plugins in class loader
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@63956391
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@7080ed90
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@206cc2a4
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@445ead9d
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@23d8417c
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@4ab34646
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@190872ce
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@79a93f38
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@5675b3ee
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@4977fa9a
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@63e5ba24
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@7eac4d3b
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@62029d75
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@19af9e98
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@58d51a54
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@eb3ae5c
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@367c218e
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@5e54777e
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@7b712193
+2021-04-14T16:15:23.048232 tid3308 [IFO,App] Plugin loading took 625ms
+2021-04-14T16:15:23.048232 tid2824 [IFO,App] Finished waiting for plugins to load
+2021-04-14T16:15:28.157678 tid2824 [IFO,Core] Did unload all devices
+2021-04-14T16:15:28.157678 tid2824 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2021-04-14T16:15:28.173303 tid2824 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2021-04-14T16:15:28.206433 tid2824 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named ""
+2021-04-14T16:15:28.206433 tid2824 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2021-04-14T16:15:28.206433 tid2824 [IFO,Core] Will initialize 3 devices
+2021-04-14T16:15:28.206433 tid2824 [IFO,Core] Will initialize device COM3
+2021-04-14T16:15:28.215438 tid2824 [IFO,Core] Did initialize device COM3
+2021-04-14T16:15:28.215438 tid2824 [IFO,Core] Will initialize device FreeSerialPort
+2021-04-14T16:15:28.216439 tid2824 [IFO,Core] Did initialize device FreeSerialPort
+2021-04-14T16:15:28.216439 tid2824 [IFO,Core] Will initialize device Camera-1
+2021-04-14T16:15:28.528661 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2021-04-14T16:15:28.544672 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:15:28.984985 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:15:29.239166 tid2824 [IFO,Core] Did initialize device Camera-1
+2021-04-14T16:15:29.239166 tid2824 [IFO,Core] Default camera set to Camera-1
+2021-04-14T16:15:29.239166 tid2824 [IFO,Core] Finished initializing 3 devices
+2021-04-14T16:15:29.239166 tid2824 [IFO,Core] Default camera set to Camera-1
+2021-04-14T16:15:29.242168 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:30.769255 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:30.769255 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:30.781264 tid2824 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2021-04-14T16:15:30.781264 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:15:30.784265 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:30.784265 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:30.786267 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:30.787268 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:15:40.350072 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:15:40.692315 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:40.692315 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:15:40.693316 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:40.693316 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:40.696318 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:40.696318 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:15:40.697319 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:15:40.698320 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:40.698320 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:40.700321 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:40.701322 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:15:40.708327 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:15:40.709328 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:40.709328 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:40.711329 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:40.712330 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:15:40.713330 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:15:40.714331 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:40.714331 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:40.717333 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:40.717333 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:15:40.719335 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:15:40.719335 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:15:40.720335 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:15:40.722337 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:15:40.722337 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:17:16.230740 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:17:39.232749 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:17:39.234751 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:17:39.234751 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:17:39.235751 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:17:39.235751 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:17:39.238753 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:17:39.238753 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:17:44.564543 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:18:13.372041 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:18:32.760440 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:18:32.763442 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:18:32.763442 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:18:32.764442 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:18:32.764442 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:18:32.766444 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:18:32.766444 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:18:58.101471 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:18:58.104473 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:18:58.104473 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:18:58.105474 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:18:58.105474 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:18:58.108476 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:18:58.108476 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:18:58.900039 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:22:34.862345 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:22:34.864347 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:22:34.864347 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:22:34.865348 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:22:34.865348 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:22:34.868350 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:22:34.868350 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:22:51.884837 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:22:59.825487 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:22:59.828489 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:22:59.828489 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:22:59.829490 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:22:59.829490 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:22:59.831491 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:22:59.832492 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:25:39.964432 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:25:43.716101 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:26:22.580817 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:27:11.900910 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:27:11.903912 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:27:11.903912 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-14T16:27:11.904913 tid2824 [IFO,App] Rebuilding config group table
+2021-04-14T16:27:11.904913 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-14T16:27:11.906914 tid2824 [IFO,Core] Did update system state cache
+2021-04-14T16:27:11.907915 tid2824 [IFO,App] Finished updating GUI
+2021-04-14T16:27:45.356715 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-14T16:28:30.276900 tid5848 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T08:49:11.976655 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T08:51:54.550332 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T08:51:54.552334 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T08:51:54.552334 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T08:51:54.553335 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T08:51:54.553335 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T08:51:54.556337 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T08:51:54.556337 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T08:52:02.716143 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T08:52:14.409463 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T08:52:14.412465 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T08:52:14.412465 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T08:52:14.413466 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T08:52:14.413466 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T08:52:14.416468 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T08:52:14.416468 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T08:52:33.771994 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T08:52:33.773995 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T08:52:33.773995 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T08:52:33.774996 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T08:52:33.774996 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T08:52:33.777998 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T08:52:33.777998 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T08:54:25.361394 tid3576 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:05:28.727395 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:05:59.168054 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:05:59.170056 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:05:59.170056 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:05:59.171057 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:05:59.171057 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:05:59.174059 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:05:59.174059 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:06:14.473945 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:06:53.207506 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:06:53.210508 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:06:53.210508 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:06:53.211508 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:06:53.211508 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:06:53.214511 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:06:53.214511 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:07:29.142716 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:07:29.145718 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:07:29.145718 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:07:29.146719 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:07:29.146719 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:07:29.148720 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:07:29.149721 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:07:41.306371 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:08:04.694012 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:08:04.697014 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:08:04.697014 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:08:04.698015 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:08:04.698015 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:08:04.701017 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:08:04.701017 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:08:12.546599 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:08:36.742816 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:08:36.745818 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:08:36.745818 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:08:36.746819 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:08:36.746819 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:08:36.749821 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:08:36.749821 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:08:43.490617 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:09:02.023804 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:09:02.025806 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:09:02.026806 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:09:02.026806 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:09:02.026806 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:09:02.029809 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:09:02.029809 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:09:47.412909 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:09:47.415911 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:09:47.415911 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T13:09:47.416912 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T13:09:47.416912 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T13:09:47.419914 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T13:09:47.419914 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T13:09:49.578450 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T13:11:48.318888 tid556 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:33:32.165229 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:38:47.753782 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:38:47.756784 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:38:47.756784 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:38:47.757786 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:38:47.757786 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:38:47.759787 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:38:47.760788 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:38:52.126894 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:39:02.810496 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:39:02.813499 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:39:02.813499 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:39:02.814499 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:39:02.814499 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:39:02.817501 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:39:02.817501 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:39:07.267668 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:39:50.822658 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:39:50.825661 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:39:50.825661 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:39:50.825661 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:39:50.825661 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:39:50.828663 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:39:50.828663 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:40:46.070970 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:41:39.769178 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:41:39.772180 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:41:39.772180 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:41:39.773181 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:41:39.773181 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:41:39.776183 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:41:39.776183 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:41:43.391755 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:41:54.235471 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:41:54.238473 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:41:54.238473 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:41:54.239474 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:41:54.239474 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:41:54.242477 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:41:54.242477 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:41:57.999149 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:11.998110 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:12.001112 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:12.001112 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:42:12.002113 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:42:12.002113 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:42:12.004114 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:12.005115 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:42:13.676304 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:27.717295 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:27.719296 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:27.720297 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:42:27.720297 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:42:27.720297 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:42:27.723299 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:27.723299 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:42:39.685811 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:39.688813 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:39.688813 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:42:39.689814 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:42:39.689814 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:42:39.691815 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:39.692816 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:42:41.419045 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:57.019144 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T14:42:57.022146 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:57.022146 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T14:42:57.023147 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T14:42:57.023147 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T14:42:57.025148 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T14:42:57.026150 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T14:43:58.730055 tid2824 [IFO,App] Error: DisplayManager informed of destruction of display it didn't know existed.
+2021-04-15T14:43:58.730055 tid2824 [IFO,App] Error: Got notified of a display being destroyed when we don't know about that display
+2021-04-15T14:44:03.444409 tid3476 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:03:13.400493 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:03:44.756804 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:03:44.759806 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:03:44.759806 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:03:44.760807 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:03:44.760807 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:03:44.762808 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:03:44.763809 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:03:57.802086 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:03:57.805088 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:03:57.805088 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:03:57.806090 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:03:57.806090 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:03:57.809092 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:03:57.809092 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:04:00.190786 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:04:13.940570 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:04:13.943572 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:04:13.943572 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:04:13.943572 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:04:13.943572 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:04:13.946574 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:04:13.946574 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:04:41.382095 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:04:41.385097 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:04:41.385097 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:04:41.386098 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:04:41.386098 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:04:41.389101 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:04:41.389101 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:04:42.708039 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:01.089195 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:01.092197 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:01.092197 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:08:01.093198 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:08:01.093198 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:08:01.096200 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:01.096200 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:08:05.516345 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:18.087710 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:18.090712 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:18.090712 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:08:18.091712 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:08:18.091712 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:08:18.094715 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:18.094715 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:08:31.902539 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:31.905542 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:31.905542 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:08:31.906542 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:08:31.906542 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:08:31.909544 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:31.909544 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:08:36.276652 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:49.741232 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:08:49.744234 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:49.744234 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:08:49.745235 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:08:49.745235 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:08:49.748237 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:08:49.748237 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:09:00.100603 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:09:00.102605 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:09:00.102605 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:09:00.103606 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:09:00.103606 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:09:00.106608 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:09:00.106608 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:09:21.948149 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:09:21.951151 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:09:21.951151 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:09:21.952152 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:09:21.952152 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:09:21.955154 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:09:21.955154 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:09:32.907947 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:09:32.910949 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:09:32.910949 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:09:32.911950 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:09:32.911950 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:09:32.914952 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:09:32.914952 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:11:03.876675 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:11:03.879677 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:11:03.879677 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:11:03.880678 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:11:03.880678 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:11:03.883680 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:11:03.883680 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:11:07.236065 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:11:20.180275 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:11:20.183278 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:11:20.183278 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:11:20.184278 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:11:20.184278 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:11:20.187280 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:11:20.187280 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:11:25.117789 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:11:34.164226 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:11:50.960177 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:11:50.963179 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:11:50.963179 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:11:50.963179 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:11:50.963179 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:11:50.966181 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:11:50.966181 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:12:05.619740 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:12:05.621742 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:12:05.622742 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:12:05.622742 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:12:05.622742 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:12:05.625745 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:12:05.625745 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:12:10.708361 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:12:12.440594 tid2824 [IFO,App] Error: Invalid pixel coordinates 180, 2348
+2021-04-15T16:12:31.146063 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:12:31.149065 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:12:31.149065 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:12:31.149065 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:12:31.149065 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:12:31.152067 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:12:31.152067 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:12:34.740621 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:12:46.712462 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:12:46.715465 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:12:46.715465 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T16:12:46.716465 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T16:12:46.716465 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T16:12:46.718467 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T16:12:46.718467 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T16:12:46.782513 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:12:52.190360 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T16:15:04.913798 tid4600 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T17:32:10.101915 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T17:33:56.057306 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T17:33:56.060309 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T17:33:56.060309 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T17:33:56.061309 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T17:33:56.061309 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T17:33:56.064311 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T17:33:56.064311 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T17:34:00.816693 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T17:34:14.366614 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-15T17:34:14.369616 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T17:34:14.369616 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-15T17:34:14.369616 tid2824 [IFO,App] Rebuilding config group table
+2021-04-15T17:34:14.369616 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-15T17:34:14.372618 tid2824 [IFO,Core] Did update system state cache
+2021-04-15T17:34:14.372618 tid2824 [IFO,App] Finished updating GUI
+2021-04-15T22:38:03.429476 tid2824 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at org.micromanager.display.internal.LUTMaster.updateDisplayLUTs(LUTMaster.java:286)
+                                   [       ]   at org.micromanager.display.internal.LUTMaster.initializeDisplay(LUTMaster.java:261)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.showImage(CanvasUpdateQueue.java:335)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.consumeImages(CanvasUpdateQueue.java:238)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue.access$000(CanvasUpdateQueue.java:70)
+                                   [       ]   at org.micromanager.display.internal.CanvasUpdateQueue$2.run(CanvasUpdateQueue.java:260)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.Dialog$1.run(Unknown Source)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2021-04-16T01:15:18.522907 tid2824 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2021-04-16T03:44:37.797776 tid2824 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2021-04-16T07:08:40.576277 tid2824 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2021-04-16T09:14:58.048940 tid2824 [IFO,App] Error: Unexpected null image at <channel: 0, position: 0, time: 0, z: 0>
+2021-04-16T11:54:35.506669 tid2824 [IFO,App] Error consuming images
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+2021-04-16T13:24:45.595350 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:28:05.246409 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:28:05.249411 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:28:05.249411 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-16T13:28:05.250412 tid2824 [IFO,App] Rebuilding config group table
+2021-04-16T13:28:05.250412 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-16T13:28:05.253414 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:28:05.253414 tid2824 [IFO,App] Finished updating GUI
+2021-04-16T13:28:10.611641 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:28:24.548558 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:28:24.551560 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:28:24.551560 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-16T13:28:24.552560 tid2824 [IFO,App] Rebuilding config group table
+2021-04-16T13:28:24.552560 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-16T13:28:24.555563 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:28:24.555563 tid2824 [IFO,App] Finished updating GUI
+2021-04-16T13:28:28.900654 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:28:41.285467 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:28:41.287468 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:28:41.287468 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-16T13:28:41.288469 tid2824 [IFO,App] Rebuilding config group table
+2021-04-16T13:28:41.288469 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-16T13:28:41.291471 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:28:41.291471 tid2824 [IFO,App] Finished updating GUI
+2021-04-16T13:28:51.675857 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:29:02.795769 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:29:02.798772 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:29:02.798772 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-16T13:29:02.799772 tid2824 [IFO,App] Rebuilding config group table
+2021-04-16T13:29:02.799772 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-16T13:29:02.801774 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T13:29:02.801774 tid2824 [IFO,App] Finished updating GUI
+2021-04-16T13:29:06.987752 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T13:29:38.060032 tid4092 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T16:21:52.746803 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T16:22:05.491872 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T16:22:05.494874 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T16:22:05.494874 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-16T16:22:05.495875 tid2824 [IFO,App] Rebuilding config group table
+2021-04-16T16:22:05.495875 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-16T16:22:05.497876 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T16:22:05.498877 tid2824 [IFO,App] Finished updating GUI
+2021-04-16T16:22:14.318152 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T16:22:23.556726 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T16:22:23.559728 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T16:22:23.559728 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-16T16:22:23.560729 tid2824 [IFO,App] Rebuilding config group table
+2021-04-16T16:22:23.560729 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-16T16:22:23.563731 tid2824 [IFO,Core] Did update system state cache
+2021-04-16T16:22:23.563731 tid2824 [IFO,App] Finished updating GUI
+2021-04-16T16:22:29.742127 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-16T16:26:18.358797 tid164 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T08:31:20.354350 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T08:33:29.542272 tid3600 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T10:35:40.201578 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T10:39:31.707303 tid1044 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:52:09.096859 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:52:32.924852 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:52:32.927854 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:52:32.927854 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T12:52:32.927854 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T12:52:32.927854 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T12:52:32.930857 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:52:32.930857 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T12:52:45.562316 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:52:45.565318 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:52:45.565318 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T12:52:45.565318 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T12:52:45.565318 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T12:52:45.568320 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:52:45.568320 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T12:53:03.075128 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:53:03.078131 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:53:03.078131 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T12:53:03.079131 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T12:53:03.079131 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T12:53:03.081133 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:53:03.081133 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T12:53:19.572867 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:53:19.575869 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:53:19.575869 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T12:53:19.576870 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T12:53:19.576870 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T12:53:19.578872 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:53:19.579873 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T12:53:34.495485 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T12:53:34.497487 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:53:34.498487 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T12:53:34.498487 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T12:53:34.498487 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T12:53:34.501489 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T12:53:34.501489 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T12:54:05.595542 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T13:03:44.159829 tid3376 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T14:14:55.869640 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T14:15:12.446435 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T14:15:12.449437 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T14:15:12.449437 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T14:15:12.450438 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T14:15:12.450438 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T14:15:12.452439 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T14:15:12.452439 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T15:23:31.752102 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T15:23:31.755104 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T15:23:31.755104 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T15:23:31.756105 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T15:23:31.756105 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T15:23:31.758106 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T15:23:31.758106 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T15:23:44.456141 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T15:23:44.459144 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T15:23:44.459144 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-19T15:23:44.459144 tid2824 [IFO,App] Rebuilding config group table
+2021-04-19T15:23:44.459144 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-19T15:23:44.462146 tid2824 [IFO,Core] Did update system state cache
+2021-04-19T15:23:44.462146 tid2824 [IFO,App] Finished updating GUI
+2021-04-19T15:36:40.426442 tid5564 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T16:42:14.949825 tid2824 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-19T16:47:03.664257 tid4072 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2021-04-20T13:19:05.661210 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-20T13:19:05.661210 tid2824 [IFO,App] Rebuilding config group table
+2021-04-20T13:19:05.661210 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-20T13:19:05.662210 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_TEMP ATTR_CURRENT failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(299)]
+2021-04-20T13:19:05.662210 tid2824 [IFO,Core] Did update system state cache
+2021-04-20T13:19:05.662210 tid2824 [IFO,App] Finished updating GUI
+2021-04-20T13:19:26.484026 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_exp_setup_seq() failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(4184)]
+2021-04-20T13:19:26.485027 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_TEMP ATTR_CURRENT failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(299)]
+2021-04-20T13:19:26.485027 tid2824 [IFO,Core] Did update system state cache
+2021-04-20T13:19:26.485027 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-20T13:19:26.486027 tid2824 [IFO,App] Rebuilding config group table
+2021-04-20T13:19:26.486027 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-20T13:19:26.486027 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_TEMP ATTR_CURRENT failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(299)]
+2021-04-20T13:19:26.487028 tid2824 [IFO,Core] Did update system state cache
+2021-04-20T13:19:26.487028 tid2824 [IFO,App] Finished updating GUI
+2021-04-20T13:19:28.084164 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_exp_setup_seq() failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(4184)]
+2021-04-20T13:19:28.085165 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_TEMP ATTR_CURRENT failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(299)]
+2021-04-20T13:19:28.085165 tid2824 [IFO,Core] Did update system state cache
+2021-04-20T13:19:28.085165 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-20T13:19:28.086166 tid2824 [IFO,App] Rebuilding config group table
+2021-04-20T13:19:28.086166 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-20T13:19:28.086166 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_TEMP ATTR_CURRENT failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(299)]
+2021-04-20T13:19:28.086166 tid2824 [IFO,Core] Did update system state cache
+2021-04-20T13:19:28.086166 tid2824 [IFO,App] Finished updating GUI
+2021-04-27T12:30:16.174597 tid2824 [IFO,App] Updating GUI; config pad = true; from cache = false
+2021-04-27T12:30:16.174597 tid2824 [IFO,App] Rebuilding config group table
+2021-04-27T12:30:16.174597 tid2824 [IFO,App] Finished rebuilding config group table
+2021-04-27T12:30:16.175597 tid2824 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_TEMP ATTR_CURRENT failed, pvErr:42, pvMsg:'Communication with device driver failed (C7_DRIVER_COM_ERROR)' [PVCAMUniversal.cpp(299)]
+2021-04-27T12:30:16.175597 tid2824 [IFO,Core] Did update system state cache
+2021-04-27T12:30:16.175597 tid2824 [IFO,App] Finished updating GUI
+2021-04-27T12:30:51.938045 tid2824 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2021-04-27T12:30:52.195227 tid2824 [IFO,Core] Did unload all devices
+2021-04-27T12:30:52.195227 tid2824 [IFO,Core] System reset
+2021-04-27T12:30:52.266277 tid2824 [IFO,Core] Core session ended

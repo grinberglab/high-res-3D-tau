@@ -1,0 +1,1028 @@
+2020-02-06T16:38:22.671726 tid4556 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20200206T163822_pid4692.txt
+2020-02-06T16:38:22.671726 tid4556 [IFO,App] User: Scanner.User
+2020-02-06T16:38:22.671726 tid4556 [IFO,App] Host: DESKTOP-S4KVGR5
+2020-02-06T16:38:22.671726 tid4556 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2020-02-06T16:38:22.671726 tid4556 [IFO,App] MMCore version 8.5.0
+2020-02-06T16:38:22.687351 tid4556 [IFO,App] Device API version 67, Module API version 10
+2020-02-06T16:38:22.687351 tid4556 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2020-02-06T16:38:22.687351 tid4556 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2020-02-06T16:38:22.687351 tid4556 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2020-02-06T16:38:22.843602 tid3900 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2020-02-06T16:38:23.124856 tid3900 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@269be2b5
+2020-02-06T16:38:23.124856 tid3900 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@4f62198b
+2020-02-06T16:38:23.124856 tid3900 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@50fa70a4
+2020-02-06T16:38:23.124856 tid3900 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@6d080876
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@66e7b3f2
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@78ba6c13
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@de16483
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin GaussianTrack_@488ddb93
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@773829d5
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@3d73eca6
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@5898bbf6
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@daa0e3b
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@178c4a7f
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@7b6ee3ec
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@2a8c7be5
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@2967c5e3
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@1ebafdff
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@77a9f87c
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@30b48b11
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@377f4fbb
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@74893969
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@5d185844
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@694b081b
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@23e45a5c
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@64e8606c
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@4548e798
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@355ccfb1
+2020-02-06T16:38:23.140481 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@604788d5
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@7f342545
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@18f2225f
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@19195c2b
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@42652110
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@396cbd97
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@60d3ade7
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@693e4a5a
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@459d3b3a
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@7121fd61
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@6e82254d
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@7aec898a
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@3f3a0212
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@795e0c2b
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7c34151f
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin PMQI.AutoWB@62114b17
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@7f6b321b
+2020-02-06T16:38:23.156106 tid3900 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2020-02-06T16:38:23.202981 tid3900 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@174323d5
+2020-02-06T16:38:23.202981 tid3900 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@5d684e26
+2020-02-06T16:38:23.218607 tid3900 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@5d613b53
+2020-02-06T16:38:23.218607 tid3900 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@56b61c3
+2020-02-06T16:38:23.218607 tid3900 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@1ad5cabc
+2020-02-06T16:38:23.218607 tid3900 [IFO,App] Searching for plugins in class loader
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@4907dcfe
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@233dcd27
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@20e5ace9
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@46bb05de
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@207e5619
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@464693f9
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@715c2843
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@595780d9
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@7fcc5461
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@3fb7edd3
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@445ed853
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@2ecc5436
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@68acbd3a
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@9be1041
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@1d1d2066
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@633a1778
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@7adafa2c
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@3e5e9db7
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@35c4795e
+2020-02-06T16:38:23.421734 tid3900 [IFO,App] Plugin loading took 578ms
+2020-02-06T16:38:23.421734 tid4556 [IFO,App] Finished waiting for plugins to load
+2020-02-06T16:38:26.218640 tid4556 [IFO,Core] Did unload all devices
+2020-02-06T16:38:26.218640 tid4556 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2020-02-06T16:38:26.218640 tid4556 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2020-02-06T16:38:26.230885 tid4556 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "} HDAUDIO#FUNC_01&VEN_10EC&DEV_0280&"
+2020-02-06T16:38:26.230885 tid4556 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2020-02-06T16:38:26.230885 tid4556 [IFO,Core] Will initialize 3 devices
+2020-02-06T16:38:26.230885 tid4556 [IFO,Core] Will initialize device COM3
+2020-02-06T16:38:26.230885 tid4556 [IFO,dev:COM3] Failed to open serial port \\.\COM3: CreateFileA() returned Windows system error code 5
+2020-02-06T16:38:26.230885 tid4556 [ERR,Core:dev:COM3] Error in device "COM3": Unknown error in the device (1)
+2020-02-06T16:38:26.231885 tid4556 [IFO,Core] Unloading all devices after failure to load system configuration
+2020-02-06T16:38:26.231885 tid4556 [IFO,Core] Did unload all devices
+2020-02-06T16:38:26.231885 tid4556 [IFO,Core] Now rethrowing original error from system configuration loading
+2020-02-06T16:38:26.235888 tid4556 [IFO,App] Failed to load hardware configuation
+                                   [       ] java.lang.Exception: Line 26: Property,Core,Initialize,1
+                                   [       ] Error in device "COM3": Unknown error in the device (1)
+                                   [       ] 
+                                   [       ]  in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_loadSystemConfiguration(Native Method)
+                                   [       ]   at mmcorej.CMMCore.loadSystemConfiguration(CMMCore.java:361)
+                                   [       ]   at org.micromanager.internal.MMStudio.loadSystemConfiguration(MMStudio.java:1247)
+                                   [       ]   at org.micromanager.internal.MMStudio.<init>(MMStudio.java:315)
+                                   [       ]   at MMStudioPlugin$1.run(MMStudioPlugin.java:77)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2020-02-06T16:38:34.986088 tid4556 [IFO,App] Rebuilding config group table
+2020-02-06T16:38:34.986088 tid4556 [IFO,App] Finished rebuilding config group table
+2020-02-06T16:38:34.999098 tid4556 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2020-02-06T16:38:34.999098 tid4556 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-02-06T16:38:35.001099 tid4556 [IFO,App] Rebuilding config group table
+2020-02-06T16:38:35.001099 tid4556 [IFO,App] Finished rebuilding config group table
+2020-02-06T16:38:35.001099 tid4556 [IFO,Core] Did update system state cache
+2020-02-06T16:38:35.001099 tid4556 [IFO,App] Finished updating GUI
+2020-02-06T16:38:55.346586 tid4556 [IFO,App] Couldn't convert displayed exposure time to double
+                                   [       ] java.text.ParseException: Unparseable number: "" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.displayStringToDouble(NumberUtils.java:74)
+                                   [       ]   at org.micromanager.internal.MainFrame.getDisplayedExposureTime(MainFrame.java:861)
+                                   [       ]   at org.micromanager.internal.MainFrame$3.focusLost(MainFrame.java:257)
+                                   [       ]   at java.awt.AWTEventMulticaster.focusLost(Unknown Source)
+                                   [       ]   at java.awt.Component.processFocusEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2020-02-06T16:38:57.955433 tid4556 [IFO,App] 
+                                   [       ] java.lang.Exception: Empty device label in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_setProperty__SWIG_4(Native Method)
+                                   [       ]   at mmcorej.CMMCore.setProperty(CMMCore.java:505)
+                                   [       ]   at edu.ucsf.slidescanner.plugin.CameraController.initColorMode(CameraController.java:167)
+                                   [       ]   at edu.ucsf.slidescanner.plugin.SlideScan.onPluginSelected(SlideScan.java:63)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$5.run(DefaultPluginManager.java:316)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$2.actionPerformed(DefaultPluginManager.java:178)
+                                   [       ]   at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+                                   [       ]   at javax.swing.AbstractButton.doClick(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicMenuItemUI.doClick(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2020-02-06T16:39:32.506547 tid5716 [IFO,Core] Did unload all devices
+2020-02-06T16:39:32.506547 tid5716 [IFO,Core] System reset
+2020-02-06T16:39:32.560585 tid5716 [IFO,App] AAAOTF
+2020-02-06T16:39:32.592608 tid5716 [IFO,App]    AAAOTF, AAAOTF
+2020-02-06T16:39:32.592608 tid5716 [IFO,App]    multiAAAOTF, multiAAAOTF
+2020-02-06T16:39:32.592608 tid5716 [IFO,App] ABSCamera
+2020-02-06T16:39:32.625631 tid5716 [IFO,App]    ABSCam, ABS camera
+2020-02-06T16:39:32.625631 tid5716 [IFO,App] AgilentLaserCombiner
+2020-02-06T16:39:32.664659 tid5716 [IFO,App]    LC-Shutter, Shutter
+2020-02-06T16:39:32.664659 tid5716 [IFO,App]    LC-SafetyShutter, SafetyShutter
+2020-02-06T16:39:32.664659 tid5716 [IFO,App]    LC-DAC, DA
+2020-02-06T16:39:32.664659 tid5716 [IFO,App] Aladdin
+2020-02-06T16:39:32.700684 tid5716 [IFO,App]    Aladdin, Aladdin Syringe Pump
+2020-02-06T16:39:32.700684 tid5716 [IFO,App] AmScope
+2020-02-06T16:39:32.933849 tid5716 [IFO,App]    AmScope, AmScope
+2020-02-06T16:39:32.933849 tid5716 [IFO,App] Andor
+2020-02-06T16:39:33.150002 tid5716 [IFO,App]    Andor, Generic Andor Camera Adapter
+2020-02-06T16:39:33.150002 tid5716 [IFO,App] AndorLaserCombiner
+2020-02-06T16:39:33.179023 tid5716 [IFO,App]    AndorLaserCombiner, AndorLaserCombiner
+2020-02-06T16:39:33.179023 tid5716 [IFO,App]    PiezoStage, PiezoStage
+2020-02-06T16:39:33.179023 tid5716 [IFO,App] AndorSDK3
+2020-02-06T16:39:33.906538 tid5716 [IFO,App] Error: Unable to load AndorSDK3 library: Failed to load device adapter "AndorSDK3" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_AndorSDK3.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:33.906538 tid5716 [IFO,App] AndorShamrock
+2020-02-06T16:39:33.945566 tid5716 [IFO,App] Error: Unable to load AndorShamrock library: Failed to load device adapter "AndorShamrock" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_AndorShamrock.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:33.945566 tid5716 [IFO,App] AOTF
+2020-02-06T16:39:33.975588 tid5716 [IFO,App]    AOTF-Switch, TTL digital out AOTF wavelength selector
+2020-02-06T16:39:33.975588 tid5716 [IFO,App]    AOTF-Shutter, TTL digital out AOTF shutter
+2020-02-06T16:39:33.975588 tid5716 [IFO,App] Aquinas
+2020-02-06T16:39:34.005609 tid5716 [IFO,App]    Aquinas Controller, Aquinas Controller
+2020-02-06T16:39:34.005609 tid5716 [IFO,App] Arduino
+2020-02-06T16:39:34.033629 tid5716 [IFO,App]    Arduino-Hub, Hub (required)
+2020-02-06T16:39:34.033629 tid5716 [IFO,App]    Arduino-Switch, Digital out 8-bit
+2020-02-06T16:39:34.033629 tid5716 [IFO,App]    Arduino-Shutter, Shutter
+2020-02-06T16:39:34.033629 tid5716 [IFO,App]    Arduino-DAC1, DAC channel 1
+2020-02-06T16:39:34.033629 tid5716 [IFO,App]    Arduino-DAC2, DAC channel 2
+2020-02-06T16:39:34.033629 tid5716 [IFO,App]    Arduino-Input, ADC
+2020-02-06T16:39:34.033629 tid5716 [IFO,App] ArduinoNeoPixel
+2020-02-06T16:39:34.063650 tid5716 [IFO,App]    ArduinoNeoPixel-Hub, Hub (required)
+2020-02-06T16:39:34.063650 tid5716 [IFO,App]    ArduinoNeoPixel-Shutter, Shutter
+2020-02-06T16:39:34.063650 tid5716 [IFO,App] ASIFW1000
+2020-02-06T16:39:34.097674 tid5716 [IFO,App]    ASIFWController, ASIFW1000 Controller
+2020-02-06T16:39:34.097674 tid5716 [IFO,App]    ASIFilterWheel, ASI FilterWheel
+2020-02-06T16:39:34.097674 tid5716 [IFO,App]    ASIShutter, ASI Shutter
+2020-02-06T16:39:34.097674 tid5716 [IFO,App] ASIStage
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    ZStage, Add-on Z-stage
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    XYStage, XY Stage
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    CRIF, CRIF
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    CRISP, CRISP
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    AZ100 Turret, AZ100 Turret
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    State Device, State Device
+2020-02-06T16:39:34.134701 tid5716 [IFO,App]    LED, LED
+2020-02-06T16:39:34.134701 tid5716 [IFO,App] ASITiger
+2020-02-06T16:39:34.185737 tid5716 [IFO,App]    TigerCommHub, ASI TigerComm Hub (TG-1000)
+2020-02-06T16:39:34.185737 tid5716 [IFO,App] ASIwptr
+2020-02-06T16:39:34.215758 tid5716 [IFO,App]    WPTRobot, WPTRobot
+2020-02-06T16:39:34.215758 tid5716 [IFO,App] AxioCam
+2020-02-06T16:39:34.248781 tid5716 [IFO,App]    Zeiss AxioCam, Zeiss AxioCam
+2020-02-06T16:39:34.248781 tid5716 [IFO,App] BaumerOptronic
+2020-02-06T16:39:34.491954 tid5716 [IFO,App]    BaumerOptronic, Baumer Optronic driver for Leica Cameras
+2020-02-06T16:39:34.491954 tid5716 [IFO,App] CARVII
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Hub, Hub (Needed for CARVII)
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Shutter, Confocal shutter
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Ex filter, Confocal excitation filter wheel
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Em filter, Confocal emission filter wheel
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Dichroic, Confocal dichroic wheel
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII FRAP iris, Confocal field aperture
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Intensity iris, Confocal "Condenser" illumination aperture
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Disk slider, Spinning disk slider
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Spin motor, Spinning disk motor
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Prism slider, Light path slider
+2020-02-06T16:39:34.523976 tid5716 [IFO,App]    CARVII Touchscreen, Touchscreen lockout control
+2020-02-06T16:39:34.523976 tid5716 [IFO,App] Cobolt
+2020-02-06T16:39:34.550995 tid5716 [IFO,App]    Cobolt, Cobolt Laser Controller
+2020-02-06T16:39:34.550995 tid5716 [IFO,App] CoherentCube
+2020-02-06T16:39:34.579015 tid5716 [IFO,App]    CoherentCube, CoherentCube Laser
+2020-02-06T16:39:34.579015 tid5716 [IFO,App] CoherentOBIS
+2020-02-06T16:39:34.613039 tid5716 [IFO,App]    CoherentObis, CoherentObis Laser
+2020-02-06T16:39:34.613039 tid5716 [IFO,App] Conix
+2020-02-06T16:39:34.644061 tid5716 [IFO,App]    ConixQuadFilter, External Filter Cube Switcher
+2020-02-06T16:39:34.644061 tid5716 [IFO,App]    ConixHexFilter, External Filter Cube Switcher(6)
+2020-02-06T16:39:34.644061 tid5716 [IFO,App]    ConixXYStage, Conix XY stage
+2020-02-06T16:39:34.644061 tid5716 [IFO,App]    ConixZStage, Conix Z stage
+2020-02-06T16:39:34.644061 tid5716 [IFO,App] Corvus
+2020-02-06T16:39:34.673082 tid5716 [IFO,App]    ITK Corvus Controller, ITK Corvus Controller
+2020-02-06T16:39:34.673082 tid5716 [IFO,App]    XY Stage, XY Stage
+2020-02-06T16:39:34.673082 tid5716 [IFO,App]    Z Axis, Z Axis
+2020-02-06T16:39:34.673082 tid5716 [IFO,App] CSUW1
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Hub, CSUW1 Hub (Needed for CSUW1. 115200bps)
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Filter Wheel, Filter Wheel
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Dichroic Mirror, Dichroic Mirror
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Shutter, Shutter
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Drive Speed, Drive Speed
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Bright Field, Bright Field
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Disk, Disk
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Port, Port
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Aperture, Aperture
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-FRAP, FRAP
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-Magnifier, Magnifier
+2020-02-06T16:39:34.699100 tid5716 [IFO,App]    CSUW1-NIR Shutter, NIR Shutter
+2020-02-06T16:39:34.699100 tid5716 [IFO,App] CSUX
+2020-02-06T16:39:34.731123 tid5716 [IFO,App]    CSUX-Hub, CSUX Hub (Needed for CSUX)
+2020-02-06T16:39:34.731123 tid5716 [IFO,App]    CSUX-Filter Wheel, Filter Wheel
+2020-02-06T16:39:34.731123 tid5716 [IFO,App]    CSUX-Dichroic Mirror, Dichroic Mirror
+2020-02-06T16:39:34.731123 tid5716 [IFO,App]    CSUX-Shutter, Shutter
+2020-02-06T16:39:34.731123 tid5716 [IFO,App]    CSUX-DriveSpeed, DriveSpeed
+2020-02-06T16:39:34.731123 tid5716 [IFO,App] dc1394
+2020-02-06T16:39:34.797169 tid5716 [IFO,App] Error: Unable to load dc1394 library: Failed to load device adapter "dc1394" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_dc1394.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:34.797169 tid5716 [IFO,App] DECamera
+2020-02-06T16:39:34.855211 tid5716 [IFO,App]    Direct Electron Camera, Direct Electron Camera
+2020-02-06T16:39:34.855211 tid5716 [IFO,App] DemoCamera
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DCam, Demo camera
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DWheel, Demo filter wheel
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DStateDevice, Demo State Device
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DObjective, Demo objective turret
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DStage, Demo stage
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DXYStage, Demo XY stage
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DLightPath, Demo light path
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DAutoFocus, Demo auto focus
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DShutter, Demo shutter
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    D-DA, Demo DA
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    D-DA2, Demo DA-2
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DOptovar, Demo Optovar
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DGalvo, Demo Galvo
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    TransposeProcessor, TransposeProcessor
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    ImageFlipX, ImageFlipX
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    ImageFlipY, ImageFlipY
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    MedianFilter, MedianFilter
+2020-02-06T16:39:34.894239 tid5716 [IFO,App]    DHub, DHub
+2020-02-06T16:39:34.894239 tid5716 [IFO,App] Diskovery
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-Hub, Diskovery Hub (required)
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-Disk-Position, Diskovery Spinning Disk Position
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-Illumination-Size, Diskovery Illumination Size
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-TIRF-Position, Diskovery TIRF Position
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-Objective-Select, Diskovery Objective Select
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-Filter-W, Diskovery Filter W
+2020-02-06T16:39:34.931265 tid5716 [IFO,App]    Diskovery-Filter-T, Diskovery Filter T
+2020-02-06T16:39:34.931265 tid5716 [IFO,App] DTOpenLayer
+2020-02-06T16:39:34.969291 tid5716 [IFO,App] Error: Unable to load DTOpenLayer library: Failed to load device adapter "DTOpenLayer" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_DTOpenLayer.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:34.969291 tid5716 [IFO,App] ESIOImagingControllers
+2020-02-06T16:39:35.001315 tid5716 [IFO,App]    ESioController, ESImaging Controller
+2020-02-06T16:39:35.001315 tid5716 [IFO,App] FLICamera
+2020-02-06T16:39:35.035339 tid5716 [IFO,App]    FLICamera, FLI Camera Device
+2020-02-06T16:39:35.035339 tid5716 [IFO,App] FreeSerialPort
+2020-02-06T16:39:35.035339 tid5716 [IFO,App]    FreeSerialPort, Free-form communication Serial Port.
+2020-02-06T16:39:35.035339 tid5716 [IFO,App] GenericSLM
+2020-02-06T16:39:35.066361 tid5716 [IFO,App]    GenericSLM, Spatial light modulator controlled through computer graphics output
+2020-02-06T16:39:35.066361 tid5716 [IFO,App] GigECamera
+2020-02-06T16:39:35.101385 tid5716 [IFO,App] Error: Unable to load GigECamera library: Failed to load device adapter "GigECamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_GigECamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:35.101385 tid5716 [IFO,App] HamamatsuHam
+2020-02-06T16:39:35.131407 tid5716 [IFO,App] Error: Unable to load HamamatsuHam library: Failed to load device adapter "HamamatsuHam" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_HamamatsuHam.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:35.131407 tid5716 [IFO,App] HIDManager
+2020-02-06T16:39:35.290022 tid5716 [IFO,App] HoribaEPIX
+2020-02-06T16:39:35.405104 tid5716 [IFO,App]    Horiba EFIS Camera, Horiba EFIS Camera
+2020-02-06T16:39:35.405104 tid5716 [IFO,App]    Horiba ATOR Camera, Horiba ATOR Camera
+2020-02-06T16:39:35.405104 tid5716 [IFO,App]    Horiba IRIS Camera, Horiba IRIS Camera
+2020-02-06T16:39:35.405104 tid5716 [IFO,App]    Horiba IRIS RGB Camera, Horiba IRIS RGB Camera
+2020-02-06T16:39:35.405104 tid5716 [IFO,App] IDS_uEye
+2020-02-06T16:39:35.437127 tid5716 [IFO,App] Error: Unable to load IDS_uEye library: Failed to load device adapter "IDS_uEye" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_IDS_uEye.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:35.437127 tid5716 [IFO,App] IIDC
+2020-02-06T16:39:35.481158 tid5716 [IFO,App] Error: Unable to load IIDC library: Failed to load device adapter "IIDC" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_IIDC.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:35.481158 tid5716 [IFO,App] ImageProcessorChain
+2020-02-06T16:39:35.516183 tid5716 [IFO,App]    ImageProcessorChain, ImageProcessorChain
+2020-02-06T16:39:35.516183 tid5716 [IFO,App] K8055
+2020-02-06T16:39:35.552208 tid5716 [IFO,App]    K8055-Hub, Hub
+2020-02-06T16:39:35.552208 tid5716 [IFO,App]    K8055-Switch, Switch
+2020-02-06T16:39:35.552208 tid5716 [IFO,App]    K8055-Shutter, Shutter
+2020-02-06T16:39:35.552208 tid5716 [IFO,App]    K8055-DAC-1, DA-1
+2020-02-06T16:39:35.552208 tid5716 [IFO,App]    K8055-DAC-2, DA-2
+2020-02-06T16:39:35.552208 tid5716 [IFO,App]    K8055-Input, Digital Input
+2020-02-06T16:39:35.552208 tid5716 [IFO,App] K8061
+2020-02-06T16:39:35.582229 tid5716 [IFO,App]    K8061-Hub, Hub
+2020-02-06T16:39:35.582229 tid5716 [IFO,App]    K8061-Switch, Switch
+2020-02-06T16:39:35.582229 tid5716 [IFO,App]    K8061-Shutter, Shutter
+2020-02-06T16:39:35.582229 tid5716 [IFO,App]    K8061-DAC, DA
+2020-02-06T16:39:35.582229 tid5716 [IFO,App]    K8061-Input, Input
+2020-02-06T16:39:35.582229 tid5716 [IFO,App] KDV
+2020-02-06T16:39:35.613252 tid5716 [IFO,App]    KDVZStage, Focus drive for Meiji Techno EMZ
+2020-02-06T16:39:35.613252 tid5716 [IFO,App] LeicaDMI
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    Scope, Leica DMI microscope controlled through serial interface
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    TL-Shutter, Transmitted Light Shutter
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    IL-Shutter, Incident Light Shutter
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    IL-Turret, Reflector Turret (dichroics)
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    ObjectiveTurret, Objective Turret
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    FastFilterWheel, Fast Filter Wheel
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    FocusDrive, Z-drive
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    XYStage, XYStage
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    TL-FieldDiaphragm, Field Diaphragm (Trans)
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    TL-ApertureDiaphragm, Aperture Diaphragm (Condensor)
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    IL-FieldDiaphragm, Field Diaphragm (Fluorescence)
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    IL-ApertureDiaphragm, Aperture Diaphragm (Fluorescence)
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    MagnificationChanger, Tube Lens (magnification changer)
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    TLPolarizer, Transmitted light Polarizer
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    DIC Turret, DIC Turret
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    Condensor, Condensor Turret
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    Transmitted Light, Transmitted Light
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    Adaptive Focus Control, Adaptive Focus Control
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    Adaptive Focus Control Offset, Adaptive Focus Control Offset
+2020-02-06T16:39:35.650277 tid5716 [IFO,App]    SidePort, Side Port
+2020-02-06T16:39:35.650277 tid5716 [IFO,App] LeicaDMR
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Leica DM microscope, LeicaDMR (DM RXA, DM RME, RD RBE, DM RXA, DM RA, DM IRBE) Controller
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Reflected Light Module, Reflected Light LModule
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Halogen Lamp, Halogen Lamp
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Shutter, Reflected Light Shutter
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Z Drive, Z Drive
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Objective Nosepiece, Objective Nosepiece
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Aperture Diaphragm, Aperture Diaphragm
+2020-02-06T16:39:35.677296 tid5716 [IFO,App]    Field Diaphragm, Field Diaphragm
+2020-02-06T16:39:35.677296 tid5716 [IFO,App] LeicaDMSTC
+2020-02-06T16:39:35.702315 tid5716 [IFO,App]    Leica DMSTC stage hub, LeicaDMSTC Controller
+2020-02-06T16:39:35.702315 tid5716 [IFO,App]    Leica DMSTC XY stage, XY Drive
+2020-02-06T16:39:35.702315 tid5716 [IFO,App] Ludl
+2020-02-06T16:39:35.739341 tid5716 [IFO,App]    LudlController, Ludl Controller
+2020-02-06T16:39:35.739341 tid5716 [IFO,App]    LudlShutter, Ludl Shutter
+2020-02-06T16:39:35.739341 tid5716 [IFO,App]    LudlWheel, Ludl Filter Wheel
+2020-02-06T16:39:35.739341 tid5716 [IFO,App]    XYStage, XY Stage
+2020-02-06T16:39:35.739341 tid5716 [IFO,App]    Stage, Single Axis Stage
+2020-02-06T16:39:35.739341 tid5716 [IFO,App] LudlLow
+2020-02-06T16:39:35.777368 tid5716 [IFO,App]    LudlController, Ludl Controller
+2020-02-06T16:39:35.777368 tid5716 [IFO,App]    LudlShutter, Ludl Shutter
+2020-02-06T16:39:35.777368 tid5716 [IFO,App]    LudlWheel, Ludl Filter Wheel
+2020-02-06T16:39:35.777368 tid5716 [IFO,App] LumencorCIA
+2020-02-06T16:39:35.813392 tid5716 [IFO,App]    CIA, Lumencor Camera Interface Adapter
+2020-02-06T16:39:35.813392 tid5716 [IFO,App] LumencorSpectra
+2020-02-06T16:39:35.847417 tid5716 [IFO,App]    Spectra, Lumencor Spectra Light Engine
+2020-02-06T16:39:35.847417 tid5716 [IFO,App] MaestroServo
+2020-02-06T16:39:35.877439 tid5716 [IFO,App]    MaestroServo, Pololu MaestroServo controller
+2020-02-06T16:39:35.877439 tid5716 [IFO,App]    MaestroServoAsShutter, Pololu MaestroServo as shutter
+2020-02-06T16:39:35.877439 tid5716 [IFO,App] Marzhauser
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    XYStage, Tango XY Stage
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    ZAxis, Tango Z Axis
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    AAxis, Tango A Axis
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    TTLShutter, Tango TTL Shutter
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    LED100-1, Tango LED100-1 [0..100%]
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    LED100-2, Tango LED100-2 [0..100%]
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    DAC, Tango DAC [0..10V]
+2020-02-06T16:39:35.911463 tid5716 [IFO,App]    ADC, Tango ADC [0..5V]
+2020-02-06T16:39:35.911463 tid5716 [IFO,App] MarzhauserLStep
+2020-02-06T16:39:35.948489 tid5716 [IFO,App]    XYStage, LStep XY Stage
+2020-02-06T16:39:35.948489 tid5716 [IFO,App]    ZAxis, LStep Z Axis
+2020-02-06T16:39:35.948489 tid5716 [IFO,App] MarzhauserLStepOld
+2020-02-06T16:39:35.982513 tid5716 [IFO,App]    XYStage, LStepOld XY Stage
+2020-02-06T16:39:35.982513 tid5716 [IFO,App] MatrixVision
+2020-02-06T16:39:36.016537 tid5716 [IFO,App] Error: Unable to load MatrixVision library: Failed to load device adapter "MatrixVision" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MatrixVision.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.016537 tid5716 [IFO,App] MCCDAQ
+2020-02-06T16:39:36.048560 tid5716 [IFO,App] Error: Unable to load MCCDAQ library: Failed to load device adapter "MCCDAQ" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MCCDAQ.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.048560 tid5716 [IFO,App] MCL_MicroDrive
+2020-02-06T16:39:36.111604 tid5716 [IFO,App]    MicroDrive XY Stage, XY positioning
+2020-02-06T16:39:36.111604 tid5716 [IFO,App]    MicroDrive Z Stage, Z positioning
+2020-02-06T16:39:36.111604 tid5716 [IFO,App] MCL_NanoDrive
+2020-02-06T16:39:36.179652 tid5716 [IFO,App]    MCL NanoDrive Z Stage, Z positioning
+2020-02-06T16:39:36.179652 tid5716 [IFO,App]    MCL NanoDrive XY Stage, XY positioning
+2020-02-06T16:39:36.179652 tid5716 [IFO,App] Micropix
+2020-02-06T16:39:36.223684 tid5716 [IFO,App] Error: Unable to load Micropix library: Failed to load device adapter "Micropix" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Micropix.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.223684 tid5716 [IFO,App] MicroPoint
+2020-02-06T16:39:36.255707 tid5716 [IFO,App]    MicroPoint, MicroPoint
+2020-02-06T16:39:36.255707 tid5716 [IFO,App] Mightex
+2020-02-06T16:39:36.295735 tid5716 [IFO,App]    Mightex_SLC(USB), Mightex Sirius SLC LED Driver(USB)
+2020-02-06T16:39:36.295735 tid5716 [IFO,App] MightexPolygon
+2020-02-06T16:39:36.333762 tid5716 [IFO,App] Error: Unable to load MightexPolygon library: Failed to load device adapter "MightexPolygon" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MightexPolygon.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.333762 tid5716 [IFO,App] Mightex_BLS
+2020-02-06T16:39:36.370788 tid5716 [IFO,App]    Mightex_SLC(USB), Mightex Sirius SLC LED Driver(USB)
+2020-02-06T16:39:36.370788 tid5716 [IFO,App]    Mightex_BLS(USB), Mightex Sirius BLS Control Module(USB)
+2020-02-06T16:39:36.370788 tid5716 [IFO,App] Mightex_C_Cam
+2020-02-06T16:39:36.406814 tid5716 [IFO,App]    Mightex_BUF_USBCCDCamera, Mightex Buffer USB CCD Camera
+2020-02-06T16:39:36.406814 tid5716 [IFO,App] Mosaic3
+2020-02-06T16:39:36.440838 tid5716 [IFO,App]    Mosaic3, Andor Mosaic3 DMD Device
+2020-02-06T16:39:36.440838 tid5716 [IFO,App] MoticCamera
+2020-02-06T16:39:36.477864 tid5716 [IFO,App] Error: Unable to load MoticCamera library: Failed to load device adapter "MoticCamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MoticCamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.477864 tid5716 [IFO,App] MoticMicroscope
+2020-02-06T16:39:36.509887 tid5716 [IFO,App] Error: Unable to load MoticMicroscope library: Failed to load device adapter "MoticMicroscope" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MoticMicroscope.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.509887 tid5716 [IFO,App] MP285
+2020-02-06T16:39:36.542910 tid5716 [IFO,App]    MP285 Controller, MP285 Controller
+2020-02-06T16:39:36.542910 tid5716 [IFO,App]    MP285 XY Stage, MP285 XY Stage
+2020-02-06T16:39:36.542910 tid5716 [IFO,App]    MP285 Z Stage, MP285 Z Stage
+2020-02-06T16:39:36.542910 tid5716 [IFO,App] MT20
+2020-02-06T16:39:36.574933 tid5716 [IFO,App]    MT20-HUB, Olympus MT20 hub device
+2020-02-06T16:39:36.574933 tid5716 [IFO,App]    MT20-Burner, Olympus MT20 burner
+2020-02-06T16:39:36.574933 tid5716 [IFO,App]    MT20-Shutter, Olympus MT20 shutter
+2020-02-06T16:39:36.574933 tid5716 [IFO,App]    MT20-Filterwheel, Olympus MT20 filterwheel
+2020-02-06T16:39:36.574933 tid5716 [IFO,App]    MT20-Attenuator, Olympus MT20 attenuator
+2020-02-06T16:39:36.574933 tid5716 [IFO,App] Neos
+2020-02-06T16:39:36.608957 tid5716 [IFO,App]    Neos, Neos controller with USB
+2020-02-06T16:39:36.608957 tid5716 [IFO,App] NewportCONEX
+2020-02-06T16:39:36.642981 tid5716 [IFO,App]    XAxis, Conex_Axis X Axis
+2020-02-06T16:39:36.642981 tid5716 [IFO,App]    YAxis, Conex_Axis Y Axis
+2020-02-06T16:39:36.642981 tid5716 [IFO,App]    ZAxis, Conex_Axis Z Axis
+2020-02-06T16:39:36.642981 tid5716 [IFO,App] NewportSMC
+2020-02-06T16:39:36.674003 tid5716 [IFO,App]    NewportZStage, Newport SMC100CC controller
+2020-02-06T16:39:36.674003 tid5716 [IFO,App] NI100X
+2020-02-06T16:39:36.717033 tid5716 [IFO,App] Error: Unable to load NI100X library: Failed to load device adapter "NI100X" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_NI100X.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:36.717033 tid5716 [IFO,App] Nikon
+2020-02-06T16:39:36.755060 tid5716 [IFO,App]    ZStage, Remote accessory Z-stage
+2020-02-06T16:39:36.755060 tid5716 [IFO,App]    TIRFShutter, TIRF Laser Shutter controller T-LUSU(2)
+2020-02-06T16:39:36.755060 tid5716 [IFO,App]    TiTIRFShutter, Ti-TIRF Laser Shutter controller T-LUSU(2)
+2020-02-06T16:39:36.755060 tid5716 [IFO,App]    IntensiLightShutter, IntensiLight Shutter
+2020-02-06T16:39:36.755060 tid5716 [IFO,App] NikonAZ100
+2020-02-06T16:39:36.785082 tid5716 [IFO,App]    AZ100, AZ100 controller - required for all other devices
+2020-02-06T16:39:36.785082 tid5716 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2020-02-06T16:39:36.785082 tid5716 [IFO,App]    Focus, Z-stage
+2020-02-06T16:39:36.785082 tid5716 [IFO,App]    Zoom, Zoom
+2020-02-06T16:39:36.785082 tid5716 [IFO,App] NikonEclipse90i
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Eclipse90i, Eclipse90i controller - required for all other devices
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Focus, Z-stage control
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    OpticalPath, Optical path switch - camera, eyepiece, etc.
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Analyzer, Analyzer control
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Transmitted Light, Transmitted Light control
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Zoom, Zoom
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    DIA Field Stop, Transmitted Light Field Stop
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    EPI Field Stop, Epi-fluorescence Field Stop
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    FilterBlock, Filter changer
+2020-02-06T16:39:36.819106 tid5716 [IFO,App]    Epi-Shutter, Epi-fluorescence shutter
+2020-02-06T16:39:36.819106 tid5716 [IFO,App] NikonTE2000
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    TE2000, TE2000 controller - required for all other devices
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Focus, Z-stage
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    OpticalPath, Optical path switch - camera, eyepiece, etc.
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Analyzer, Analyzer control
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    FilterBlock, Filter changer
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Lamp, Halogen lamp
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Epi-Shutter, Epi-fluorescence shutter
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Uniblitz-Shutter, Uniblitz shutter
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    PerfectFocus, PFS autofocus device
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    PFS-Offset, PFS Offset Lens
+2020-02-06T16:39:36.866139 tid5716 [IFO,App]    Excitation Filter wheel, Nikon excitation side filter changer
+2020-02-06T16:39:36.866139 tid5716 [IFO,App] NikonTI
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIScope, Nikon Ti Microscope
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIAnalyzer, Analyzer
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIEpiShutter, Epi Shutter
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIDiaShutter, Dia Shutter
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIAuxShutter, Aux Shutter
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIDiaLamp, Dia Lamp
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TINosePiece, Objective Turret
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TICondenserCassette, Condenser Cassette
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIBarrierFilterWheel, Barrier Filter Wheel
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIExcitationFilterWheel, Excitation Filter Wheel
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIFilterBlock1, Filter Block Cassette 1
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIFilterBlock2, Filter Block Cassette 2
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TILightPath, Light Path Drive
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIZDrive, Z-Stage
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIXYDrive, XY-Stage
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIPFSOffset, PFS Offset
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TIPFSStatus, PFS Status
+2020-02-06T16:39:36.968211 tid5716 [IFO,App]    TITIRF, TIRF
+2020-02-06T16:39:36.968211 tid5716 [IFO,App] NIMultiAnalog
+2020-02-06T16:39:37.005237 tid5716 [IFO,App] Error: Unable to load NIMultiAnalog library: Failed to load device adapter "NIMultiAnalog" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_NIMultiAnalog.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:37.005237 tid5716 [IFO,App] NNLC
+2020-02-06T16:39:37.329467 tid5716 [IFO,App]    LC-Shutter, Shutter
+2020-02-06T16:39:37.329467 tid5716 [IFO,App]    LC-DAC, DA
+2020-02-06T16:39:37.329467 tid5716 [IFO,App]    LC-Setup, Setup
+2020-02-06T16:39:37.329467 tid5716 [IFO,App] NPointC400
+2020-02-06T16:39:37.402519 tid5716 [IFO,App]    nPoint C400 Controller, nPoint C400 Controller
+2020-02-06T16:39:37.403520 tid5716 [IFO,App]    Stage 1, Stage 1
+2020-02-06T16:39:37.403520 tid5716 [IFO,App]    Stage 2, Stage 2
+2020-02-06T16:39:37.403520 tid5716 [IFO,App]    Stage 3, Stage 3
+2020-02-06T16:39:37.403520 tid5716 [IFO,App]    Stage 4, Stage 4
+2020-02-06T16:39:37.403520 tid5716 [IFO,App]    Stage 5, Stage 5
+2020-02-06T16:39:37.403520 tid5716 [IFO,App]    Stage 6, Stage 6
+2020-02-06T16:39:37.403520 tid5716 [IFO,App] ObjectiveImaging
+2020-02-06T16:39:37.443548 tid5716 [IFO,App] Error: Unable to load ObjectiveImaging library: Failed to load device adapter "ObjectiveImaging" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ObjectiveImaging.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:37.443548 tid5716 [IFO,App] Okolab
+2020-02-06T16:39:37.780787 tid5716 [IFO,App]    OkoLab, Okolab Device Adapter
+2020-02-06T16:39:37.780787 tid5716 [IFO,App] Olympus
+2020-02-06T16:39:37.824818 tid5716 [IFO,App]    OlympusHub, Olympus Hub - required for all other devices
+2020-02-06T16:39:37.824818 tid5716 [IFO,App]    Objective, Objective turret
+2020-02-06T16:39:37.824818 tid5716 [IFO,App]    LightPath, Light path prism (eye/camera)
+2020-02-06T16:39:37.824818 tid5716 [IFO,App]    FilterCube, Fluorescence filter cube turret
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    Condenser, Transmitted light condenser turret
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    FilterWheel, Fluorescence filter wheel for IX/ First wheel for BX
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    FilterWheel2BX, Second filter wheel for BX
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    FilterWheel3BX, Third filter wheel for BX
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    Shutter1, Shutter number 1
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    Shutter2, Shutter number 2
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    ShutterBX, Shutter For BX2
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    BottomPort, Bottom port open/close
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    TransmittedLamp, Transmitted light lamp (voltage/on/off)
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    FluorescenceLamp, Epifluorescence lamp (voltage/on/off)
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    ManualFocus, Z-drive (jog wheel)
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    CondenserApertureStop, Condenser Aperture Stop
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    AutoFocusZDC, ZDC (Auto Focus)
+2020-02-06T16:39:37.825819 tid5716 [IFO,App]    ZDC2OffsetDrive, ZDC2 Offset Drive
+2020-02-06T16:39:37.825819 tid5716 [IFO,App] OlympusIX83
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Olympus IX83, Olympus IX83 Microscope
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Objective, Objective turret (nosepiece)
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Dichroic 1, Mirror unit deck 1
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Dichroic 2, Mirror unit deck 2
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Condenser turret, Rotating condenser turret
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Polarizer, Polarizer in/out device
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Transmitted ND Wheel, Neutral density filter wheel for transmitted path.
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Reflected ND Wheel, Neutral density filter wheel for reflected path.
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Light Path, Switches light between camera and eyepiece.
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Filter Wheel 1, A filter wheel
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Filter Wheel 2, A filter wheel
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Filter Wheel 3, A filter wheel
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Filter Wheel 4, A filter wheel
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Filter Wheel 5, A filter wheel
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Filter Wheel 6, A filter wheel
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    EpiShutter 1, Epi shutter, deck 1
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    EpiShutter 2, Epi shutter, deck 2
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    DiaShutter, Dia shutter
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    FastShutter 1, Fast shutter 1
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    FastShutter 2, Fast shutter 2
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    FastShutter 3, Fast shutter 3
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    FastShutter 4, Fast shutter 4
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    TransmittedIllumination 1, DIA High Intensity White LED 1
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    TransmittedIllumination 2, DIA High Intensity White LED 2
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Transmitted Aperture, Transmitted Aperture control
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    FocusDrive, Olympus IX83 Z drive
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    XYStage, Olympus IX83 XY stage
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    Autofocus, Olympus IX83 ZDC
+2020-02-06T16:39:37.883860 tid5716 [IFO,App]    AutofocusDrive, Olympus IX83 ZDC offset drive
+2020-02-06T16:39:37.883860 tid5716 [IFO,App] Omicron
+2020-02-06T16:39:37.919886 tid5716 [IFO,App]    Omicron, Omicron Laser Controller
+2020-02-06T16:39:37.919886 tid5716 [IFO,App] OpenCVgrabber
+2020-02-06T16:39:38.141042 tid5716 [IFO,App]    OpenCVgrabber, OpenCVgrabber video input
+2020-02-06T16:39:38.141042 tid5716 [IFO,App] OVP_ECS2
+2020-02-06T16:39:38.172065 tid5716 [IFO,App]    ECS-2, OVP ECS-2
+2020-02-06T16:39:38.172065 tid5716 [IFO,App] Oxxius
+2020-02-06T16:39:38.205088 tid5716 [IFO,App]    Oxxius LBX-LD, Oxxius LBX-LD Laser Controller
+2020-02-06T16:39:38.205088 tid5716 [IFO,App]    Oxxius LBX-DPSS, Oxxius LBX-DPSS Laser Controller
+2020-02-06T16:39:38.205088 tid5716 [IFO,App] ParallelPort
+2020-02-06T16:39:38.236110 tid5716 [IFO,App]    LPT1, Printer port TTL digital output
+2020-02-06T16:39:38.236110 tid5716 [IFO,App]    LPT-Shutter, Printer port TTLs used as shutters
+2020-02-06T16:39:38.236110 tid5716 [IFO,App] PCO_Camera
+2020-02-06T16:39:39.030674 tid5716 [IFO,App]    pco_camera, PCO generic camera adapter
+2020-02-06T16:39:39.030674 tid5716 [IFO,App] Pecon
+2020-02-06T16:39:39.059694 tid5716 [IFO,App]    TempControl, Temperature controller 37-2 digital
+2020-02-06T16:39:39.059694 tid5716 [IFO,App]    CTIController3700, CTI controller 3700 digital
+2020-02-06T16:39:39.059694 tid5716 [IFO,App]    CO2Controller, CO2 controller
+2020-02-06T16:39:39.059694 tid5716 [IFO,App] PeCon2000
+2020-02-06T16:39:39.203797 tid5716 [IFO,App]    PeCon2000, PeCon2000
+2020-02-06T16:39:39.203797 tid5716 [IFO,App]    PeCon2000-Hub, PeCon2000-Hub
+2020-02-06T16:39:39.203797 tid5716 [IFO,App] pgFocus
+2020-02-06T16:39:39.241323 tid5716 [IFO,App]    pgFocus, Hub (required)
+2020-02-06T16:39:39.241323 tid5716 [IFO,App]    pgFocus-Stabilization, Focus Stabilization
+2020-02-06T16:39:39.241323 tid5716 [IFO,App] PI
+2020-02-06T16:39:39.276348 tid5716 [IFO,App]    PIZStage, PI E-662 Z-stage
+2020-02-06T16:39:39.276348 tid5716 [IFO,App] PICAM
+2020-02-06T16:39:39.339393 tid5716 [IFO,App] Error: Unable to load PICAM library: Failed to load device adapter "PICAM" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_PICAM.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:39.339393 tid5716 [IFO,App] PicardStage
+2020-02-06T16:39:39.524024 tid5716 [IFO,App]    Picard Twister, Twister
+2020-02-06T16:39:39.524024 tid5716 [IFO,App]    Picard Z Stage, Z stage
+2020-02-06T16:39:39.524024 tid5716 [IFO,App]    Picard XY Stage, XY stage
+2020-02-06T16:39:39.524024 tid5716 [IFO,App] Piezosystem_30DV50
+2020-02-06T16:39:39.559549 tid5716 [IFO,App]    PSJStage, Single Axis Stage
+2020-02-06T16:39:39.559549 tid5716 [IFO,App]    PSJShutter, PSJ Shutter
+2020-02-06T16:39:39.559549 tid5716 [IFO,App] Piezosystem_dDrive
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_dDrive, Piezosystem Jena dDrive
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Stage1, Single Axis Stage Ch1
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Stage2, Single Axis Stage Ch2
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Stage3, Single Axis Stage Ch3
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Stage4, Single Axis Stage Ch4
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Stage5, Single Axis Stage Ch5
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Stage6, Single Axis Stage Ch6
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_XYStage1, Two Axis XY Stage1
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_XYStage2, Two Axis XY Stage2
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_XYStage3, Two Axis XY Stage3
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Shutter1, PSJ Shutter
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Shutter2, PSJ Shutter
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Shutter3, PSJ Shutter
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Shutter4, PSJ Shutter
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Shutter5, PSJ Shutter
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Shutter6, PSJ Shutter
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Tritor1, PSJ Tritor
+2020-02-06T16:39:39.597575 tid5716 [IFO,App]    PSJ_Tritor2, PSJ Tritor
+2020-02-06T16:39:39.597575 tid5716 [IFO,App] Piezosystem_NV120_1
+2020-02-06T16:39:39.635603 tid5716 [IFO,App]    PSJ_Stage, Single Axis Stage Ch1
+2020-02-06T16:39:39.635603 tid5716 [IFO,App] Piezosystem_NV40_1
+2020-02-06T16:39:39.670628 tid5716 [IFO,App]    PSJ_Stage, Single Axis Stage Ch1
+2020-02-06T16:39:39.670628 tid5716 [IFO,App] Piezosystem_NV40_3
+2020-02-06T16:39:39.701649 tid5716 [IFO,App]    PSJ_NV40/3, Piezosystem Jena NV40 Multi
+2020-02-06T16:39:39.701649 tid5716 [IFO,App]    PSJ_Stage1, Single Axis Stage Ch1
+2020-02-06T16:39:39.701649 tid5716 [IFO,App]    PSJ_Stage2, Single Axis Stage Ch2
+2020-02-06T16:39:39.701649 tid5716 [IFO,App]    PSJ_Stage3, Single Axis Stage Ch3
+2020-02-06T16:39:39.701649 tid5716 [IFO,App]    PSJ_XYStage, Two Axis XY Stage
+2020-02-06T16:39:39.701649 tid5716 [IFO,App] Piper
+2020-02-06T16:39:39.737675 tid5716 [IFO,App] Error: Unable to load Piper library: Failed to load device adapter "Piper" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Piper.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:39.737675 tid5716 [IFO,App] PI_GCS
+2020-02-06T16:39:39.770699 tid5716 [IFO,App]    PIZStage, PI GCS Z-stage
+2020-02-06T16:39:39.770699 tid5716 [IFO,App] PI_GCS_2
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    PIZStage, PI GCS Z-stage
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    PIXYStage, PI GCS XY-stage
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    PI_GCSController_DLL, PI GCS DLL Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    PI_GCSController, PI GCS Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    C-663.11, PI C-663.11 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    C-843, PI C-843 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    C-863.11, PI C-863.11 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    C-867, PI C-867 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    C-884, PI C-884 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    E-517/E-545, PI E-517/E-545 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    E-709, PI E-709 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    E-710, PI E-710 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    E-712, PI E-712 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App]    E-753, PI E-753 Controller
+2020-02-06T16:39:39.803722 tid5716 [IFO,App] PointGrey
+2020-02-06T16:39:39.834744 tid5716 [IFO,App] Error: Unable to load PointGrey library: Failed to load device adapter "PointGrey" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_PointGrey.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:39.834744 tid5716 [IFO,App] PolychromeV
+2020-02-06T16:39:39.868768 tid5716 [IFO,App]    AgilentPolychrome5000, Agilent Polychrome 5000
+2020-02-06T16:39:39.868768 tid5716 [IFO,App] PrecisExcite
+2020-02-06T16:39:39.906295 tid5716 [IFO,App]    PrecisExcite, PrecisExcite LED illuminator
+2020-02-06T16:39:39.906295 tid5716 [IFO,App] Prior
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Shutter-1, Pro Scan shutter 1
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Shutter-2, Pro Scan shutter 2
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Shutter-3, Pro Scan shutter 3
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Lumen, Lumen 200Pro lamp shutter
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Wheel-1, Pro Scan filter wheel 1
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Wheel-2, Pro Scan filter wheel 2
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    Wheel-3, Pro Scan filter wheel 3
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    ZStage, Add-on Z-stage
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    NanoScanZ, NanoScanZ
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    XYStage, XY Stage
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    TTL-0, Pro Scan TTL 0
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    TTL-1, Pro Scan TTL 1
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    TTL-2, Pro Scan TTL 2
+2020-02-06T16:39:39.937317 tid5716 [IFO,App]    TTL-3, Pro Scan TTL 3
+2020-02-06T16:39:39.937317 tid5716 [IFO,App] PriorLegacy
+2020-02-06T16:39:39.973842 tid5716 [IFO,App]    ZStage, Legacy Z stage
+2020-02-06T16:39:39.973842 tid5716 [IFO,App]    XYStage, Legacy XY Stage
+2020-02-06T16:39:39.973842 tid5716 [IFO,App] PVCAM
+2020-02-06T16:39:39.973842 tid5716 [IFO,App]    Camera-1, Universal PVCAM interface - camera slot 1
+2020-02-06T16:39:39.973842 tid5716 [IFO,App]    Camera-2, Universal PVCAM interface - camera slot 2
+2020-02-06T16:39:39.973842 tid5716 [IFO,App]    Camera-3, Universal PVCAM interface - camera slot 3
+2020-02-06T16:39:39.973842 tid5716 [IFO,App]    Camera-4, Universal PVCAM interface - camera slot 4
+2020-02-06T16:39:39.973842 tid5716 [IFO,App] QCam
+2020-02-06T16:39:40.010869 tid5716 [IFO,App] Error: Unable to load QCam library: Failed to load device adapter "QCam" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_QCam.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.010869 tid5716 [IFO,App] RAMPS
+2020-02-06T16:39:40.042892 tid5716 [IFO,App]    RAMPSXYStage, RAMPS XY stage
+2020-02-06T16:39:40.042892 tid5716 [IFO,App]    RAMPSZStage, RAMPS Z stage
+2020-02-06T16:39:40.042892 tid5716 [IFO,App]    RAMPSHub, RAMPS hub
+2020-02-06T16:39:40.042892 tid5716 [IFO,App] Rapp
+2020-02-06T16:39:40.115943 tid5716 [IFO,App]    RappScanner, Rapp UGA-40 Scanner
+2020-02-06T16:39:40.115943 tid5716 [IFO,App] RaptorEPIX
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Falcon Camera, Raptor Falcon Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Kite Camera, Raptor Kite Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Osprey Camera, Raptor Osprey Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Osprey RGB Camera, Raptor Osprey RGB Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Owl Camera 320, Raptor Owl Camera 320
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Owl Camera 640, Raptor Owl Camera 640
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Ninox Camera 640, Raptor Ninox Camera 640
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Eagle Camera, Raptor Eagle Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Eagle V 4240 Camera, Raptor Eagle V 4240 Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Eagle V 4210 Camera, Raptor Eagle V 4210 Camera
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Kingfisher 674, Raptor Kingfisher 674
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Kingfisher 694, Raptor Kingfisher 694
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Kingfisher 674 RGB, Raptor Kingfisher 674 RGB
+2020-02-06T16:39:40.153970 tid5716 [IFO,App]    Raptor Kingfisher 694 RGB, Raptor Kingfisher 694 RGB
+2020-02-06T16:39:40.153970 tid5716 [IFO,App] Sapphire
+2020-02-06T16:39:40.209009 tid5716 [IFO,App]    Sapphire, Sapphire Laser
+2020-02-06T16:39:40.209009 tid5716 [IFO,App] Scientifica
+2020-02-06T16:39:40.247536 tid5716 [IFO,App]    ZStage, Z Stage
+2020-02-06T16:39:40.247536 tid5716 [IFO,App]    XYStage, XY Stage
+2020-02-06T16:39:40.247536 tid5716 [IFO,App] ScopeLED
+2020-02-06T16:39:40.286064 tid5716 [IFO,App]    ScopeLED-G, ScopeLED Fiber Guide Illuminator
+2020-02-06T16:39:40.286064 tid5716 [IFO,App]    ScopeLED-B, ScopeLED Brightfield Microscope Illuminator
+2020-02-06T16:39:40.286064 tid5716 [IFO,App]    ScopeLED-F, ScopeLED Fluorescence Microscope Illuminator
+2020-02-06T16:39:40.286064 tid5716 [IFO,App] SerialManager
+2020-02-06T16:39:40.286064 tid5716 [IFO,App]    COM1, Serial communication port
+2020-02-06T16:39:40.286064 tid5716 [IFO,App]    COM3, Serial communication port
+2020-02-06T16:39:40.286064 tid5716 [IFO,App] SigmaKoki
+2020-02-06T16:39:40.315084 tid5716 [IFO,App]    XYStage, BIOS XY-Stage System
+2020-02-06T16:39:40.315084 tid5716 [IFO,App]    Shutter-1, SSH-C4B CH1
+2020-02-06T16:39:40.315084 tid5716 [IFO,App]    Shutter-2, SSH-C4B CH2
+2020-02-06T16:39:40.315084 tid5716 [IFO,App]    Shutter-3, SSH-C4B CH3
+2020-02-06T16:39:40.315084 tid5716 [IFO,App]    Shutter-4, SSH-C4B CH4
+2020-02-06T16:39:40.315084 tid5716 [IFO,App] SimpleAutoFocus
+2020-02-06T16:39:40.351110 tid5716 [IFO,App]    SimpleAutofocus, SimpleAutofocus Finder
+2020-02-06T16:39:40.351110 tid5716 [IFO,App]    FocusMonitor, Focus score monitor - 100XImaging Inc.
+2020-02-06T16:39:40.351110 tid5716 [IFO,App] SpectralLMM5
+2020-02-06T16:39:40.387635 tid5716 [IFO,App]    LMM5-Hub, LMM5 Hub
+2020-02-06T16:39:40.387635 tid5716 [IFO,App]    LMM5-Shutter, LMM5 Shutter
+2020-02-06T16:39:40.387635 tid5716 [IFO,App] Standa
+2020-02-06T16:39:40.418157 tid5716 [IFO,App] Error: Unable to load Standa library: Failed to load device adapter "Standa" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Standa.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.418157 tid5716 [IFO,App] Standa8SMC4
+2020-02-06T16:39:40.450680 tid5716 [IFO,App] Error: Unable to load Standa8SMC4 library: Failed to load device adapter "Standa8SMC4" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Standa8SMC4.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.450680 tid5716 [IFO,App] StandaStage
+2020-02-06T16:39:40.487707 tid5716 [IFO,App] Error: Unable to load StandaStage library: Failed to load device adapter "StandaStage" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_StandaStage.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.487707 tid5716 [IFO,App] Stradus
+2020-02-06T16:39:40.517228 tid5716 [IFO,App]    VLTStradus, VLTStradus
+2020-02-06T16:39:40.517228 tid5716 [IFO,App] SutterLambda
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Wheel-A, Lambda 10 filter wheel A
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Wheel-B, Lambda 10 filter wheel B
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Wheel-C, Lambda 10 wheel C (10-3 only)
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Shutter-A, Lambda 10 shutter A
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Shutter-B, Lambda 10 shutter B
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Shutter-A 10-2, Lambda 10-2 shutter A
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Shutter-B 10-2, Lambda 10-2 shutter B
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Shutter-DG4, DG4 shutter
+2020-02-06T16:39:40.553253 tid5716 [IFO,App]    Wheel-DG4, DG4 filter changer
+2020-02-06T16:39:40.553253 tid5716 [IFO,App] SutterMPC
+2020-02-06T16:39:40.589779 tid5716 [IFO,App]    Sutter MPC, Sutter MPC200/ROE200
+2020-02-06T16:39:40.589779 tid5716 [IFO,App] SutterStage
+2020-02-06T16:39:40.627806 tid5716 [IFO,App]    SutterStageController, SutterStage Controller
+2020-02-06T16:39:40.627806 tid5716 [IFO,App]    XYStage, XY Stage
+2020-02-06T16:39:40.627806 tid5716 [IFO,App] Thorlabs
+2020-02-06T16:39:40.663331 tid5716 [IFO,App]    XYStage, Thorlabs BD102 XY Stage
+2020-02-06T16:39:40.663331 tid5716 [IFO,App]    PiezoZStage, Thorlabs piezo Z Stage
+2020-02-06T16:39:40.663331 tid5716 [IFO,App]    MotorZStage, Thorlabs Motor Z Stage
+2020-02-06T16:39:40.663331 tid5716 [IFO,App]    FilterWheel, Integrated filter wheel
+2020-02-06T16:39:40.663331 tid5716 [IFO,App] ThorlabsAPTStage
+2020-02-06T16:39:40.701358 tid5716 [IFO,App] Error: Unable to load ThorlabsAPTStage library: Failed to load device adapter "ThorlabsAPTStage" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ThorlabsAPTStage.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.701358 tid5716 [IFO,App] ThorlabsDCxxxx
+2020-02-06T16:39:40.734381 tid5716 [IFO,App] Error: Unable to load ThorlabsDCxxxx library: Failed to load device adapter "ThorlabsDCxxxx" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ThorlabsDCxxxx.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.734381 tid5716 [IFO,App] ThorlabsFilterWheel
+2020-02-06T16:39:40.768906 tid5716 [IFO,App]    Thorlabs Filter Wheel, Thorlabs filter wheel
+2020-02-06T16:39:40.768906 tid5716 [IFO,App] ThorlabsSC10
+2020-02-06T16:39:40.801428 tid5716 [IFO,App]    SC10, ThorLabs SC10 shutter controller
+2020-02-06T16:39:40.801428 tid5716 [IFO,App] ThorlabsUSBCamera
+2020-02-06T16:39:40.839455 tid5716 [IFO,App] Error: Unable to load ThorlabsUSBCamera library: Failed to load device adapter "ThorlabsUSBCamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ThorlabsUSBCamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:40.839455 tid5716 [IFO,App] TIScam
+2020-02-06T16:39:41.078125 tid5716 [IFO,App]    TIS_DCAM, The Imaging Source
+2020-02-06T16:39:41.078125 tid5716 [IFO,App] Tofra
+2020-02-06T16:39:41.111148 tid5716 [IFO,App]    TOFRA Filter Wheel, TOFRA Filter Wheel with Integrated Controller
+2020-02-06T16:39:41.111148 tid5716 [IFO,App]    TOFRA Z-Drive, TOFRA Z-Drive with Integrated Controller
+2020-02-06T16:39:41.111148 tid5716 [IFO,App]    TOFRA XYStage, TOFRA XYStage with Integrated Controller
+2020-02-06T16:39:41.111148 tid5716 [IFO,App]    TOFRA Cube Slider, TOFRA Filter Cube Slider with Integrated Controller
+2020-02-06T16:39:41.111148 tid5716 [IFO,App]    TOFRA RGB LED, TOFRA RGB LED Light Source
+2020-02-06T16:39:41.111148 tid5716 [IFO,App]    TOFRA RGB LED Shutter, TOFRA RGB LED as Shutter
+2020-02-06T16:39:41.111148 tid5716 [IFO,App] Toptica_iChrome_MLE
+2020-02-06T16:39:41.151177 tid5716 [IFO,App]    iChrome-MLE, iChrome-MLE
+2020-02-06T16:39:41.151177 tid5716 [IFO,App] Toptica_iChrome_MLE_TCP
+2020-02-06T16:39:41.184700 tid5716 [IFO,App]    iChrome-MLE-TCP, iChrome-MLE
+2020-02-06T16:39:41.184700 tid5716 [IFO,App] TriggerScope
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-CAM1, CAM1
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-CAM2, CAM2
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC01, DAC01
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC02, DAC02
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC03, DAC03
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC04, DAC04
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC05, DAC05
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC06, DAC06
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC07, DAC07
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC08, DAC08
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC09, DAC09
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC10, DAC10
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC11, DAC11
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC12, DAC12
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC13, DAC13
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC14, DAC14
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC15, DAC15
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-DAC16, DAC16
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL01, TTL01
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL02, TTL02
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL03, TTL03
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL04, TTL04
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL05, TTL05
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL06, TTL06
+2020-02-06T16:39:41.210219 tid5716 [IFO,App]    TriggerScope-TTL07, TTL07
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL08, TTL08
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL09, TTL09
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL10, TTL10
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL11, TTL11
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL12, TTL12
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL13, TTL13
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL14, TTL14
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL15, TTL15
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-TTL16, TTL16
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-Focus, Focus
+2020-02-06T16:39:41.210719 tid5716 [IFO,App]    TriggerScope-Hub, Hub
+2020-02-06T16:39:41.210719 tid5716 [IFO,App] TSI
+2020-02-06T16:39:41.242242 tid5716 [IFO,App]    TSICam, Thorlabs Scientific Imaging camera
+2020-02-06T16:39:41.242242 tid5716 [IFO,App] TwainCamera
+2020-02-06T16:39:41.278267 tid5716 [IFO,App]    TwainCam, Twain camera
+2020-02-06T16:39:41.278267 tid5716 [IFO,App] Usb3CamHS
+2020-02-06T16:39:41.310289 tid5716 [IFO,App] Error: Unable to load Usb3CamHS library: Failed to load device adapter "Usb3CamHS" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Usb3CamHS.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:41.310289 tid5716 [IFO,App] USBManager
+2020-02-06T16:39:41.343313 tid5716 [IFO,App] USB_Viper_QPL
+2020-02-06T16:39:41.377837 tid5716 [IFO,App] Error: Unable to load USB_Viper_QPL library: Failed to load device adapter "USB_Viper_QPL" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_USB_Viper_QPL.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:41.377837 tid5716 [IFO,App] UserDefinedSerial
+2020-02-06T16:39:41.411361 tid5716 [IFO,App]    UserDefinedGenericDevice, Generic device using user-defined serial commands
+2020-02-06T16:39:41.411361 tid5716 [IFO,App]    UserDefinedShutter, Generic shutter using user-defined serial commands
+2020-02-06T16:39:41.411361 tid5716 [IFO,App]    UserDefinedStateDevice, Generic switcher using user-defined serial commands
+2020-02-06T16:39:41.411861 tid5716 [IFO,App] Utilities
+2020-02-06T16:39:41.452390 tid5716 [IFO,App]    Multi Shutter, Combine multiple physical shutters into a single logical shutter
+2020-02-06T16:39:41.452390 tid5716 [IFO,App]    Multi Camera, Combine multiple physical cameras into a single logical camera
+2020-02-06T16:39:41.452390 tid5716 [IFO,App]    Multi Stage, Combine multiple physical 1D stages into a single logical 1D stage
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    Combo XY Stage, Combine two single-axis stages into an XY stage
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    DA Shutter, DA used as a shutter
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    DA Monochromator, DA used to control a monochromator
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    DA Z Stage, DA-controlled Z-stage
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    DA XY Stage, DA-controlled XY-stage
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    DA TTL State Device, Several DAs as a TTL state device
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    Multi DA State Device, Several DAs as a single state device allowing digital masking
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    AutoFocus Stage, AutoFocus offset acting as a Z-stage
+2020-02-06T16:39:41.452890 tid5716 [IFO,App]    State Device Shutter, State device used as a shutter
+2020-02-06T16:39:41.452890 tid5716 [IFO,App] VariLC
+2020-02-06T16:39:41.486414 tid5716 [IFO,App]    VariLC, VariLC
+2020-02-06T16:39:41.486414 tid5716 [IFO,App] VersaLase
+2020-02-06T16:39:41.511432 tid5716 [IFO,App]    VLT_VersaLase, VLT_VersaLase
+2020-02-06T16:39:41.511432 tid5716 [IFO,App] Vincent
+2020-02-06T16:39:41.538451 tid5716 [IFO,App]    Vincent-D1, Vincent controller VMM-D1/T1 and D122
+2020-02-06T16:39:41.538451 tid5716 [IFO,App]    Vincent-D3, Vincent controller VMM-D3/D4
+2020-02-06T16:39:41.538451 tid5716 [IFO,App] VisiTech_iSIM
+2020-02-06T16:39:41.574476 tid5716 [IFO,App] Error: Unable to load VisiTech_iSIM library: Failed to load device adapter "VisiTech_iSIM" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_VisiTech_iSIM.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:41.574476 tid5716 [IFO,App] Xcite
+2020-02-06T16:39:41.606499 tid5716 [IFO,App]    X-Cite120PC, EXFO X-Cite 120 PC
+2020-02-06T16:39:41.606499 tid5716 [IFO,App] XCite120PC_Exacte
+2020-02-06T16:39:41.639022 tid5716 [IFO,App]    XCite-120PC, X-Cite 120PC
+2020-02-06T16:39:41.639022 tid5716 [IFO,App]    XCite-Exacte, X-Cite Exacte
+2020-02-06T16:39:41.639022 tid5716 [IFO,App] XCiteLed
+2020-02-06T16:39:41.669044 tid5716 [IFO,App]    XLED1 Controller, XLED1 Controller
+2020-02-06T16:39:41.669044 tid5716 [IFO,App]    LED1 Device, LED1 Device
+2020-02-06T16:39:41.669044 tid5716 [IFO,App]    LED2 Device, LED2 Device
+2020-02-06T16:39:41.669044 tid5716 [IFO,App]    LED3 Device, LED3 Device
+2020-02-06T16:39:41.669044 tid5716 [IFO,App]    LED4 Device, LED4 Device
+2020-02-06T16:39:41.669044 tid5716 [IFO,App] XCiteXT600
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    Turbo/XT600 Controller, Turbo/XT600 Controller
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    LED1 Device, LED1 Device
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    LED2 Device, LED2 Device
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    LED3 Device, LED3 Device
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    LED4 Device, LED4 Device
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    LED5 Device, LED5 Device
+2020-02-06T16:39:41.707071 tid5716 [IFO,App]    LED6 Device, LED6 Device
+2020-02-06T16:39:41.707071 tid5716 [IFO,App] XIMEACamera
+2020-02-06T16:39:41.740094 tid5716 [IFO,App] Error: Unable to load XIMEACamera library: Failed to load device adapter "XIMEACamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_XIMEACamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2020-02-06T16:39:41.740094 tid5716 [IFO,App] XLight
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Hub, Hub (Needed for XLIGHT)
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Dichroic, Confocal dichroic wheel
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Disk slider, Spinning disk slider
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Spin motor, Spinning disk motor
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Emission Wheel, Confocal Emission wheel
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Excitation Wheel, Confocal Excitation wheel
+2020-02-06T16:39:41.770115 tid5716 [IFO,App]    XLIGHT Touchscreen, Touchscreen lockout control
+2020-02-06T16:39:41.770115 tid5716 [IFO,App] Yokogawa
+2020-02-06T16:39:41.796134 tid5716 [IFO,App]    Hub, CSU22 Hub (Needed for CSU22)
+2020-02-06T16:39:41.796134 tid5716 [IFO,App]    ND Filter, Neutral Density Filter
+2020-02-06T16:39:41.796134 tid5716 [IFO,App]    Filter Set, Filter Set (Dichroics)
+2020-02-06T16:39:41.796134 tid5716 [IFO,App]    Shutter, Shutter
+2020-02-06T16:39:41.796134 tid5716 [IFO,App]    DriveSpeed, DriveSpeed
+2020-02-06T16:39:41.796134 tid5716 [IFO,App] Zaber
+2020-02-06T16:39:41.826155 tid5716 [IFO,App]    XYStage, Zaber XY Stage
+2020-02-06T16:39:41.826155 tid5716 [IFO,App]    Stage, Zaber Stage
+2020-02-06T16:39:41.826155 tid5716 [IFO,App]    FilterWheel, Zaber Filter Wheel
+2020-02-06T16:39:41.826155 tid5716 [IFO,App] ZeissCAN
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissScope, Zeiss Axiovert 200m controlled through serial interface
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissShutter, Shutter
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissShutterMFFirmware, ShutterMFFirmware
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissReflectorTurret, Reflector Turret (dichroics)
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissSidePortTurret, SidePort switcher
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissBasePortSlider, BasePort Slider
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissObjectives, Objective Turret
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissCondenser, Condenser Turret
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissOptovar, Optovar
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissTubelens, Tubelens
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissExcitationLampSwitcher, Lamp Switcher
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissHalogenLamp, Halogen Lamp
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    Focus, Z-Drive
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissExternalFilterWheel, External FilterWheel
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissFilterWheel1, FilterWheel 1
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZeissFilterWheel2, FilterWheel 2
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    XYStage, XY Stage (MCU 28)
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    ZStage, Z Stage on Axioskop 2
+2020-02-06T16:39:41.864682 tid5716 [IFO,App]    PhotoModule, AxioPhot 2 Photo Module
+2020-02-06T16:39:41.864682 tid5716 [IFO,App] ZeissCAN29
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissScope, Zeiss AxioObserver controlled through serial interface
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissReflectorTurret, Reflector Turret (dichroics)
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissObjectiveTurret, Objective Turret
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissNDWheel1RL, ND Filter Wheel 1 Fluorescence Light Path
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissNDWheel2RL, ND Filter Wheel 2 Fluorescence Light Path
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissFieldDiaphragm, Field Diaphragm (fluorescence)
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissApertureDiaphragm, Aperture Diaphragm (fluorescence)
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissNDWheel1TL, ND Filter Wheel 1 Transmitted Light Path
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissNDWheel2TL, ND Filter Wheel 2 Transmitted Light Path
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissFocusAxis, Z-drive
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissXYStage, XYStage
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissTubeLens, Tube Lens (optovar)
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissTubeLensShutter, Tube Lens Shutter
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissSidePort, Side Port
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissExcitationSwitcher, Excitation Switcher
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissReflectedLightShutter, Reflected Light Shutter
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissTransmittedLightShutter, Transmitted Light Shutter
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissRL-FLAttenuator, Reflected (fluorescence) light attenuator
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissCondenserContrast, Condenser Contrast
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissCondenserAperture, Condenser Aperture
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissHBOLamp, HBO Lamp
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissHalogenLamp, Halogen Lamp
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissLSMPort, LSM Port (rearPort)
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissBasePort, Base Port switcher
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissExternalLampMirror, External Lamp Mirror
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissUniblitz, Uniblitz Shutter
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissFilterWheel, Filter Wheel
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissDefiniteFocus, Definite Focus
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissDefiniteFocusOffset, Definite Focus Offset-drive
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissColibri, Colibri
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    Zeiss2TVTubePrism, g_Zeiss2TVTubePrism
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    Zeiss2TVTubeSlider, g_Zeiss2TVTubeSlider
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    Zeiss2TVTubeShutter, g_Zeiss2TVTubeShutter
+2020-02-06T16:39:41.899707 tid5716 [IFO,App]    ZeissHXPShutter, g_ZeissHXPShutter
+2020-02-06T16:40:09.421711 tid4556 [IFO,App] Error: Error uploading configuration file: java.net.UnknownHostException: valelab.ucsf.edu
+2020-02-06T16:40:09.569815 tid5716 [IFO,Core] Did unload all devices
+2020-02-06T16:40:09.570816 tid5716 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2020-02-06T16:40:09.570816 tid5716 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2020-02-06T16:40:09.570816 tid5716 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named ""
+2020-02-06T16:40:09.570816 tid5716 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2020-02-06T16:40:09.570816 tid5716 [IFO,Core] Will initialize 3 devices
+2020-02-06T16:40:09.570816 tid5716 [IFO,Core] Will initialize device COM3
+2020-02-06T16:40:09.570816 tid5716 [IFO,dev:COM3] Failed to open serial port \\.\COM3: CreateFileA() returned Windows system error code 5
+2020-02-06T16:40:09.570816 tid5716 [ERR,Core:dev:COM3] Error in device "COM3": Unknown error in the device (1)
+2020-02-06T16:40:09.579823 tid5716 [IFO,Core] Unloading all devices after failure to load system configuration
+2020-02-06T16:40:09.579823 tid5716 [IFO,Core] Did unload all devices
+2020-02-06T16:40:09.579823 tid5716 [IFO,Core] Now rethrowing original error from system configuration loading
+2020-02-06T16:40:09.657878 tid5716 [IFO,App] Failed to load hardware configuation
+                                   [       ] java.lang.Exception: Line 26: Property,Core,Initialize,1
+                                   [       ] Error in device "COM3": Unknown error in the device (1)
+                                   [       ] 
+                                   [       ]  in Thread[Thread-6,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_loadSystemConfiguration(Native Method)
+                                   [       ]   at mmcorej.CMMCore.loadSystemConfiguration(CMMCore.java:361)
+                                   [       ]   at org.micromanager.internal.MMStudio.loadSystemConfiguration(MMStudio.java:1247)
+                                   [       ]   at org.micromanager.internal.MMStudio.setSysConfigFile(MMStudio.java:755)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu.runHardwareWizard(ConfigMenu.java:181)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu.access$100(ConfigMenu.java:23)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu$7.run(ConfigMenu.java:129)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+2020-02-06T16:40:09.696905 tid5716 [IFO,App] Updating GUI; config pad = true; from cache = false
+2020-02-06T16:40:09.696905 tid5716 [IFO,App] Rebuilding config group table
+2020-02-06T16:40:09.696905 tid5716 [IFO,App] Finished rebuilding config group table
+2020-02-06T16:40:09.696905 tid5716 [IFO,Core] Did update system state cache
+2020-02-06T16:40:09.697906 tid5716 [IFO,App] Finished updating GUI

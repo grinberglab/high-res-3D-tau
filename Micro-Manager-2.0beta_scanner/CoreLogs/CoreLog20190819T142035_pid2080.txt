@@ -1,0 +1,1115 @@
+2019-08-19T14:20:35.961865 tid5276 [IFO,LogManager] Enabled primary log file C:\Micro-Manager-2.0beta_scanner\CoreLogs\CoreLog20190819T142035_pid2080.txt
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] User: Scanner.User
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] Host: DESKTOP-S4KVGR5
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] MMCore version 8.5.0
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] Device API version 67, Module API version 10
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2019-08-19T14:20:35.961865 tid5276 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2019-08-19T14:20:36.024366 tid5276 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2019-08-19T14:20:36.508746 tid4020 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmplugins
+2019-08-19T14:20:42.461940 tid4020 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@5945a5a
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@35a271f5
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@19ed00d1
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@16d0a6a3
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@3f70119f
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@4fc0cb76
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@10bcc8f4
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin GaussianTrack_@5a2d13c1
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@432342ed
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@7c4e7958
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@400c02a
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@4d480773
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@33e136a8
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@6cb6a34
+2019-08-19T14:20:42.508816 tid4020 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@5e1645b9
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@3c9ce70
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@36101d01
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@5be04861
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@61b00766
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@7481933a
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@66e90097
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@4b25ee49
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@273f212a
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@219a6087
+2019-08-19T14:20:42.524441 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@1e37504d
+2019-08-19T14:20:42.555692 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@24b6a561
+2019-08-19T14:20:42.555692 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@5323961b
+2019-08-19T14:20:42.555692 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@4553f141
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@77b9e7fc
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@4e2d8ecc
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@140e3010
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@48423606
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@514f2bd7
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@1be2f6b0
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@51b1ab1d
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@e039859
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@6e247d4a
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@1d9dbdc4
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@43b5699
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@53b258fa
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@61efb003
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.splitview.SplitView@3f0cc730
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin PMQI.AutoWB@5fe940a6
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@4a93837b
+2019-08-19T14:20:42.602567 tid4020 [IFO,App] Searching for plugins in C:\Micro-Manager-2.0beta_scanner/mmautofocus
+2019-08-19T14:20:42.961946 tid4020 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@2a7d2796
+2019-08-19T14:20:42.961946 tid4020 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@d335207
+2019-08-19T14:20:42.961946 tid4020 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@117c50b9
+2019-08-19T14:20:42.977571 tid4020 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@2d44b624
+2019-08-19T14:20:43.024447 tid4020 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@2a06bbe7
+2019-08-19T14:20:43.024447 tid4020 [IFO,App] Searching for plugins in class loader
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin edu.ucsf.slidescanner.plugin.SlideScan@718ddc48
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@18793536
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@3d9478c7
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@5e857066
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@a966905
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@18c8ccb1
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@26f6852d
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@2a16157
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@30fd981a
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@590cec16
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@5f5fc606
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@8c1e4d5
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@71966070
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@47959352
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@2cfb1135
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@1726c5a5
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@7279df82
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@1f410a85
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@6719b1ca
+2019-08-19T14:20:43.727580 tid4020 [IFO,App] Plugin loading took 7219ms
+2019-08-19T14:20:56.352726 tid5276 [IFO,App] Finished waiting for plugins to load
+2019-08-19T14:21:19.250677 tid5276 [IFO,Core] Did unload all devices
+2019-08-19T14:21:19.313178 tid5276 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2019-08-19T14:21:19.328803 tid5276 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2019-08-19T14:21:19.581867 tid5276 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "0555-8cdf-4396-baea-a937cff94d5a} {7"
+2019-08-19T14:21:19.581867 tid5276 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2019-08-19T14:21:19.581867 tid5276 [IFO,Core] Will initialize 3 devices
+2019-08-19T14:21:19.581867 tid5276 [IFO,Core] Will initialize device COM3
+2019-08-19T14:21:19.600880 tid5276 [IFO,Core] Did initialize device COM3
+2019-08-19T14:21:19.600880 tid5276 [IFO,Core] Will initialize device FreeSerialPort
+2019-08-19T14:21:19.600880 tid5276 [IFO,Core] Did initialize device FreeSerialPort
+2019-08-19T14:21:19.600880 tid5276 [IFO,Core] Will initialize device Camera-1
+2019-08-19T14:21:19.910099 tid5276 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2019-08-19T14:21:19.925109 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:21:20.747693 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:21:20.875783 tid5276 [IFO,Core] Did initialize device Camera-1
+2019-08-19T14:21:20.875783 tid5276 [IFO,Core] Default camera set to Camera-1
+2019-08-19T14:21:20.875783 tid5276 [IFO,Core] Finished initializing 3 devices
+2019-08-19T14:21:20.875783 tid5276 [IFO,Core] Default camera set to Camera-1
+2019-08-19T14:21:20.878786 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:22.396863 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:22.396863 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:22.408870 tid5276 [IFO,App] Startup script (C:\Micro-Manager-2.0beta_scanner\MMStartup.bsh) not present
+2019-08-19T14:21:22.408870 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:22.410872 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:22.410872 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:22.413874 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:22.413874 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:21:27.952801 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:21:28.118919 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:28.119919 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:28.120920 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:28.120920 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:28.122922 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:28.122922 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:21:28.123922 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:28.124923 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:28.124923 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:28.126924 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:28.126924 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:21:28.176960 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:28.177961 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:28.177961 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:28.179962 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:28.179962 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:21:28.181963 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:28.181963 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:28.181963 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:28.184966 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:28.184966 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:21:28.185966 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:28.186967 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:28.186967 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:28.188968 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:28.189969 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:21:33.239549 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:21:42.624203 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:21:42.627205 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:42.627205 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:21:42.628205 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:21:42.628205 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:21:42.631208 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:21:42.631208 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:22:21.586826 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:22:21.589828 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:22:21.589828 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:22:21.590829 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:22:21.590829 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:22:21.592830 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:22:21.592830 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:23:46.281054 tid5276 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:23:46.284056 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:23:46.284056 tid5276 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:23:46.285057 tid5276 [IFO,App] Rebuilding config group table
+2019-08-19T14:23:46.285057 tid5276 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:23:46.287058 tid5276 [IFO,Core] Did update system state cache
+2019-08-19T14:23:46.288060 tid5276 [IFO,App] Finished updating GUI
+2019-08-19T14:24:12.025326 tid4864 [IFO,Core] Did unload all devices
+2019-08-19T14:24:12.025326 tid4864 [IFO,Core] System reset
+2019-08-19T14:24:12.076362 tid4864 [IFO,App] AAAOTF
+2019-08-19T14:24:12.111388 tid4864 [IFO,App]    AAAOTF, AAAOTF
+2019-08-19T14:24:12.111388 tid4864 [IFO,App]    multiAAAOTF, multiAAAOTF
+2019-08-19T14:24:12.111388 tid4864 [IFO,App] ABSCamera
+2019-08-19T14:24:12.206454 tid4864 [IFO,App]    ABSCam, ABS camera
+2019-08-19T14:24:12.206454 tid4864 [IFO,App] AgilentLaserCombiner
+2019-08-19T14:24:12.239478 tid4864 [IFO,App]    LC-Shutter, Shutter
+2019-08-19T14:24:12.239478 tid4864 [IFO,App]    LC-SafetyShutter, SafetyShutter
+2019-08-19T14:24:12.239478 tid4864 [IFO,App]    LC-DAC, DA
+2019-08-19T14:24:12.239478 tid4864 [IFO,App] Aladdin
+2019-08-19T14:24:12.266498 tid4864 [IFO,App]    Aladdin, Aladdin Syringe Pump
+2019-08-19T14:24:12.266498 tid4864 [IFO,App] AmScope
+2019-08-19T14:24:12.544694 tid4864 [IFO,App]    AmScope, AmScope
+2019-08-19T14:24:12.544694 tid4864 [IFO,App] Andor
+2019-08-19T14:24:12.589726 tid4864 [IFO,App]    Andor, Generic Andor Camera Adapter
+2019-08-19T14:24:12.589726 tid4864 [IFO,App] AndorLaserCombiner
+2019-08-19T14:24:12.617746 tid4864 [IFO,App]    AndorLaserCombiner, AndorLaserCombiner
+2019-08-19T14:24:12.617746 tid4864 [IFO,App]    PiezoStage, PiezoStage
+2019-08-19T14:24:12.617746 tid4864 [IFO,App] AndorSDK3
+2019-08-19T14:24:13.254197 tid4864 [IFO,App] Error: Unable to load AndorSDK3 library: Failed to load device adapter "AndorSDK3" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_AndorSDK3.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:13.254197 tid4864 [IFO,App] AndorShamrock
+2019-08-19T14:24:13.323246 tid4864 [IFO,App] Error: Unable to load AndorShamrock library: Failed to load device adapter "AndorShamrock" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_AndorShamrock.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:13.323246 tid4864 [IFO,App] AOTF
+2019-08-19T14:24:13.473352 tid4864 [IFO,App]    AOTF-Switch, TTL digital out AOTF wavelength selector
+2019-08-19T14:24:13.473352 tid4864 [IFO,App]    AOTF-Shutter, TTL digital out AOTF shutter
+2019-08-19T14:24:13.473352 tid4864 [IFO,App] Aquinas
+2019-08-19T14:24:13.495368 tid4864 [IFO,App]    Aquinas Controller, Aquinas Controller
+2019-08-19T14:24:13.495368 tid4864 [IFO,App] Arduino
+2019-08-19T14:24:13.524389 tid4864 [IFO,App]    Arduino-Hub, Hub (required)
+2019-08-19T14:24:13.524389 tid4864 [IFO,App]    Arduino-Switch, Digital out 8-bit
+2019-08-19T14:24:13.524389 tid4864 [IFO,App]    Arduino-Shutter, Shutter
+2019-08-19T14:24:13.524389 tid4864 [IFO,App]    Arduino-DAC1, DAC channel 1
+2019-08-19T14:24:13.524389 tid4864 [IFO,App]    Arduino-DAC2, DAC channel 2
+2019-08-19T14:24:13.524389 tid4864 [IFO,App]    Arduino-Input, ADC
+2019-08-19T14:24:13.524389 tid4864 [IFO,App] ArduinoNeoPixel
+2019-08-19T14:24:13.562416 tid4864 [IFO,App]    ArduinoNeoPixel-Hub, Hub (required)
+2019-08-19T14:24:13.562416 tid4864 [IFO,App]    ArduinoNeoPixel-Shutter, Shutter
+2019-08-19T14:24:13.562416 tid4864 [IFO,App] ASIFW1000
+2019-08-19T14:24:13.590436 tid4864 [IFO,App]    ASIFWController, ASIFW1000 Controller
+2019-08-19T14:24:13.590436 tid4864 [IFO,App]    ASIFilterWheel, ASI FilterWheel
+2019-08-19T14:24:13.590436 tid4864 [IFO,App]    ASIShutter, ASI Shutter
+2019-08-19T14:24:13.590436 tid4864 [IFO,App] ASIStage
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    ZStage, Add-on Z-stage
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    XYStage, XY Stage
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    CRIF, CRIF
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    CRISP, CRISP
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    AZ100 Turret, AZ100 Turret
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    State Device, State Device
+2019-08-19T14:24:13.628463 tid4864 [IFO,App]    LED, LED
+2019-08-19T14:24:13.628463 tid4864 [IFO,App] ASITiger
+2019-08-19T14:24:13.677497 tid4864 [IFO,App]    TigerCommHub, ASI TigerComm Hub (TG-1000)
+2019-08-19T14:24:13.677497 tid4864 [IFO,App] ASIwptr
+2019-08-19T14:24:13.712522 tid4864 [IFO,App]    WPTRobot, WPTRobot
+2019-08-19T14:24:13.712522 tid4864 [IFO,App] AxioCam
+2019-08-19T14:24:13.752551 tid4864 [IFO,App]    Zeiss AxioCam, Zeiss AxioCam
+2019-08-19T14:24:13.752551 tid4864 [IFO,App] BaumerOptronic
+2019-08-19T14:24:14.049761 tid4864 [IFO,App]    BaumerOptronic, Baumer Optronic driver for Leica Cameras
+2019-08-19T14:24:14.049761 tid4864 [IFO,App] CARVII
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Hub, Hub (Needed for CARVII)
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Shutter, Confocal shutter
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Ex filter, Confocal excitation filter wheel
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Em filter, Confocal emission filter wheel
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Dichroic, Confocal dichroic wheel
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII FRAP iris, Confocal field aperture
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Intensity iris, Confocal "Condenser" illumination aperture
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Disk slider, Spinning disk slider
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Spin motor, Spinning disk motor
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Prism slider, Light path slider
+2019-08-19T14:24:14.172849 tid4864 [IFO,App]    CARVII Touchscreen, Touchscreen lockout control
+2019-08-19T14:24:14.172849 tid4864 [IFO,App] Cobolt
+2019-08-19T14:24:14.204871 tid4864 [IFO,App]    Cobolt, Cobolt Laser Controller
+2019-08-19T14:24:14.204871 tid4864 [IFO,App] CoherentCube
+2019-08-19T14:24:14.229889 tid4864 [IFO,App]    CoherentCube, CoherentCube Laser
+2019-08-19T14:24:14.229889 tid4864 [IFO,App] CoherentOBIS
+2019-08-19T14:24:14.261912 tid4864 [IFO,App]    CoherentObis, CoherentObis Laser
+2019-08-19T14:24:14.261912 tid4864 [IFO,App] Conix
+2019-08-19T14:24:14.283928 tid4864 [IFO,App]    ConixQuadFilter, External Filter Cube Switcher
+2019-08-19T14:24:14.283928 tid4864 [IFO,App]    ConixHexFilter, External Filter Cube Switcher(6)
+2019-08-19T14:24:14.283928 tid4864 [IFO,App]    ConixXYStage, Conix XY stage
+2019-08-19T14:24:14.283928 tid4864 [IFO,App]    ConixZStage, Conix Z stage
+2019-08-19T14:24:14.283928 tid4864 [IFO,App] Corvus
+2019-08-19T14:24:14.305943 tid4864 [IFO,App]    ITK Corvus Controller, ITK Corvus Controller
+2019-08-19T14:24:14.305943 tid4864 [IFO,App]    XY Stage, XY Stage
+2019-08-19T14:24:14.305943 tid4864 [IFO,App]    Z Axis, Z Axis
+2019-08-19T14:24:14.305943 tid4864 [IFO,App] CSUW1
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Hub, CSUW1 Hub (Needed for CSUW1. 115200bps)
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Filter Wheel, Filter Wheel
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Dichroic Mirror, Dichroic Mirror
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Shutter, Shutter
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Drive Speed, Drive Speed
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Bright Field, Bright Field
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Disk, Disk
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Port, Port
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Aperture, Aperture
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-FRAP, FRAP
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-Magnifier, Magnifier
+2019-08-19T14:24:14.330961 tid4864 [IFO,App]    CSUW1-NIR Shutter, NIR Shutter
+2019-08-19T14:24:14.330961 tid4864 [IFO,App] CSUX
+2019-08-19T14:24:14.358981 tid4864 [IFO,App]    CSUX-Hub, CSUX Hub (Needed for CSUX)
+2019-08-19T14:24:14.358981 tid4864 [IFO,App]    CSUX-Filter Wheel, Filter Wheel
+2019-08-19T14:24:14.358981 tid4864 [IFO,App]    CSUX-Dichroic Mirror, Dichroic Mirror
+2019-08-19T14:24:14.358981 tid4864 [IFO,App]    CSUX-Shutter, Shutter
+2019-08-19T14:24:14.358981 tid4864 [IFO,App]    CSUX-DriveSpeed, DriveSpeed
+2019-08-19T14:24:14.358981 tid4864 [IFO,App] dc1394
+2019-08-19T14:24:14.430031 tid4864 [IFO,App] Error: Unable to load dc1394 library: Failed to load device adapter "dc1394" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_dc1394.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:14.430031 tid4864 [IFO,App] DECamera
+2019-08-19T14:24:14.492075 tid4864 [IFO,App]    Direct Electron Camera, Direct Electron Camera
+2019-08-19T14:24:14.492075 tid4864 [IFO,App] DemoCamera
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DCam, Demo camera
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DWheel, Demo filter wheel
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DStateDevice, Demo State Device
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DObjective, Demo objective turret
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DStage, Demo stage
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DXYStage, Demo XY stage
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DLightPath, Demo light path
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DAutoFocus, Demo auto focus
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DShutter, Demo shutter
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    D-DA, Demo DA
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    D-DA2, Demo DA-2
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DOptovar, Demo Optovar
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DGalvo, Demo Galvo
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    TransposeProcessor, TransposeProcessor
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    ImageFlipX, ImageFlipX
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    ImageFlipY, ImageFlipY
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    MedianFilter, MedianFilter
+2019-08-19T14:24:14.529101 tid4864 [IFO,App]    DHub, DHub
+2019-08-19T14:24:14.529101 tid4864 [IFO,App] Diskovery
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-Hub, Diskovery Hub (required)
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-Disk-Position, Diskovery Spinning Disk Position
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-Illumination-Size, Diskovery Illumination Size
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-TIRF-Position, Diskovery TIRF Position
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-Objective-Select, Diskovery Objective Select
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-Filter-W, Diskovery Filter W
+2019-08-19T14:24:14.558122 tid4864 [IFO,App]    Diskovery-Filter-T, Diskovery Filter T
+2019-08-19T14:24:14.558122 tid4864 [IFO,App] DTOpenLayer
+2019-08-19T14:24:14.589144 tid4864 [IFO,App] Error: Unable to load DTOpenLayer library: Failed to load device adapter "DTOpenLayer" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_DTOpenLayer.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:14.589144 tid4864 [IFO,App] ESIOImagingControllers
+2019-08-19T14:24:14.624169 tid4864 [IFO,App]    ESioController, ESImaging Controller
+2019-08-19T14:24:14.624169 tid4864 [IFO,App] FLICamera
+2019-08-19T14:24:14.651187 tid4864 [IFO,App]    FLICamera, FLI Camera Device
+2019-08-19T14:24:14.651187 tid4864 [IFO,App] FreeSerialPort
+2019-08-19T14:24:14.651187 tid4864 [IFO,App]    FreeSerialPort, Free-form communication Serial Port.
+2019-08-19T14:24:14.651187 tid4864 [IFO,App] GenericSLM
+2019-08-19T14:24:14.672203 tid4864 [IFO,App]    GenericSLM, Spatial light modulator controlled through computer graphics output
+2019-08-19T14:24:14.672203 tid4864 [IFO,App] GigECamera
+2019-08-19T14:24:14.700223 tid4864 [IFO,App] Error: Unable to load GigECamera library: Failed to load device adapter "GigECamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_GigECamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:14.700223 tid4864 [IFO,App] HamamatsuHam
+2019-08-19T14:24:14.727242 tid4864 [IFO,App] Error: Unable to load HamamatsuHam library: Failed to load device adapter "HamamatsuHam" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_HamamatsuHam.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:14.727242 tid4864 [IFO,App] HIDManager
+2019-08-19T14:24:14.854834 tid4864 [IFO,App] HoribaEPIX
+2019-08-19T14:24:14.997936 tid4864 [IFO,App]    Horiba EFIS Camera, Horiba EFIS Camera
+2019-08-19T14:24:14.997936 tid4864 [IFO,App]    Horiba ATOR Camera, Horiba ATOR Camera
+2019-08-19T14:24:14.997936 tid4864 [IFO,App]    Horiba IRIS Camera, Horiba IRIS Camera
+2019-08-19T14:24:14.997936 tid4864 [IFO,App]    Horiba IRIS RGB Camera, Horiba IRIS RGB Camera
+2019-08-19T14:24:14.997936 tid4864 [IFO,App] IDS_uEye
+2019-08-19T14:24:15.024956 tid4864 [IFO,App] Error: Unable to load IDS_uEye library: Failed to load device adapter "IDS_uEye" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_IDS_uEye.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:15.024956 tid4864 [IFO,App] IIDC
+2019-08-19T14:24:15.059981 tid4864 [IFO,App] Error: Unable to load IIDC library: Failed to load device adapter "IIDC" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_IIDC.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:15.059981 tid4864 [IFO,App] ImageProcessorChain
+2019-08-19T14:24:15.105013 tid4864 [IFO,App]    ImageProcessorChain, ImageProcessorChain
+2019-08-19T14:24:15.105013 tid4864 [IFO,App] K8055
+2019-08-19T14:24:15.130030 tid4864 [IFO,App]    K8055-Hub, Hub
+2019-08-19T14:24:15.130030 tid4864 [IFO,App]    K8055-Switch, Switch
+2019-08-19T14:24:15.130030 tid4864 [IFO,App]    K8055-Shutter, Shutter
+2019-08-19T14:24:15.130030 tid4864 [IFO,App]    K8055-DAC-1, DA-1
+2019-08-19T14:24:15.130030 tid4864 [IFO,App]    K8055-DAC-2, DA-2
+2019-08-19T14:24:15.130030 tid4864 [IFO,App]    K8055-Input, Digital Input
+2019-08-19T14:24:15.130030 tid4864 [IFO,App] K8061
+2019-08-19T14:24:15.154047 tid4864 [IFO,App]    K8061-Hub, Hub
+2019-08-19T14:24:15.154047 tid4864 [IFO,App]    K8061-Switch, Switch
+2019-08-19T14:24:15.154047 tid4864 [IFO,App]    K8061-Shutter, Shutter
+2019-08-19T14:24:15.154047 tid4864 [IFO,App]    K8061-DAC, DA
+2019-08-19T14:24:15.154047 tid4864 [IFO,App]    K8061-Input, Input
+2019-08-19T14:24:15.154047 tid4864 [IFO,App] KDV
+2019-08-19T14:24:15.178064 tid4864 [IFO,App]    KDVZStage, Focus drive for Meiji Techno EMZ
+2019-08-19T14:24:15.178064 tid4864 [IFO,App] LeicaDMI
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    Scope, Leica DMI microscope controlled through serial interface
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    TL-Shutter, Transmitted Light Shutter
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    IL-Shutter, Incident Light Shutter
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    IL-Turret, Reflector Turret (dichroics)
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    ObjectiveTurret, Objective Turret
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    FastFilterWheel, Fast Filter Wheel
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    FocusDrive, Z-drive
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    XYStage, XYStage
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    TL-FieldDiaphragm, Field Diaphragm (Trans)
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    TL-ApertureDiaphragm, Aperture Diaphragm (Condensor)
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    IL-FieldDiaphragm, Field Diaphragm (Fluorescence)
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    IL-ApertureDiaphragm, Aperture Diaphragm (Fluorescence)
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    MagnificationChanger, Tube Lens (magnification changer)
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    TLPolarizer, Transmitted light Polarizer
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    DIC Turret, DIC Turret
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    Condensor, Condensor Turret
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    Transmitted Light, Transmitted Light
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    Adaptive Focus Control, Adaptive Focus Control
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    Adaptive Focus Control Offset, Adaptive Focus Control Offset
+2019-08-19T14:24:15.212088 tid4864 [IFO,App]    SidePort, Side Port
+2019-08-19T14:24:15.212088 tid4864 [IFO,App] LeicaDMR
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Leica DM microscope, LeicaDMR (DM RXA, DM RME, RD RBE, DM RXA, DM RA, DM IRBE) Controller
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Reflected Light Module, Reflected Light LModule
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Halogen Lamp, Halogen Lamp
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Shutter, Reflected Light Shutter
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Z Drive, Z Drive
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Objective Nosepiece, Objective Nosepiece
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Aperture Diaphragm, Aperture Diaphragm
+2019-08-19T14:24:15.241109 tid4864 [IFO,App]    Field Diaphragm, Field Diaphragm
+2019-08-19T14:24:15.241109 tid4864 [IFO,App] LeicaDMSTC
+2019-08-19T14:24:15.267128 tid4864 [IFO,App]    Leica DMSTC stage hub, LeicaDMSTC Controller
+2019-08-19T14:24:15.267128 tid4864 [IFO,App]    Leica DMSTC XY stage, XY Drive
+2019-08-19T14:24:15.267128 tid4864 [IFO,App] Ludl
+2019-08-19T14:24:15.294146 tid4864 [IFO,App]    LudlController, Ludl Controller
+2019-08-19T14:24:15.294146 tid4864 [IFO,App]    LudlShutter, Ludl Shutter
+2019-08-19T14:24:15.294146 tid4864 [IFO,App]    LudlWheel, Ludl Filter Wheel
+2019-08-19T14:24:15.294146 tid4864 [IFO,App]    XYStage, XY Stage
+2019-08-19T14:24:15.294146 tid4864 [IFO,App]    Stage, Single Axis Stage
+2019-08-19T14:24:15.294146 tid4864 [IFO,App] LudlLow
+2019-08-19T14:24:15.323167 tid4864 [IFO,App]    LudlController, Ludl Controller
+2019-08-19T14:24:15.323167 tid4864 [IFO,App]    LudlShutter, Ludl Shutter
+2019-08-19T14:24:15.323167 tid4864 [IFO,App]    LudlWheel, Ludl Filter Wheel
+2019-08-19T14:24:15.323167 tid4864 [IFO,App] LumencorCIA
+2019-08-19T14:24:15.366198 tid4864 [IFO,App]    CIA, Lumencor Camera Interface Adapter
+2019-08-19T14:24:15.366198 tid4864 [IFO,App] LumencorSpectra
+2019-08-19T14:24:15.395218 tid4864 [IFO,App]    Spectra, Lumencor Spectra Light Engine
+2019-08-19T14:24:15.395218 tid4864 [IFO,App] MaestroServo
+2019-08-19T14:24:15.431244 tid4864 [IFO,App]    MaestroServo, Pololu MaestroServo controller
+2019-08-19T14:24:15.431244 tid4864 [IFO,App]    MaestroServoAsShutter, Pololu MaestroServo as shutter
+2019-08-19T14:24:15.431244 tid4864 [IFO,App] Marzhauser
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    XYStage, Tango XY Stage
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    ZAxis, Tango Z Axis
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    AAxis, Tango A Axis
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    TTLShutter, Tango TTL Shutter
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    LED100-1, Tango LED100-1 [0..100%]
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    LED100-2, Tango LED100-2 [0..100%]
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    DAC, Tango DAC [0..10V]
+2019-08-19T14:24:15.463267 tid4864 [IFO,App]    ADC, Tango ADC [0..5V]
+2019-08-19T14:24:15.463267 tid4864 [IFO,App] MarzhauserLStep
+2019-08-19T14:24:15.491286 tid4864 [IFO,App]    XYStage, LStep XY Stage
+2019-08-19T14:24:15.491286 tid4864 [IFO,App]    ZAxis, LStep Z Axis
+2019-08-19T14:24:15.491286 tid4864 [IFO,App] MarzhauserLStepOld
+2019-08-19T14:24:15.526310 tid4864 [IFO,App]    XYStage, LStepOld XY Stage
+2019-08-19T14:24:15.527312 tid4864 [IFO,App] MatrixVision
+2019-08-19T14:24:15.564338 tid4864 [IFO,App] Error: Unable to load MatrixVision library: Failed to load device adapter "MatrixVision" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MatrixVision.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:15.564338 tid4864 [IFO,App] MCCDAQ
+2019-08-19T14:24:15.600364 tid4864 [IFO,App] Error: Unable to load MCCDAQ library: Failed to load device adapter "MCCDAQ" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MCCDAQ.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:15.600364 tid4864 [IFO,App] MCL_MicroDrive
+2019-08-19T14:24:15.656404 tid4864 [IFO,App]    MicroDrive XY Stage, XY positioning
+2019-08-19T14:24:15.656404 tid4864 [IFO,App]    MicroDrive Z Stage, Z positioning
+2019-08-19T14:24:15.656404 tid4864 [IFO,App] MCL_NanoDrive
+2019-08-19T14:24:15.736460 tid4864 [IFO,App]    MCL NanoDrive Z Stage, Z positioning
+2019-08-19T14:24:15.736460 tid4864 [IFO,App]    MCL NanoDrive XY Stage, XY positioning
+2019-08-19T14:24:15.736460 tid4864 [IFO,App] Micropix
+2019-08-19T14:24:15.780491 tid4864 [IFO,App] Error: Unable to load Micropix library: Failed to load device adapter "Micropix" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Micropix.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:15.780491 tid4864 [IFO,App] MicroPoint
+2019-08-19T14:24:15.809512 tid4864 [IFO,App]    MicroPoint, MicroPoint
+2019-08-19T14:24:15.809512 tid4864 [IFO,App] Mightex
+2019-08-19T14:24:15.884565 tid4864 [IFO,App]    Mightex_SLC(USB), Mightex Sirius SLC LED Driver(USB)
+2019-08-19T14:24:15.884565 tid4864 [IFO,App] MightexPolygon
+2019-08-19T14:24:15.939604 tid4864 [IFO,App] Error: Unable to load MightexPolygon library: Failed to load device adapter "MightexPolygon" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MightexPolygon.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:15.939604 tid4864 [IFO,App] Mightex_BLS
+2019-08-19T14:24:15.969626 tid4864 [IFO,App]    Mightex_SLC(USB), Mightex Sirius SLC LED Driver(USB)
+2019-08-19T14:24:15.969626 tid4864 [IFO,App]    Mightex_BLS(USB), Mightex Sirius BLS Control Module(USB)
+2019-08-19T14:24:15.969626 tid4864 [IFO,App] Mightex_C_Cam
+2019-08-19T14:24:16.019661 tid4864 [IFO,App]    Mightex_BUF_USBCCDCamera, Mightex Buffer USB CCD Camera
+2019-08-19T14:24:16.019661 tid4864 [IFO,App] Mosaic3
+2019-08-19T14:24:16.059689 tid4864 [IFO,App]    Mosaic3, Andor Mosaic3 DMD Device
+2019-08-19T14:24:16.059689 tid4864 [IFO,App] MoticCamera
+2019-08-19T14:24:16.080704 tid4864 [IFO,App] Error: Unable to load MoticCamera library: Failed to load device adapter "MoticCamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MoticCamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:16.080704 tid4864 [IFO,App] MoticMicroscope
+2019-08-19T14:24:16.118731 tid4864 [IFO,App] Error: Unable to load MoticMicroscope library: Failed to load device adapter "MoticMicroscope" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_MoticMicroscope.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:16.118731 tid4864 [IFO,App] MP285
+2019-08-19T14:24:16.158760 tid4864 [IFO,App]    MP285 Controller, MP285 Controller
+2019-08-19T14:24:16.159760 tid4864 [IFO,App]    MP285 XY Stage, MP285 XY Stage
+2019-08-19T14:24:16.159760 tid4864 [IFO,App]    MP285 Z Stage, MP285 Z Stage
+2019-08-19T14:24:16.159760 tid4864 [IFO,App] MT20
+2019-08-19T14:24:16.200789 tid4864 [IFO,App]    MT20-HUB, Olympus MT20 hub device
+2019-08-19T14:24:16.200789 tid4864 [IFO,App]    MT20-Burner, Olympus MT20 burner
+2019-08-19T14:24:16.200789 tid4864 [IFO,App]    MT20-Shutter, Olympus MT20 shutter
+2019-08-19T14:24:16.200789 tid4864 [IFO,App]    MT20-Filterwheel, Olympus MT20 filterwheel
+2019-08-19T14:24:16.200789 tid4864 [IFO,App]    MT20-Attenuator, Olympus MT20 attenuator
+2019-08-19T14:24:16.200789 tid4864 [IFO,App] Neos
+2019-08-19T14:24:16.224806 tid4864 [IFO,App]    Neos, Neos controller with USB
+2019-08-19T14:24:16.224806 tid4864 [IFO,App] NewportCONEX
+2019-08-19T14:24:16.240817 tid4864 [IFO,App]    XAxis, Conex_Axis X Axis
+2019-08-19T14:24:16.240817 tid4864 [IFO,App]    YAxis, Conex_Axis Y Axis
+2019-08-19T14:24:16.240817 tid4864 [IFO,App]    ZAxis, Conex_Axis Z Axis
+2019-08-19T14:24:16.240817 tid4864 [IFO,App] NewportSMC
+2019-08-19T14:24:16.270839 tid4864 [IFO,App]    NewportZStage, Newport SMC100CC controller
+2019-08-19T14:24:16.270839 tid4864 [IFO,App] NI100X
+2019-08-19T14:24:16.301861 tid4864 [IFO,App] Error: Unable to load NI100X library: Failed to load device adapter "NI100X" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_NI100X.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:16.301861 tid4864 [IFO,App] Nikon
+2019-08-19T14:24:16.327880 tid4864 [IFO,App]    ZStage, Remote accessory Z-stage
+2019-08-19T14:24:16.327880 tid4864 [IFO,App]    TIRFShutter, TIRF Laser Shutter controller T-LUSU(2)
+2019-08-19T14:24:16.327880 tid4864 [IFO,App]    TiTIRFShutter, Ti-TIRF Laser Shutter controller T-LUSU(2)
+2019-08-19T14:24:16.327880 tid4864 [IFO,App]    IntensiLightShutter, IntensiLight Shutter
+2019-08-19T14:24:16.327880 tid4864 [IFO,App] NikonAZ100
+2019-08-19T14:24:16.355899 tid4864 [IFO,App]    AZ100, AZ100 controller - required for all other devices
+2019-08-19T14:24:16.355899 tid4864 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2019-08-19T14:24:16.355899 tid4864 [IFO,App]    Focus, Z-stage
+2019-08-19T14:24:16.355899 tid4864 [IFO,App]    Zoom, Zoom
+2019-08-19T14:24:16.355899 tid4864 [IFO,App] NikonEclipse90i
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Eclipse90i, Eclipse90i controller - required for all other devices
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Focus, Z-stage control
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    OpticalPath, Optical path switch - camera, eyepiece, etc.
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Analyzer, Analyzer control
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Transmitted Light, Transmitted Light control
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Zoom, Zoom
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    DIA Field Stop, Transmitted Light Field Stop
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    EPI Field Stop, Epi-fluorescence Field Stop
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    FilterBlock, Filter changer
+2019-08-19T14:24:16.373912 tid4864 [IFO,App]    Epi-Shutter, Epi-fluorescence shutter
+2019-08-19T14:24:16.373912 tid4864 [IFO,App] NikonTE2000
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    TE2000, TE2000 controller - required for all other devices
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Focus, Z-stage
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    OpticalPath, Optical path switch - camera, eyepiece, etc.
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Analyzer, Analyzer control
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    FilterBlock, Filter changer
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Lamp, Halogen lamp
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Epi-Shutter, Epi-fluorescence shutter
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Uniblitz-Shutter, Uniblitz shutter
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    PerfectFocus, PFS autofocus device
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    PFS-Offset, PFS Offset Lens
+2019-08-19T14:24:16.396928 tid4864 [IFO,App]    Excitation Filter wheel, Nikon excitation side filter changer
+2019-08-19T14:24:16.396928 tid4864 [IFO,App] NikonTI
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIScope, Nikon Ti Microscope
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIAnalyzer, Analyzer
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIEpiShutter, Epi Shutter
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIDiaShutter, Dia Shutter
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIAuxShutter, Aux Shutter
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIDiaLamp, Dia Lamp
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TINosePiece, Objective Turret
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TICondenserCassette, Condenser Cassette
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIBarrierFilterWheel, Barrier Filter Wheel
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIExcitationFilterWheel, Excitation Filter Wheel
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIFilterBlock1, Filter Block Cassette 1
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIFilterBlock2, Filter Block Cassette 2
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TILightPath, Light Path Drive
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIZDrive, Z-Stage
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIXYDrive, XY-Stage
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIPFSOffset, PFS Offset
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TIPFSStatus, PFS Status
+2019-08-19T14:24:16.457971 tid4864 [IFO,App]    TITIRF, TIRF
+2019-08-19T14:24:16.457971 tid4864 [IFO,App] NIMultiAnalog
+2019-08-19T14:24:16.480988 tid4864 [IFO,App] Error: Unable to load NIMultiAnalog library: Failed to load device adapter "NIMultiAnalog" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_NIMultiAnalog.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:16.480988 tid4864 [IFO,App] NNLC
+2019-08-19T14:24:16.516013 tid4864 [IFO,App]    LC-Shutter, Shutter
+2019-08-19T14:24:16.516013 tid4864 [IFO,App]    LC-DAC, DA
+2019-08-19T14:24:16.516013 tid4864 [IFO,App]    LC-Setup, Setup
+2019-08-19T14:24:16.516013 tid4864 [IFO,App] NPointC400
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    nPoint C400 Controller, nPoint C400 Controller
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    Stage 1, Stage 1
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    Stage 2, Stage 2
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    Stage 3, Stage 3
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    Stage 4, Stage 4
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    Stage 5, Stage 5
+2019-08-19T14:24:16.547035 tid4864 [IFO,App]    Stage 6, Stage 6
+2019-08-19T14:24:16.547035 tid4864 [IFO,App] ObjectiveImaging
+2019-08-19T14:24:16.588064 tid4864 [IFO,App] Error: Unable to load ObjectiveImaging library: Failed to load device adapter "ObjectiveImaging" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ObjectiveImaging.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:16.588064 tid4864 [IFO,App] Okolab
+2019-08-19T14:24:16.761187 tid4864 [IFO,App]    OkoLab, Okolab Device Adapter
+2019-08-19T14:24:16.761187 tid4864 [IFO,App] Olympus
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    OlympusHub, Olympus Hub - required for all other devices
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    Objective, Objective turret
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    LightPath, Light path prism (eye/camera)
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    FilterCube, Fluorescence filter cube turret
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    Condenser, Transmitted light condenser turret
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    FilterWheel, Fluorescence filter wheel for IX/ First wheel for BX
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    FilterWheel2BX, Second filter wheel for BX
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    FilterWheel3BX, Third filter wheel for BX
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    Shutter1, Shutter number 1
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    Shutter2, Shutter number 2
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    ShutterBX, Shutter For BX2
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    BottomPort, Bottom port open/close
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    TransmittedLamp, Transmitted light lamp (voltage/on/off)
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    FluorescenceLamp, Epifluorescence lamp (voltage/on/off)
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    ManualFocus, Z-drive (jog wheel)
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    CondenserApertureStop, Condenser Aperture Stop
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    AutoFocusZDC, ZDC (Auto Focus)
+2019-08-19T14:24:16.794210 tid4864 [IFO,App]    ZDC2OffsetDrive, ZDC2 Offset Drive
+2019-08-19T14:24:16.794210 tid4864 [IFO,App] OlympusIX83
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Olympus IX83, Olympus IX83 Microscope
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Objective, Objective turret (nosepiece)
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Dichroic 1, Mirror unit deck 1
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Dichroic 2, Mirror unit deck 2
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Condenser turret, Rotating condenser turret
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Polarizer, Polarizer in/out device
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Transmitted ND Wheel, Neutral density filter wheel for transmitted path.
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Reflected ND Wheel, Neutral density filter wheel for reflected path.
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Light Path, Switches light between camera and eyepiece.
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Filter Wheel 1, A filter wheel
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Filter Wheel 2, A filter wheel
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Filter Wheel 3, A filter wheel
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Filter Wheel 4, A filter wheel
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Filter Wheel 5, A filter wheel
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Filter Wheel 6, A filter wheel
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    EpiShutter 1, Epi shutter, deck 1
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    EpiShutter 2, Epi shutter, deck 2
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    DiaShutter, Dia shutter
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    FastShutter 1, Fast shutter 1
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    FastShutter 2, Fast shutter 2
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    FastShutter 3, Fast shutter 3
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    FastShutter 4, Fast shutter 4
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    TransmittedIllumination 1, DIA High Intensity White LED 1
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    TransmittedIllumination 2, DIA High Intensity White LED 2
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Transmitted Aperture, Transmitted Aperture control
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    FocusDrive, Olympus IX83 Z drive
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    XYStage, Olympus IX83 XY stage
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    Autofocus, Olympus IX83 ZDC
+2019-08-19T14:24:16.846247 tid4864 [IFO,App]    AutofocusDrive, Olympus IX83 ZDC offset drive
+2019-08-19T14:24:16.846247 tid4864 [IFO,App] Omicron
+2019-08-19T14:24:16.871264 tid4864 [IFO,App]    Omicron, Omicron Laser Controller
+2019-08-19T14:24:16.871264 tid4864 [IFO,App] OpenCVgrabber
+2019-08-19T14:24:17.204500 tid4864 [IFO,App]    OpenCVgrabber, OpenCVgrabber video input
+2019-08-19T14:24:17.204500 tid4864 [IFO,App] OVP_ECS2
+2019-08-19T14:24:17.229518 tid4864 [IFO,App]    ECS-2, OVP ECS-2
+2019-08-19T14:24:17.229518 tid4864 [IFO,App] Oxxius
+2019-08-19T14:24:17.263542 tid4864 [IFO,App]    Oxxius LBX-LD, Oxxius LBX-LD Laser Controller
+2019-08-19T14:24:17.263542 tid4864 [IFO,App]    Oxxius LBX-DPSS, Oxxius LBX-DPSS Laser Controller
+2019-08-19T14:24:17.263542 tid4864 [IFO,App] ParallelPort
+2019-08-19T14:24:17.319583 tid4864 [IFO,App]    LPT1, Printer port TTL digital output
+2019-08-19T14:24:17.319583 tid4864 [IFO,App]    LPT-Shutter, Printer port TTLs used as shutters
+2019-08-19T14:24:17.319583 tid4864 [IFO,App] PCO_Camera
+2019-08-19T14:24:17.532733 tid4864 [IFO,App]    pco_camera, PCO generic camera adapter
+2019-08-19T14:24:17.532733 tid4864 [IFO,App] Pecon
+2019-08-19T14:24:17.563755 tid4864 [IFO,App]    TempControl, Temperature controller 37-2 digital
+2019-08-19T14:24:17.563755 tid4864 [IFO,App]    CTIController3700, CTI controller 3700 digital
+2019-08-19T14:24:17.563755 tid4864 [IFO,App]    CO2Controller, CO2 controller
+2019-08-19T14:24:17.563755 tid4864 [IFO,App] PeCon2000
+2019-08-19T14:24:17.693847 tid4864 [IFO,App]    PeCon2000, PeCon2000
+2019-08-19T14:24:17.693847 tid4864 [IFO,App]    PeCon2000-Hub, PeCon2000-Hub
+2019-08-19T14:24:17.693847 tid4864 [IFO,App] pgFocus
+2019-08-19T14:24:17.720867 tid4864 [IFO,App]    pgFocus, Hub (required)
+2019-08-19T14:24:17.720867 tid4864 [IFO,App]    pgFocus-Stabilization, Focus Stabilization
+2019-08-19T14:24:17.720867 tid4864 [IFO,App] PI
+2019-08-19T14:24:17.768901 tid4864 [IFO,App]    PIZStage, PI E-662 Z-stage
+2019-08-19T14:24:17.768901 tid4864 [IFO,App] PICAM
+2019-08-19T14:24:17.805927 tid4864 [IFO,App] Error: Unable to load PICAM library: Failed to load device adapter "PICAM" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_PICAM.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:17.805927 tid4864 [IFO,App] PicardStage
+2019-08-19T14:24:17.884983 tid4864 [IFO,App]    Picard Twister, Twister
+2019-08-19T14:24:17.884983 tid4864 [IFO,App]    Picard Z Stage, Z stage
+2019-08-19T14:24:17.884983 tid4864 [IFO,App]    Picard XY Stage, XY stage
+2019-08-19T14:24:17.884983 tid4864 [IFO,App] Piezosystem_30DV50
+2019-08-19T14:24:17.908000 tid4864 [IFO,App]    PSJStage, Single Axis Stage
+2019-08-19T14:24:17.908000 tid4864 [IFO,App]    PSJShutter, PSJ Shutter
+2019-08-19T14:24:17.908000 tid4864 [IFO,App] Piezosystem_dDrive
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_dDrive, Piezosystem Jena dDrive
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Stage1, Single Axis Stage Ch1
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Stage2, Single Axis Stage Ch2
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Stage3, Single Axis Stage Ch3
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Stage4, Single Axis Stage Ch4
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Stage5, Single Axis Stage Ch5
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Stage6, Single Axis Stage Ch6
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_XYStage1, Two Axis XY Stage1
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_XYStage2, Two Axis XY Stage2
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_XYStage3, Two Axis XY Stage3
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Shutter1, PSJ Shutter
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Shutter2, PSJ Shutter
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Shutter3, PSJ Shutter
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Shutter4, PSJ Shutter
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Shutter5, PSJ Shutter
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Shutter6, PSJ Shutter
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Tritor1, PSJ Tritor
+2019-08-19T14:24:17.934018 tid4864 [IFO,App]    PSJ_Tritor2, PSJ Tritor
+2019-08-19T14:24:17.934018 tid4864 [IFO,App] Piezosystem_NV120_1
+2019-08-19T14:24:17.957035 tid4864 [IFO,App]    PSJ_Stage, Single Axis Stage Ch1
+2019-08-19T14:24:17.957035 tid4864 [IFO,App] Piezosystem_NV40_1
+2019-08-19T14:24:17.986055 tid4864 [IFO,App]    PSJ_Stage, Single Axis Stage Ch1
+2019-08-19T14:24:17.986055 tid4864 [IFO,App] Piezosystem_NV40_3
+2019-08-19T14:24:18.015075 tid4864 [IFO,App]    PSJ_NV40/3, Piezosystem Jena NV40 Multi
+2019-08-19T14:24:18.015075 tid4864 [IFO,App]    PSJ_Stage1, Single Axis Stage Ch1
+2019-08-19T14:24:18.015075 tid4864 [IFO,App]    PSJ_Stage2, Single Axis Stage Ch2
+2019-08-19T14:24:18.015075 tid4864 [IFO,App]    PSJ_Stage3, Single Axis Stage Ch3
+2019-08-19T14:24:18.015075 tid4864 [IFO,App]    PSJ_XYStage, Two Axis XY Stage
+2019-08-19T14:24:18.015075 tid4864 [IFO,App] Piper
+2019-08-19T14:24:18.051101 tid4864 [IFO,App] Error: Unable to load Piper library: Failed to load device adapter "Piper" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Piper.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.051101 tid4864 [IFO,App] PI_GCS
+2019-08-19T14:24:18.086126 tid4864 [IFO,App]    PIZStage, PI GCS Z-stage
+2019-08-19T14:24:18.086126 tid4864 [IFO,App] PI_GCS_2
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    PIZStage, PI GCS Z-stage
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    PIXYStage, PI GCS XY-stage
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    PI_GCSController_DLL, PI GCS DLL Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    PI_GCSController, PI GCS Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    C-663.11, PI C-663.11 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    C-843, PI C-843 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    C-863.11, PI C-863.11 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    C-867, PI C-867 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    C-884, PI C-884 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    E-517/E-545, PI E-517/E-545 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    E-709, PI E-709 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    E-710, PI E-710 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    E-712, PI E-712 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App]    E-753, PI E-753 Controller
+2019-08-19T14:24:18.113145 tid4864 [IFO,App] PointGrey
+2019-08-19T14:24:18.153174 tid4864 [IFO,App] Error: Unable to load PointGrey library: Failed to load device adapter "PointGrey" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_PointGrey.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.153174 tid4864 [IFO,App] PolychromeV
+2019-08-19T14:24:18.169185 tid4864 [IFO,App]    AgilentPolychrome5000, Agilent Polychrome 5000
+2019-08-19T14:24:18.169185 tid4864 [IFO,App] PrecisExcite
+2019-08-19T14:24:18.195204 tid4864 [IFO,App]    PrecisExcite, PrecisExcite LED illuminator
+2019-08-19T14:24:18.195204 tid4864 [IFO,App] Prior
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Shutter-1, Pro Scan shutter 1
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Shutter-2, Pro Scan shutter 2
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Shutter-3, Pro Scan shutter 3
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Lumen, Lumen 200Pro lamp shutter
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Wheel-1, Pro Scan filter wheel 1
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Wheel-2, Pro Scan filter wheel 2
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    Wheel-3, Pro Scan filter wheel 3
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    ZStage, Add-on Z-stage
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    NanoScanZ, NanoScanZ
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    XYStage, XY Stage
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    TTL-0, Pro Scan TTL 0
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    TTL-1, Pro Scan TTL 1
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    TTL-2, Pro Scan TTL 2
+2019-08-19T14:24:18.211215 tid4864 [IFO,App]    TTL-3, Pro Scan TTL 3
+2019-08-19T14:24:18.211215 tid4864 [IFO,App] PriorLegacy
+2019-08-19T14:24:18.237233 tid4864 [IFO,App]    ZStage, Legacy Z stage
+2019-08-19T14:24:18.237233 tid4864 [IFO,App]    XYStage, Legacy XY Stage
+2019-08-19T14:24:18.237233 tid4864 [IFO,App] PVCAM
+2019-08-19T14:24:18.237233 tid4864 [IFO,App]    Camera-1, Universal PVCAM interface - camera slot 1
+2019-08-19T14:24:18.237233 tid4864 [IFO,App]    Camera-2, Universal PVCAM interface - camera slot 2
+2019-08-19T14:24:18.237233 tid4864 [IFO,App]    Camera-3, Universal PVCAM interface - camera slot 3
+2019-08-19T14:24:18.237233 tid4864 [IFO,App]    Camera-4, Universal PVCAM interface - camera slot 4
+2019-08-19T14:24:18.237233 tid4864 [IFO,App] QCam
+2019-08-19T14:24:18.269256 tid4864 [IFO,App] Error: Unable to load QCam library: Failed to load device adapter "QCam" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_QCam.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.269256 tid4864 [IFO,App] RAMPS
+2019-08-19T14:24:18.298276 tid4864 [IFO,App]    RAMPSXYStage, RAMPS XY stage
+2019-08-19T14:24:18.298276 tid4864 [IFO,App]    RAMPSZStage, RAMPS Z stage
+2019-08-19T14:24:18.298276 tid4864 [IFO,App]    RAMPSHub, RAMPS hub
+2019-08-19T14:24:18.298276 tid4864 [IFO,App] Rapp
+2019-08-19T14:24:18.389340 tid4864 [IFO,App]    RappScanner, Rapp UGA-40 Scanner
+2019-08-19T14:24:18.389340 tid4864 [IFO,App] RaptorEPIX
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Falcon Camera, Raptor Falcon Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Kite Camera, Raptor Kite Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Osprey Camera, Raptor Osprey Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Osprey RGB Camera, Raptor Osprey RGB Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Owl Camera 320, Raptor Owl Camera 320
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Owl Camera 640, Raptor Owl Camera 640
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Ninox Camera 640, Raptor Ninox Camera 640
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Eagle Camera, Raptor Eagle Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Eagle V 4240 Camera, Raptor Eagle V 4240 Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Eagle V 4210 Camera, Raptor Eagle V 4210 Camera
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Kingfisher 674, Raptor Kingfisher 674
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Kingfisher 694, Raptor Kingfisher 694
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Kingfisher 674 RGB, Raptor Kingfisher 674 RGB
+2019-08-19T14:24:18.429370 tid4864 [IFO,App]    Raptor Kingfisher 694 RGB, Raptor Kingfisher 694 RGB
+2019-08-19T14:24:18.429370 tid4864 [IFO,App] Sapphire
+2019-08-19T14:24:18.470398 tid4864 [IFO,App]    Sapphire, Sapphire Laser
+2019-08-19T14:24:18.470398 tid4864 [IFO,App] Scientifica
+2019-08-19T14:24:18.502421 tid4864 [IFO,App]    ZStage, Z Stage
+2019-08-19T14:24:18.502421 tid4864 [IFO,App]    XYStage, XY Stage
+2019-08-19T14:24:18.502421 tid4864 [IFO,App] ScopeLED
+2019-08-19T14:24:18.537446 tid4864 [IFO,App]    ScopeLED-G, ScopeLED Fiber Guide Illuminator
+2019-08-19T14:24:18.537446 tid4864 [IFO,App]    ScopeLED-B, ScopeLED Brightfield Microscope Illuminator
+2019-08-19T14:24:18.537446 tid4864 [IFO,App]    ScopeLED-F, ScopeLED Fluorescence Microscope Illuminator
+2019-08-19T14:24:18.537446 tid4864 [IFO,App] SerialManager
+2019-08-19T14:24:18.537446 tid4864 [IFO,App]    COM1, Serial communication port
+2019-08-19T14:24:18.537446 tid4864 [IFO,App]    COM3, Serial communication port
+2019-08-19T14:24:18.537446 tid4864 [IFO,App] SigmaKoki
+2019-08-19T14:24:18.556459 tid4864 [IFO,App]    XYStage, BIOS XY-Stage System
+2019-08-19T14:24:18.556459 tid4864 [IFO,App]    Shutter-1, SSH-C4B CH1
+2019-08-19T14:24:18.556459 tid4864 [IFO,App]    Shutter-2, SSH-C4B CH2
+2019-08-19T14:24:18.556459 tid4864 [IFO,App]    Shutter-3, SSH-C4B CH3
+2019-08-19T14:24:18.556459 tid4864 [IFO,App]    Shutter-4, SSH-C4B CH4
+2019-08-19T14:24:18.556459 tid4864 [IFO,App] SimpleAutoFocus
+2019-08-19T14:24:18.578475 tid4864 [IFO,App]    SimpleAutofocus, SimpleAutofocus Finder
+2019-08-19T14:24:18.578475 tid4864 [IFO,App]    FocusMonitor, Focus score monitor - 100XImaging Inc.
+2019-08-19T14:24:18.578475 tid4864 [IFO,App] SpectralLMM5
+2019-08-19T14:24:18.608497 tid4864 [IFO,App]    LMM5-Hub, LMM5 Hub
+2019-08-19T14:24:18.608497 tid4864 [IFO,App]    LMM5-Shutter, LMM5 Shutter
+2019-08-19T14:24:18.608497 tid4864 [IFO,App] Standa
+2019-08-19T14:24:18.638518 tid4864 [IFO,App] Error: Unable to load Standa library: Failed to load device adapter "Standa" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Standa.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.638518 tid4864 [IFO,App] Standa8SMC4
+2019-08-19T14:24:18.671541 tid4864 [IFO,App] Error: Unable to load Standa8SMC4 library: Failed to load device adapter "Standa8SMC4" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Standa8SMC4.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.671541 tid4864 [IFO,App] StandaStage
+2019-08-19T14:24:18.703564 tid4864 [IFO,App] Error: Unable to load StandaStage library: Failed to load device adapter "StandaStage" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_StandaStage.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.703564 tid4864 [IFO,App] Stradus
+2019-08-19T14:24:18.731584 tid4864 [IFO,App]    VLTStradus, VLTStradus
+2019-08-19T14:24:18.731584 tid4864 [IFO,App] SutterLambda
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Wheel-A, Lambda 10 filter wheel A
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Wheel-B, Lambda 10 filter wheel B
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Wheel-C, Lambda 10 wheel C (10-3 only)
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Shutter-A, Lambda 10 shutter A
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Shutter-B, Lambda 10 shutter B
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Shutter-A 10-2, Lambda 10-2 shutter A
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Shutter-B 10-2, Lambda 10-2 shutter B
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Shutter-DG4, DG4 shutter
+2019-08-19T14:24:18.768610 tid4864 [IFO,App]    Wheel-DG4, DG4 filter changer
+2019-08-19T14:24:18.768610 tid4864 [IFO,App] SutterMPC
+2019-08-19T14:24:18.795628 tid4864 [IFO,App]    Sutter MPC, Sutter MPC200/ROE200
+2019-08-19T14:24:18.795628 tid4864 [IFO,App] SutterStage
+2019-08-19T14:24:18.823649 tid4864 [IFO,App]    SutterStageController, SutterStage Controller
+2019-08-19T14:24:18.823649 tid4864 [IFO,App]    XYStage, XY Stage
+2019-08-19T14:24:18.823649 tid4864 [IFO,App] Thorlabs
+2019-08-19T14:24:18.845664 tid4864 [IFO,App]    XYStage, Thorlabs BD102 XY Stage
+2019-08-19T14:24:18.845664 tid4864 [IFO,App]    PiezoZStage, Thorlabs piezo Z Stage
+2019-08-19T14:24:18.845664 tid4864 [IFO,App]    MotorZStage, Thorlabs Motor Z Stage
+2019-08-19T14:24:18.845664 tid4864 [IFO,App]    FilterWheel, Integrated filter wheel
+2019-08-19T14:24:18.845664 tid4864 [IFO,App] ThorlabsAPTStage
+2019-08-19T14:24:18.871683 tid4864 [IFO,App] Error: Unable to load ThorlabsAPTStage library: Failed to load device adapter "ThorlabsAPTStage" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ThorlabsAPTStage.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.871683 tid4864 [IFO,App] ThorlabsDCxxxx
+2019-08-19T14:24:18.895700 tid4864 [IFO,App] Error: Unable to load ThorlabsDCxxxx library: Failed to load device adapter "ThorlabsDCxxxx" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ThorlabsDCxxxx.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.895700 tid4864 [IFO,App] ThorlabsFilterWheel
+2019-08-19T14:24:18.929724 tid4864 [IFO,App]    Thorlabs Filter Wheel, Thorlabs filter wheel
+2019-08-19T14:24:18.929724 tid4864 [IFO,App] ThorlabsSC10
+2019-08-19T14:24:18.960746 tid4864 [IFO,App]    SC10, ThorLabs SC10 shutter controller
+2019-08-19T14:24:18.960746 tid4864 [IFO,App] ThorlabsUSBCamera
+2019-08-19T14:24:18.988766 tid4864 [IFO,App] Error: Unable to load ThorlabsUSBCamera library: Failed to load device adapter "ThorlabsUSBCamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_ThorlabsUSBCamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:18.988766 tid4864 [IFO,App] TIScam
+2019-08-19T14:24:19.270965 tid4864 [IFO,App]    TIS_DCAM, The Imaging Source
+2019-08-19T14:24:19.270965 tid4864 [IFO,App] Tofra
+2019-08-19T14:24:19.304990 tid4864 [IFO,App]    TOFRA Filter Wheel, TOFRA Filter Wheel with Integrated Controller
+2019-08-19T14:24:19.304990 tid4864 [IFO,App]    TOFRA Z-Drive, TOFRA Z-Drive with Integrated Controller
+2019-08-19T14:24:19.304990 tid4864 [IFO,App]    TOFRA XYStage, TOFRA XYStage with Integrated Controller
+2019-08-19T14:24:19.304990 tid4864 [IFO,App]    TOFRA Cube Slider, TOFRA Filter Cube Slider with Integrated Controller
+2019-08-19T14:24:19.304990 tid4864 [IFO,App]    TOFRA RGB LED, TOFRA RGB LED Light Source
+2019-08-19T14:24:19.304990 tid4864 [IFO,App]    TOFRA RGB LED Shutter, TOFRA RGB LED as Shutter
+2019-08-19T14:24:19.304990 tid4864 [IFO,App] Toptica_iChrome_MLE
+2019-08-19T14:24:19.334011 tid4864 [IFO,App]    iChrome-MLE, iChrome-MLE
+2019-08-19T14:24:19.334011 tid4864 [IFO,App] Toptica_iChrome_MLE_TCP
+2019-08-19T14:24:19.367034 tid4864 [IFO,App]    iChrome-MLE-TCP, iChrome-MLE
+2019-08-19T14:24:19.367034 tid4864 [IFO,App] TriggerScope
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-CAM1, CAM1
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-CAM2, CAM2
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC01, DAC01
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC02, DAC02
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC03, DAC03
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC04, DAC04
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC05, DAC05
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC06, DAC06
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC07, DAC07
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC08, DAC08
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC09, DAC09
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC10, DAC10
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC11, DAC11
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC12, DAC12
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC13, DAC13
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC14, DAC14
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC15, DAC15
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-DAC16, DAC16
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL01, TTL01
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL02, TTL02
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL03, TTL03
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL04, TTL04
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL05, TTL05
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL06, TTL06
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL07, TTL07
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL08, TTL08
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL09, TTL09
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL10, TTL10
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL11, TTL11
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL12, TTL12
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL13, TTL13
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL14, TTL14
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL15, TTL15
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-TTL16, TTL16
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-Focus, Focus
+2019-08-19T14:24:19.417069 tid4864 [IFO,App]    TriggerScope-Hub, Hub
+2019-08-19T14:24:19.417069 tid4864 [IFO,App] TSI
+2019-08-19T14:24:19.455096 tid4864 [IFO,App]    TSICam, Thorlabs Scientific Imaging camera
+2019-08-19T14:24:19.455096 tid4864 [IFO,App] TwainCamera
+2019-08-19T14:24:19.482116 tid4864 [IFO,App]    TwainCam, Twain camera
+2019-08-19T14:24:19.482116 tid4864 [IFO,App] Usb3CamHS
+2019-08-19T14:24:19.503130 tid4864 [IFO,App] Error: Unable to load Usb3CamHS library: Failed to load device adapter "Usb3CamHS" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_Usb3CamHS.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:19.503130 tid4864 [IFO,App] USBManager
+2019-08-19T14:24:19.533151 tid4864 [IFO,App] USB_Viper_QPL
+2019-08-19T14:24:19.559171 tid4864 [IFO,App] Error: Unable to load USB_Viper_QPL library: Failed to load device adapter "USB_Viper_QPL" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_USB_Viper_QPL.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:19.559171 tid4864 [IFO,App] UserDefinedSerial
+2019-08-19T14:24:19.585189 tid4864 [IFO,App]    UserDefinedGenericDevice, Generic device using user-defined serial commands
+2019-08-19T14:24:19.585189 tid4864 [IFO,App]    UserDefinedShutter, Generic shutter using user-defined serial commands
+2019-08-19T14:24:19.585189 tid4864 [IFO,App]    UserDefinedStateDevice, Generic switcher using user-defined serial commands
+2019-08-19T14:24:19.585189 tid4864 [IFO,App] Utilities
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    Multi Shutter, Combine multiple physical shutters into a single logical shutter
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    Multi Camera, Combine multiple physical cameras into a single logical camera
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    Multi Stage, Combine multiple physical 1D stages into a single logical 1D stage
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    Combo XY Stage, Combine two single-axis stages into an XY stage
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    DA Shutter, DA used as a shutter
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    DA Monochromator, DA used to control a monochromator
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    DA Z Stage, DA-controlled Z-stage
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    DA XY Stage, DA-controlled XY-stage
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    DA TTL State Device, Several DAs as a TTL state device
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    Multi DA State Device, Several DAs as a single state device allowing digital masking
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    AutoFocus Stage, AutoFocus offset acting as a Z-stage
+2019-08-19T14:24:19.607205 tid4864 [IFO,App]    State Device Shutter, State device used as a shutter
+2019-08-19T14:24:19.607205 tid4864 [IFO,App] VariLC
+2019-08-19T14:24:19.636225 tid4864 [IFO,App]    VariLC, VariLC
+2019-08-19T14:24:19.636225 tid4864 [IFO,App] VersaLase
+2019-08-19T14:24:19.663244 tid4864 [IFO,App]    VLT_VersaLase, VLT_VersaLase
+2019-08-19T14:24:19.663244 tid4864 [IFO,App] Vincent
+2019-08-19T14:24:19.678254 tid4864 [IFO,App]    Vincent-D1, Vincent controller VMM-D1/T1 and D122
+2019-08-19T14:24:19.678254 tid4864 [IFO,App]    Vincent-D3, Vincent controller VMM-D3/D4
+2019-08-19T14:24:19.678254 tid4864 [IFO,App] VisiTech_iSIM
+2019-08-19T14:24:19.701271 tid4864 [IFO,App] Error: Unable to load VisiTech_iSIM library: Failed to load device adapter "VisiTech_iSIM" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_VisiTech_iSIM.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:19.701271 tid4864 [IFO,App] Xcite
+2019-08-19T14:24:19.717282 tid4864 [IFO,App]    X-Cite120PC, EXFO X-Cite 120 PC
+2019-08-19T14:24:19.717282 tid4864 [IFO,App] XCite120PC_Exacte
+2019-08-19T14:24:19.754308 tid4864 [IFO,App]    XCite-120PC, X-Cite 120PC
+2019-08-19T14:24:19.754308 tid4864 [IFO,App]    XCite-Exacte, X-Cite Exacte
+2019-08-19T14:24:19.754308 tid4864 [IFO,App] XCiteLed
+2019-08-19T14:24:19.835366 tid4864 [IFO,App]    XLED1 Controller, XLED1 Controller
+2019-08-19T14:24:19.835366 tid4864 [IFO,App]    LED1 Device, LED1 Device
+2019-08-19T14:24:19.835366 tid4864 [IFO,App]    LED2 Device, LED2 Device
+2019-08-19T14:24:19.835366 tid4864 [IFO,App]    LED3 Device, LED3 Device
+2019-08-19T14:24:19.835366 tid4864 [IFO,App]    LED4 Device, LED4 Device
+2019-08-19T14:24:19.835366 tid4864 [IFO,App] XCiteXT600
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    Turbo/XT600 Controller, Turbo/XT600 Controller
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    LED1 Device, LED1 Device
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    LED2 Device, LED2 Device
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    LED3 Device, LED3 Device
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    LED4 Device, LED4 Device
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    LED5 Device, LED5 Device
+2019-08-19T14:24:19.873393 tid4864 [IFO,App]    LED6 Device, LED6 Device
+2019-08-19T14:24:19.873393 tid4864 [IFO,App] XIMEACamera
+2019-08-19T14:24:19.902414 tid4864 [IFO,App] Error: Unable to load XIMEACamera library: Failed to load device adapter "XIMEACamera" [ Failed to load module "C:\Micro-Manager-2.0beta_scanner\mmgr_dal_XIMEACamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2019-08-19T14:24:19.902414 tid4864 [IFO,App] XLight
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Hub, Hub (Needed for XLIGHT)
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Dichroic, Confocal dichroic wheel
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Disk slider, Spinning disk slider
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Spin motor, Spinning disk motor
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Emission Wheel, Confocal Emission wheel
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Excitation Wheel, Confocal Excitation wheel
+2019-08-19T14:24:19.931434 tid4864 [IFO,App]    XLIGHT Touchscreen, Touchscreen lockout control
+2019-08-19T14:24:19.931434 tid4864 [IFO,App] Yokogawa
+2019-08-19T14:24:19.956452 tid4864 [IFO,App]    Hub, CSU22 Hub (Needed for CSU22)
+2019-08-19T14:24:19.956452 tid4864 [IFO,App]    ND Filter, Neutral Density Filter
+2019-08-19T14:24:19.956452 tid4864 [IFO,App]    Filter Set, Filter Set (Dichroics)
+2019-08-19T14:24:19.956452 tid4864 [IFO,App]    Shutter, Shutter
+2019-08-19T14:24:19.956452 tid4864 [IFO,App]    DriveSpeed, DriveSpeed
+2019-08-19T14:24:19.956452 tid4864 [IFO,App] Zaber
+2019-08-19T14:24:19.978468 tid4864 [IFO,App]    XYStage, Zaber XY Stage
+2019-08-19T14:24:19.978468 tid4864 [IFO,App]    Stage, Zaber Stage
+2019-08-19T14:24:19.978468 tid4864 [IFO,App]    FilterWheel, Zaber Filter Wheel
+2019-08-19T14:24:19.978468 tid4864 [IFO,App] ZeissCAN
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissScope, Zeiss Axiovert 200m controlled through serial interface
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissShutter, Shutter
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissShutterMFFirmware, ShutterMFFirmware
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissReflectorTurret, Reflector Turret (dichroics)
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissSidePortTurret, SidePort switcher
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissBasePortSlider, BasePort Slider
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissObjectives, Objective Turret
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissCondenser, Condenser Turret
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissOptovar, Optovar
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissTubelens, Tubelens
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissExcitationLampSwitcher, Lamp Switcher
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissHalogenLamp, Halogen Lamp
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    Focus, Z-Drive
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissExternalFilterWheel, External FilterWheel
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissFilterWheel1, FilterWheel 1
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZeissFilterWheel2, FilterWheel 2
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    XYStage, XY Stage (MCU 28)
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    ZStage, Z Stage on Axioskop 2
+2019-08-19T14:24:20.009489 tid4864 [IFO,App]    PhotoModule, AxioPhot 2 Photo Module
+2019-08-19T14:24:20.009489 tid4864 [IFO,App] ZeissCAN29
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissScope, Zeiss AxioObserver controlled through serial interface
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissReflectorTurret, Reflector Turret (dichroics)
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissObjectiveTurret, Objective Turret
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissNDWheel1RL, ND Filter Wheel 1 Fluorescence Light Path
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissNDWheel2RL, ND Filter Wheel 2 Fluorescence Light Path
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissFieldDiaphragm, Field Diaphragm (fluorescence)
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissApertureDiaphragm, Aperture Diaphragm (fluorescence)
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissNDWheel1TL, ND Filter Wheel 1 Transmitted Light Path
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissNDWheel2TL, ND Filter Wheel 2 Transmitted Light Path
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissFocusAxis, Z-drive
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissXYStage, XYStage
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissTubeLens, Tube Lens (optovar)
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissTubeLensShutter, Tube Lens Shutter
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissSidePort, Side Port
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissExcitationSwitcher, Excitation Switcher
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissReflectedLightShutter, Reflected Light Shutter
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissTransmittedLightShutter, Transmitted Light Shutter
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissRL-FLAttenuator, Reflected (fluorescence) light attenuator
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissCondenserContrast, Condenser Contrast
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissCondenserAperture, Condenser Aperture
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissHBOLamp, HBO Lamp
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissHalogenLamp, Halogen Lamp
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissLSMPort, LSM Port (rearPort)
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissBasePort, Base Port switcher
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissExternalLampMirror, External Lamp Mirror
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissUniblitz, Uniblitz Shutter
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissFilterWheel, Filter Wheel
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissDefiniteFocus, Definite Focus
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissDefiniteFocusOffset, Definite Focus Offset-drive
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissColibri, Colibri
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    Zeiss2TVTubePrism, g_Zeiss2TVTubePrism
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    Zeiss2TVTubeSlider, g_Zeiss2TVTubeSlider
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    Zeiss2TVTubeShutter, g_Zeiss2TVTubeShutter
+2019-08-19T14:24:20.044514 tid4864 [IFO,App]    ZeissHXPShutter, g_ZeissHXPShutter
+2019-08-19T14:24:25.804598 tid3108 [IFO,Core] Did load device COM1 from SerialManager; label = COM1
+2019-08-19T14:24:25.804598 tid3108 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2019-08-19T14:24:25.804598 tid3108 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2019-08-19T14:24:25.804598 tid3108 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named ""
+2019-08-19T14:24:25.804598 tid3108 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2019-08-19T14:24:25.808601 tid3108 [IFO,Core] Will initialize device COM3
+2019-08-19T14:24:25.817607 tid3108 [IFO,Core] Did initialize device COM3
+2019-08-19T14:24:25.818609 tid3108 [IFO,Core] Will initialize device FreeSerialPort
+2019-08-19T14:24:25.818609 tid3108 [IFO,Core] Did initialize device FreeSerialPort
+2019-08-19T14:24:25.819609 tid3108 [IFO,Core] Will initialize device Camera-1
+2019-08-19T14:24:26.019750 tid3108 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2019-08-19T14:24:26.034761 tid3108 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:24:26.474073 tid3108 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2019-08-19T14:24:26.623178 tid3108 [IFO,Core] Did update system state cache
+2019-08-19T14:24:26.623178 tid3108 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:24:26.624179 tid3108 [IFO,App] Rebuilding config group table
+2019-08-19T14:24:26.624179 tid3108 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:24:26.626180 tid3108 [IFO,Core] Did update system state cache
+2019-08-19T14:24:26.627181 tid3108 [IFO,App] Finished updating GUI
+2019-08-19T14:24:26.630184 tid3108 [IFO,Core] Did initialize device Camera-1
+2019-08-19T14:24:26.722249 tid5276 [IFO,App] Uncaught exception in AWT/Swing event dispatch thread:
+2019-08-19T14:24:26.722249 tid5276 [IFO,App] java.util.NoSuchElementException: Vector Enumeration
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.util.Vector$1.nextElement(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at javax.swing.JComponent.getPreferredSize(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at javax.swing.ScrollPaneLayout.layoutContainer(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.Container.layout(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.Container.doLayout(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.Container.validateTree(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.Container.validate(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at javax.swing.RepaintManager.validateInvalidComponents(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at javax.swing.RepaintManager$ProcessingRunnable.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.Dialog$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.Dialog$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.access$000(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$1.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue$2.run(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+2019-08-19T14:24:26.722249 tid5276 [IFO,App]   at java.awt.EventDispatchThread.run(Unknown Source)
+2019-08-19T14:24:33.023945 tid4864 [IFO,Core] Did unload all devices
+2019-08-19T14:24:33.023945 tid4864 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2019-08-19T14:24:33.023945 tid4864 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2019-08-19T14:24:33.023945 tid4864 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "PMUSBCam00"
+2019-08-19T14:24:33.023945 tid4864 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2019-08-19T14:24:33.024946 tid4864 [IFO,Core] Will initialize 3 devices
+2019-08-19T14:24:33.024946 tid4864 [IFO,Core] Will initialize device COM3
+2019-08-19T14:24:33.024946 tid4864 [IFO,dev:COM3] Failed to open serial port \\.\COM3: CreateFileA() returned Windows system error code 5
+2019-08-19T14:24:33.024946 tid4864 [ERR,Core:dev:COM3] Error in device "COM3": Unknown error in the device (1)
+2019-08-19T14:24:33.024946 tid4864 [IFO,Core] Unloading all devices after failure to load system configuration
+2019-08-19T14:24:33.024946 tid4864 [IFO,Core] Did unload all devices
+2019-08-19T14:24:33.024946 tid4864 [IFO,Core] Now rethrowing original error from system configuration loading
+2019-08-19T14:24:33.108004 tid4864 [IFO,App] Failed to load hardware configuation
+                                   [       ] java.lang.Exception: Line 26: Property,Core,Initialize,1
+                                   [       ] Error in device "COM3": Unknown error in the device (1)
+                                   [       ] 
+                                   [       ]  in Thread[Thread-307,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_loadSystemConfiguration(Native Method)
+                                   [       ]   at mmcorej.CMMCore.loadSystemConfiguration(CMMCore.java:361)
+                                   [       ]   at org.micromanager.internal.MMStudio.loadSystemConfiguration(MMStudio.java:1247)
+                                   [       ]   at org.micromanager.internal.MMStudio.setSysConfigFile(MMStudio.java:755)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu.runHardwareWizard(ConfigMenu.java:181)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu.access$100(ConfigMenu.java:23)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu$7.run(ConfigMenu.java:129)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+2019-08-19T14:24:33.140027 tid4864 [IFO,App] Updating GUI; config pad = true; from cache = false
+2019-08-19T14:24:33.140027 tid4864 [IFO,App] Rebuilding config group table
+2019-08-19T14:24:33.140027 tid4864 [IFO,App] Finished rebuilding config group table
+2019-08-19T14:24:33.140027 tid4864 [IFO,Core] Did update system state cache
+2019-08-19T14:24:33.140027 tid4864 [IFO,App] Finished updating GUI
+2019-08-19T14:24:33.147032 tid4864 [ERR,Core] Error occurred in device no camera available: Camera not loaded or initialized.
+2019-08-19T14:24:33.147032 tid4864 [IFO,App] Couldn't start live mode sequence acquisition
+                                   [       ] java.lang.Exception: Camera not loaded or initialized. in Thread[Thread-307,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_startContinuousSequenceAcquisition(Native Method)
+                                   [       ]   at mmcorej.CMMCore.startContinuousSequenceAcquisition(CMMCore.java:981)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.startLiveMode(SnapLiveManager.java:177)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.setSuspended(SnapLiveManager.java:140)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu.runHardwareWizard(ConfigMenu.java:184)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu.access$100(ConfigMenu.java:23)
+                                   [       ]   at org.micromanager.internal.menus.ConfigMenu$7.run(ConfigMenu.java:129)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+2019-08-19T14:25:02.394431 tid5276 [ERR,Core] Error occurred in device no camera available: Camera not loaded or initialized.
+2019-08-19T14:25:02.395432 tid5276 [IFO,App] Couldn't start live mode sequence acquisition
+                                   [       ] java.lang.Exception: Camera not loaded or initialized. in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_startContinuousSequenceAcquisition(Native Method)
+                                   [       ]   at mmcorej.CMMCore.startContinuousSequenceAcquisition(CMMCore.java:981)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.startLiveMode(SnapLiveManager.java:177)
+                                   [       ]   at org.micromanager.internal.SnapLiveManager.setLiveMode(SnapLiveManager.java:104)
+                                   [       ]   at org.micromanager.quickaccess.internal.controls.LiveButton$2.actionPerformed(LiveButton.java:103)
+                                   [       ]   at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2019-08-19T14:25:07.515062 tid5276 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2019-08-19T14:25:07.515062 tid5276 [IFO,Core] Did unload all devices
+2019-08-19T14:25:07.515062 tid5276 [IFO,Core] System reset
+2019-08-19T14:25:07.545083 tid5276 [IFO,Core] Core session ended

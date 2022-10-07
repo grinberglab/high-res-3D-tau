@@ -1,0 +1,164 @@
+2017-09-18T14:01:22.220384 tid5304 [IFO,LogManager] Enabled primary log file C:\Users\malegro\bin\Micro-Manager-2.0beta_170704\CoreLogs\CoreLog20170918T140122_pid7072.txt
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] User: malegro
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] Host: NEUR-G7W9DH2-DT
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] MM Studio version: 2.0.0-beta3 20170704
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] MMCore version 8.5.0
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] Device API version 67, Module API version 10
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2017-09-18T14:01:22.220384 tid5304 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-09-18T14:01:22.361012 tid6748 [IFO,App] Searching for plugins in C:\Users\malegro\bin\Micro-Manager-2.0beta_170704/mmplugins
+2017-09-18T14:01:22.532890 tid6748 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@3ebfbbe3
+2017-09-18T14:01:22.532890 tid6748 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@4add8e0d
+2017-09-18T14:01:22.532890 tid6748 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@316d3536
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@78c08593
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@4c29d65b
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@40158291
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@f27461b
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin GaussianTrack_@5b6b9e62
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@3cdf0256
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@3ecec78d
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@2200c550
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@609a18a0
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@7d1a5fd0
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@1ff243d1
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@4c767286
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@109ce4a3
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@1f195fc
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@2f296d1d
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@552a66ea
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@64498713
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@637050f5
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@62d337d3
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@18f63055
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.splitview.SplitView@10d4f27
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin PMQI.AutoWB@b22c9df
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@18f3552f
+2017-09-18T14:01:22.548516 tid6748 [IFO,App] Searching for plugins in C:\Users\malegro\bin\Micro-Manager-2.0beta_170704/mmautofocus
+2017-09-18T14:01:22.595391 tid6748 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@5903c29b
+2017-09-18T14:01:22.595391 tid6748 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@64e0fcac
+2017-09-18T14:01:22.595391 tid6748 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@390e7c9e
+2017-09-18T14:01:22.595391 tid6748 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1c67c1a6
+2017-09-18T14:01:22.611017 tid6748 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@14426a6
+2017-09-18T14:01:22.611017 tid6748 [IFO,App] Searching for plugins in class loader
+2017-09-18T14:01:22.736019 tid6748 [IFO,App] Thread 21 (Plugin loading thread) terminated with uncaught exception
+2017-09-18T14:01:22.736019 tid6748 [IFO,App] java.lang.NoClassDefFoundError: org/micromanager/MenuPlugin
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.defineClass1(Native Method)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.defineClassCond(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.defineClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.security.SecureClassLoader.defineClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.defineClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.access$000(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader$1.run(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.findClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.util.ClassUtils.loadClass(ClassUtils.java:164)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.plugin.PluginInfo.loadClass(PluginInfo.java:283)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.plugin.PluginInfo.getIdentifier(PluginInfo.java:320)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.AbstractUIDetails.getTitle(AbstractUIDetails.java:108)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.AbstractUIDetails.compareTo(AbstractUIDetails.java:237)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.AbstractUIDetails.compareTo(AbstractUIDetails.java:43)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.sort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Collections.sort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.object.SortedObjectIndex.mergeAfterSorting(SortedObjectIndex.java:97)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.object.SortedObjectIndex.addAll(SortedObjectIndex.java:83)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.plugin.PluginIndex.discover(PluginIndex.java:108)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.PluginFinder.findPluginsWithLoader(PluginFinder.java:113)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.loadPlugins(DefaultPluginManager.java:122)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.access$000(DefaultPluginManager.java:46)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$1.run(DefaultPluginManager.java:80)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.Thread.run(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App] Caused by exception:
+2017-09-18T14:01:22.736019 tid6748 [IFO,App] java.lang.ClassNotFoundException: org.micromanager.MenuPlugin
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader$1.run(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.findClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.defineClass1(Native Method)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.defineClassCond(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.defineClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.security.SecureClassLoader.defineClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.defineClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.access$000(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader$1.run(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.net.URLClassLoader.findClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.util.ClassUtils.loadClass(ClassUtils.java:164)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.plugin.PluginInfo.loadClass(PluginInfo.java:283)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.plugin.PluginInfo.getIdentifier(PluginInfo.java:320)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.AbstractUIDetails.getTitle(AbstractUIDetails.java:108)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.AbstractUIDetails.compareTo(AbstractUIDetails.java:237)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.AbstractUIDetails.compareTo(AbstractUIDetails.java:43)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Arrays.sort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.util.Collections.sort(Unknown Source)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.object.SortedObjectIndex.mergeAfterSorting(SortedObjectIndex.java:97)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.object.SortedObjectIndex.addAll(SortedObjectIndex.java:83)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.scijava.plugin.PluginIndex.discover(PluginIndex.java:108)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.PluginFinder.findPluginsWithLoader(PluginFinder.java:113)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.loadPlugins(DefaultPluginManager.java:122)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.access$000(DefaultPluginManager.java:46)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$1.run(DefaultPluginManager.java:80)
+2017-09-18T14:01:22.736019 tid6748 [IFO,App]   at java.lang.Thread.run(Unknown Source)
+2017-09-18T14:01:22.736019 tid5304 [IFO,App] Finished waiting for plugins to load
+2017-09-18T14:01:24.254935 tid5304 [IFO,Core] Did unload all devices
+2017-09-18T14:01:24.254935 tid5304 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2017-09-18T14:01:24.254935 tid5304 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = FreeSerialPort
+2017-09-18T14:01:24.262458 tid5304 [WRN,Core:dev:Camera-1] Requested device named "Camera-1" but the actual device is named "d} HDAUDIO#FUNC_01&VEN_10DE&DEV_0060"
+2017-09-18T14:01:24.262458 tid5304 [IFO,Core] Did load device Camera-1 from PVCAM; label = Camera-1
+2017-09-18T14:01:24.262458 tid5304 [IFO,Core] Will initialize 3 devices
+2017-09-18T14:01:24.262458 tid5304 [IFO,Core] Will initialize device COM3
+2017-09-18T14:01:24.271463 tid5304 [IFO,Core] Did initialize device COM3
+2017-09-18T14:01:24.271463 tid5304 [IFO,Core] Will initialize device FreeSerialPort
+2017-09-18T14:01:24.272464 tid5304 [IFO,Core] Did initialize device FreeSerialPort
+2017-09-18T14:01:24.272464 tid5304 [IFO,Core] Will initialize device Camera-1
+2017-09-18T14:01:24.473608 tid5304 [IFO,dev:Camera-1] [PVCAM] ERR: pl_get_param for PARAM_FRAME_BUFFER_SIZE ATTR_CURRENT failed, pvErr:49, pvMsg:'Camera has not been configured for acquisition (C0_ACQ_NOT_CONFIGURED)' [PVCAMUniversal.cpp(299)]
+2017-09-18T14:01:24.487618 tid5304 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-18T14:01:24.926933 tid5304 [IFO,dev:Camera-1] Device adapter requests invalid values ( 0, 0) for property: CircularBufferFrameCount
+2017-09-18T14:01:24.988977 tid5304 [IFO,Core] Did initialize device Camera-1
+2017-09-18T14:01:24.988977 tid5304 [IFO,Core] Default camera set to Camera-1
+2017-09-18T14:01:24.988977 tid5304 [IFO,Core] Finished initializing 3 devices
+2017-09-18T14:01:24.988977 tid5304 [IFO,Core] Default camera set to Camera-1
+2017-09-18T14:01:24.991979 tid5304 [IFO,Core] Did update system state cache
+2017-09-18T14:01:25.726505 tid5304 [IFO,App] Error: Unrecognized plugin type null
+2017-09-18T14:01:25.726505 tid5304 [IFO,App] 
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at org.micromanager.internal.MainFrame.createCommonActionButtons(MainFrame.java:389)
+                                   [       ]   at org.micromanager.internal.MainFrame.createComponents(MainFrame.java:489)
+                                   [       ]   at org.micromanager.internal.MainFrame.<init>(MainFrame.java:157)
+                                   [       ]   at org.micromanager.internal.MMStudio.<init>(MMStudio.java:339)
+                                   [       ]   at MMStudioPlugin$1.run(MMStudioPlugin.java:77)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
