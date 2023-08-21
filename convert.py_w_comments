@@ -1,0 +1,33 @@
+import matplotlib.pyplot as plt
+import nibabel as nib
+import numpy as np
+
+# List of numbers, currently containing only one value (22)
+numbers = [22]
+
+# Loop through each number in the list
+for i in numbers:
+    # Load different NIfTI files
+    nii1 = nib.load('/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/1stStep_Manual/P2865_+3_22.nii')  # Load blockface NIfTI
+    nii2 = nib.load('/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/1stStep_Manual/mipaved_res10_P2865_+3_22_five_versions_Jonathan_stack_tiles.nii')  # Load file saved by MIPAV
+    nii3 = nib.load('/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/1stStep_Manual/mipaved_res10_P2865_+3_22_five_versions_Jonathan_stack_tiles_mask.nii')  # Load mask
+    nii4 = nib.load('/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/1stStep_Manual/mipaved_P2865_+3_22_five_versions_Jonathan_stack_tiles_heatmap_res10.nii')  # Load heatmap
+
+    # Extract image matrices from the loaded NIfTI files
+    img1 = nii1.get_data()  # Get blockface image matrix
+    img2 = nii2.get_data()  # Get heatmap image matrix
+    img3 = nii3.get_data()  # Get histology image matrix
+    img4 = nii4.get_data()  # Get mask image matrix
+
+    # Get the affine matrix from the blockface NIfTI file
+    M = nii1.affine
+
+    # Create new NIfTI files with histology image and blockface affine matrix
+    nii5 = nib.Nifti1Image(img2, M)  # New NIfTI with histology image and blockface affine
+    nii6 = nib.Nifti1Image(img3, M)  # New NIfTI with histology image mask and blockface affine
+    nii7 = nib.Nifti1Image(img4, M)  # New NIfTI with heatmap image and blockface affine
+
+    # Save the new NIfTI files
+    nib.save(nii5, '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/2ndStep_Automatic/converted_mipaved_res10_P2865_+3_22_five_versions_Jonathan_stack_tiles.nii')
+    nib.save(nii6, '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/2ndStep_Automatic/converted_mipaved_res10_P2865_+3_22_five_versions_Jonathan_stack_tiles_mask.nii')
+    nib.save(nii7, '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/P2865_+3_22_five_versions_Jonathan_stack_tiles/2ndStep_Automatic/converted_mipaved_P2865_+3_22_five_versions_Jonathan_stack_tiles_heatmap_res10.nii')
