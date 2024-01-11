@@ -156,7 +156,7 @@ def create_xml(in_file,out_file,imgs_dir):
 
         xml_tree = ET.ElementTree(root_xml)
         print(ET.tostring(xml_tree, pretty_print=True, xml_declaration=True, encoding='UTF-8', doctype='<!DOCTYPE TeraStitcher SYSTEM "TeraStitcher.DTD">'))
-        with open(out_file,'w+') as out:
+        with open(out_file,'wb') as out:
              out.write(ET.tostring(xml_tree, pretty_print=True, xml_declaration=True, encoding='UTF-8', doctype='<!DOCTYPE TeraStitcher SYSTEM "TeraStitcher.DTD">'))
 
 
