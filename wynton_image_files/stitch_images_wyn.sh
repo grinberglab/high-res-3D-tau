@@ -35,7 +35,8 @@ echo 'Export XML'
 # Use below version for when running on local machine!
 #python /Users/prabhleenkaur/Box/Imaging_RO1_project/Wynton/LargeSlideScan/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
 # Use Below version for when creating the image!
-python2 create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
+#python /root/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
+python /root/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
 touch $ROOT_DIR'/expxml'
 
 echo 'Import'
