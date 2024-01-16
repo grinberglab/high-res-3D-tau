@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-export PYTHONPATH=$PYTHONPATH:/home/LargeSlideScan/python/UCSFSlideScan
+export PYTHONPATH=$PYTHONPATH:/usr/local/bin
 
 if [ "$#" -ne 2 ]; then
 	echo "Usage: run_pipeline_full.sh <ROOT_DIR> <CONFIG_PATH>"
