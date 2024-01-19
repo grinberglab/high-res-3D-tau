@@ -13,5 +13,5 @@ CONF_FILE=$2
 echo $ROOT_DIR
 echo $CONF_FILE
 
-python2 /usr/local/bin/pipeline/run_pipeline.py $ROOT_DIR $CONF_FILE
+python2 /usr/local/bin/high-res-3D-tau/pipeline/run_pipeline.py $ROOT_DIR $CONF_FILE
 
