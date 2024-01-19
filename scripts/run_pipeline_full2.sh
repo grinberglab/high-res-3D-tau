@@ -13,5 +13,5 @@ CONF_FILE=$2
 echo $ROOT_DIR
 echo $CONF_FILE
 
-python /home/LargeSlideScan/python/UCSFSlideScan/pipeline/run_pipeline_part2.py $ROOT_DIR $CONF_FILE
+python2 /home/LargeSlideScan/python/UCSFSlideScan/pipeline/run_pipeline_part2.py $ROOT_DIR $CONF_FILE
 
