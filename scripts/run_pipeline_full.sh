@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-export PYTHONPATH=$PYTHONPATH:/usr/local/bin
+export PYTHONPATH=$PYTHONPATH: /usr/local/bin/high-res-3D-tau
 
 if [ "$#" -ne 2 ]; then
 	echo "Usage: run_pipeline_full.sh <ROOT_DIR> <CONFIG_PATH>"
