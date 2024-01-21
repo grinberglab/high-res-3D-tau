@@ -3,8 +3,9 @@ import sys
 import skimage.io as io
 import tifffile
 import glob
-from osgeo import gdal
 import numpy as np
+sys.path.append ('/usr/share')
+import gdal
 
 
 def ind2sub(array_shape, ind):
