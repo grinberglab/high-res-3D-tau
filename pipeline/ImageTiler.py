@@ -3,7 +3,7 @@ import sys
 import fnmatch
 import skimage.io as io
 import tifffile
-from misc.XMLUtils import XMLUtils
+from high-res-3D-tau.misc.XMLUtils import XMLUtils
 import logging
 import glob
 from misc.TiffTileLoader import TiffTileLoader
