@@ -4,7 +4,7 @@ import skimage.io as io
 import tifffile
 import glob
 import numpy as np
-sys.path.append ('/usr/share')
+#sys.path.append ('/usr/share')
 import gdal
 
 
