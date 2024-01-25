@@ -5,7 +5,8 @@ import tifffile
 import glob
 import numpy as np
 #sys.path.append ('/usr/share')
-import gdal
+#import gdal
+from osgeo import gdal
 
 
 def ind2sub(array_shape, ind):
