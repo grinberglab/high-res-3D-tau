@@ -1,0 +1,341 @@
+#!/bin/bash
+
+mkdir /grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/P2865_-7_39_CP13_2.65x_jonathan_stack; mkdir /grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/P2865_-7_39_CP13_2.65x_jonathan_stack/P2865_-7_39_CP13_2.65x_jonathan_stack_files; mkdir /grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/P2865_-7_39_CP13_2.65x_jonathan_stack/P2865_-7_39_CP13_2.65x_jonathan_stack_files/heat_map /grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/P2865_-7_39_CP13_2.65x_jonathan_stack/P2865_-7_39_CP13_2.65x_jonathan_stack_files/mask; mkdir /grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/P2865_-7_39_CP13_2.65x_jonathan_stack/P2865_-7_39_CP13_2.65x_jonathan_stack_files/mask/final_mask;
+
+cp -r /grinberg/tau_pilot/end_of_life/Jonathan_scan/testing_for_different_zoom/P2865_-7_39_CP13_2.65x_jonathan_stack_tiles/output /grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/P2865_-7_39_CP13_2.65x_jonathan_stack/P2865_-7_39_CP13_2.65x_jonathan_stack_files/output
+
+for id in {0..1783};do echo $id; convert 'tile_'$id'.tif' -alpha off 'tile_'$id'.tif'; done
+
+#Upload scans to the cluster
+for id in {P2694_-3_26_five_versions_Jonathan,P2865_+3_22_five_versions_Jonathan,P2694_-4_42_five_versions_Wenda,P2694_-4_38_five_versions_Wenda};do echo $id; scp -r '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Scanned_Images/'$id'/'$id'_stack_tiles' ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Jonathan_scan/testing_for_5_layers_scan/; done
+
+#Make pipeline folders
+for id in {P2865_+3_22_five_versions_Jonathan_stack_tiles,P2694_-4_38_five_versions_Wenda_stack_tiles,P2694_-4_42_five_versions_Wenda_stack_tiles,P2694_-3_26_five_versions_Jonathan_stack_tiles};do echo $id; mkdir '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files' '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/heat_map' '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/mask' '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/mask/final_mask' '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/mask/patches_mask'; done
+
+#Copy stitched output to pipeline folders
+for id in {P2865_+3_22_five_versions_Jonathan_stack_tiles,P2694_-4_38_five_versions_Wenda_stack_tiles,P2694_-4_42_five_versions_Wenda_stack_tiles,P2694_-3_26_five_versions_Jonathan_stack_tiles}; do echo $id; cd '/grinberg/tau_pilot/end_of_life/Jonathan_scan/testing_for_5_layers_scan/'$id; cp -r output '/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files'; done
+
+#Upload final mask to pipeline folders
+for id in {P2694_-8_39_5_versions_Wenda_stack_tiles,P2927_-1_21_5_versions_Wenda_stack_tiles}; do echo $id; scp -r 'res10_'$id'_background_mask.tif' 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/mask/final_mask/'; done
+
+#for correcting mistake
+for id in {P2865_-7_22_CP13_left_part,P2865_-7_22_CP13_right_part,P2694_-8_28_CP13_gm_right_top_focus,P2694_-8_28_CP13_wm_bottom_focus,P2694_-8_28_CP13_wm_middle_righ_bottom_focus};do echo $id; cd '/grinberg/tau_pilot/end_of_life/Pipeline/p2865/'$id; mv $id'_files' output; mv output $id'_tiles/'; mv $id'_tiles' $id'_files'; done
+
+#Move seg_tiles to R Drive
+for id in {P2694_-8_39_5_versions_Wenda_stack_tiles,P2927_-1_21_5_versions_Wenda_stack_tiles}; do echo $id; scp -r 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/heat_map/seg_tiles' .; done
+
+#Make segmentation folders and copy seg_tiles
+for id in {P2694_-8_39_5_versions_Wenda_stack_tiles,P2927_-1_21_5_versions_Wenda_stack_tiles}; do echo $id; mkdir '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/'$id '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/'$id'/heat_map'; scp -r 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/heat_map/seg_tiles' '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/'$id'/heat_map'; done
+
+for id in {P3030_-2_42_MAOB_2.65x_wenda_stack,P2865_-7_38_CP13_2.65x_wenda_stack}; do echo $id; mkdir '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/'$id '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/'$id'/heat_map'; scp -r 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/heat_map/seg_tiles' '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/'$id'/heat_map'; done
+
+P3030_-2_27_MAOB_2.65x_wenda_stack P2865_-7_19_MAOB_2.65x_wenda_stack P2865_-7_27_MAOB_2.65x_wenda_stack P2865_-7_26_CP13_2.65x_wenda_stack P2865_-7_34_CP13_2.65x_wenda_stack P2694_-8_30_MAOB_2.65x_wenda_stack P2865_-7_22_CP13_2.65x_wenda_stack P2865_-7_23_MAOB_2.65x_wenda_stack P2865_-7_38_CP13_2.65x_wenda_stack P2865_-7_21_MAOB_2.65x_wenda_stack P2865_-7_40_CP13_2.65x_wenda_stack P3030_-2_42_MAOB_2.65x_wenda_stack P2865_-7_31_MAOB_2.65x_wenda_stack P2865_-7_43_MAOB_2.65x_wenda_stack P2865_-7_33_MAOB_2.65x_wenda_stack P2865_-7_38_CP13_2.65x_wenda_stack
+
+
+#Upload segmented heatmap tiles to pipeline
+for id in {P2694_-8_39_5_versions_Wenda_stack_tiles,P2927_-1_21_5_versions_Wenda_stack_tiles}; do echo $id; scp -r '/home/maryana/storage2/Posdoc/EoL_CP13+MAOB+AV_AT8_sgd_200_epoch/segmentation/5_layers/'$id'/heat_map/TAU_seg_tiles' 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/heat_map/'; done
+
+#Move stitched heatmap to R drive
+for id in {P2694_-8_39_5_versions_Wenda_stack_tiles,P2927_-1_21_5_versions_Wenda_stack_tiles}; do echo $id; scp -r 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/heat_map/hm_map_0.1/heat_map_0.1_res10.nii' '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Nii/heatmap_nii/2.65x_zoom/'$id'_heatmap_res10.nii'; done
+
+#Move stitched res10 to R drive
+for id in {P2865_+3_22_five_versions_Jonathan_stack_tiles,P2694_-4_38_five_versions_Wenda_stack_tiles,P2694_-4_42_five_versions_Wenda_stack_tiles,P2694_-3_26_five_versions_Jonathan_stack_tiles}; do echo $id; scp -r 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/output/RES*/res10*' '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Stitched/2.65x_res10/res10_'$id'.tif'; done
+
+#Move stitched full res to R drive
+for id in ; do echo $id; scp -r 'ychen@wynlog1.compbio.ucsf.edu:/grinberg/tau_pilot/end_of_life/Pipeline/2.65x_slices/'$id'/'$id'_files/output/RES*/0*' '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Stitched/2.65x_res10/batch3/full_'$id'.tif'; done
+
+#Make registration folders
+for id in {P3030_-2_21_CP13_2.65x_wenda_stack,P2865_-7_39_CP13_2.65x_jonathan_stack}; do echo $id; mkdir '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/'$id '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/'$id'/1stStep_Manual' '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/'$id'/2ndStep_Automatic'; cp '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Nii/histo_nii/2.65_zoom/res10_'$id'.nii' '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Registration/2.65x_zoom/'$id'/1stStep_Manual/'; done
+
+#find missing stack tiles and copy over
+
+for i in {0..239}; do [ -f 'tile_'$i'.tif' ] || (echo $i && cp '/home/maryana/R_DRIVE/Experiments/New_RO1/Scanned_images/CP13/6508/6508_21_#31_CP13_MFG_300ms/6508_21_#31_CP13_MFG_300ms_stack/6508_21_#31_CP13_MFG_300ms_stack_tiles_'$i'/tile_'$i'_1st.tif' '/home/maryana/R_DRIVE/Experiments/New_RO1/Scanned_images/CP13/6508/6508_21_#31_CP13_MFG_300ms/6508_21_#31_CP13_MFG_300ms_stack_tiles/raw/tile_'$i'.tif'); done
+
+for i in {0..239}; do [ -f 'tile_'$i'.tif' ] || echo $i; done
+
+freeview /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Nii/histo_nii/2.65_zoom/res10_P2865_-7_39_CP13_2.65x_jonathan_stack.nii /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Nii/heatmap_nii/2.65x_zoom/P2865_-7_39_CP13_2.65x_jonathan_stack_heatmap_res10.nii
+
+
+
+#Apply lta transformation
+mri_convert /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Heatmap/MAOB/P2865_-7_33_MAOB_stack_opposite_histogrammatch_all_heatmap_fwhm.nii -at /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Blockface/P2865_-7_stack_opposite_histogrammatch_mapped_to_MRI_for_-7.nii.lta /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Heatmap/MAOB/P2865_-7_33_MAOB_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7.nii
+
+
+#Extract MRI/HEATMAP/PET Slice
+ExtractSliceFromImage 3 registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_ori_mapped_to_MRI_for_-7_segmented.nii registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_ori_mapped_to_MRI_for_-7_segmented_slice_118.nii 1 118 0
+
+ExtractSliceFromImage 3 registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7_segmented.nii registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7_segmented_slice_118.nii 1 118 0
+
+ExtractSliceFromImage 3 registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_fwhm_no_mask_mapped_to_MRI_for_-7_segmented.nii registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_fwhm_no_mask_mapped_to_MRI_for_-7_segmented_slice_118.nii 1 118 0
+
+ExtractSliceFromImage 3 registered_P2865_-7_33_MAOB_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7_segmented.nii registered_P2865_-7_33_MAOB_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7_segmented_slice_118.nii 1 118 0
+
+ExtractSliceFromImage 3 P2694_rnu_for_-7_segmented.nii P2694_rnu_for_-7_segmented_slice_118.nii 1 118 0
+
+ExtractSliceFromImage 3 B15-298_FTP_unsmthd_suvr_cereg_mapped_to_MRI_for_-7_segmented.nii B15-298_FTP_unsmthd_suvr_cereg_mapped_to_MRI_for_-7_segmented_slice_117.nii 1 117 0
+
+ExtractSliceFromImage 3 B15-298_FTP_smoothed_suvr_cereg_mapped_to_MRI_for_-7_segmented.nii B15-298_FTP_smoothed_suvr_cereg_mapped_to_MRI_for_-7_segmented_slice_117.nii 1 117 0
+
+ExtractSliceFromImage 3 B15-298_PIB_unsmthd_suvr_cereg_mapped_to_MRI_for_-7_segmented.nii B15-298_PIB_unsmthd_suvr_cereg_mapped_to_MRI_for_-7_segmented_slice_117.nii 1 117 0
+
+ExtractSliceFromImage 3 B15-298_PIB_smoothed_suvr_cereg_mapped_to_MRI_for_-7_segmented.nii B15-298_PIB_smoothed_suvr_cereg_mapped_to_MRI_for_-7_segmented_slice_117.nii 1 117 0
+
+#Slice Histogram Match
+ImageMath 2 /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Heatmap/registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7_segmented_slice_118_histomatched_FTP_smoothed.nii HistogramMatch /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Heatmap/registered_P2865_-7_stack_opposite_histogrammatch_all_heatmap_fwhm_mapped_to_MRI_for_-7_segmented_slice_118.nii /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Tau_PET/B15-298_FTP_smoothed_suvr_cereg_mapped_to_MRI_for_-7_segmented_slice_117.nii
+
+#apply freeview transformation to blockface
+for id in registered_res10_P2865_-7_33_Iron_heatmap_stack_fwhm_2_stack.nii; do echo $id; mri_convert '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Blockface/P2865_-7/blockface/nii/'$id -at /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Blockface/P2865_-7_blockface_reversed_mapped_to_MRI_for_-7.nii.lta '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2865_-7/Landmark_registration/1stStep_Manual/transformed_'$id; done
+
+for id in {registered_P2694_-8_30_MAOB_2.65x_wenda_stack_heatmap_res10_stack.nii,registered_P2694_-8_30_MAOB_2.65x_wenda_stack_heatmap_res10_fwhm_1_stack.nii,registered_P2694_-8_30_MAOB_2.65x_wenda_stack_heatmap_res10_fwhm_2_stack.nii,registered_P2694_-8_28_CP13_2.65x_wenda_stack_heatmap_res10_stack.nii,registered_P2694_-8_28_CP13_2.65x_wenda_stack_heatmap_res10_fwhm_1_stack.nii,registered_P2694_-8_28_CP13_2.65x_wenda_stack_heatmap_res10_fwhm_2_stack.nii,registered_res10_P2694_-8_29_Iron_heatmap_stack.nii,registered_res10_P2694_-8_29_Iron_heatmap_stack_fwhm_1_stack.nii,registered_res10_P2694_-8_29_Iron_heatmap_stack_fwhm_2_stack.nii}; do echo $id; mri_convert '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Blockface/P2694_-8/blockface/nii/'$id -at /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2694_-8/Blockface/P2694_-8_stack_mapped_to_MRI_for_-2.nii.lta '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2694_-8/Landmark_registration/1stStep_Manual/transformed_'$id; done
+
+for id in {registered_P3030_-2_27_MAOB_2.65x_wenda_stack_heatmap_res10_fwhm_1_stack.nii,registered_P3030_-2_27_MAOB_2.65x_wenda_stack_heatmap_res10_fwhm_2_stack.nii,registered_P3030_-2_27_MAOB_2.65x_wenda_stack_heatmap_res10_stack.nii,registered_P3030_-2_21_CP13_2.65x_wenda_stack_heatmap_res10_stack.nii,registered_P3030_-2_21_CP13_2.65x_wenda_stack_heatmap_res10_fwhm_1_stack.nii,registered_P3030_-2_21_CP13_2.65x_wenda_stack_heatmap_res10_fwhm_2_stack.nii,registered_res10_P3030_-2_26_Iron_heatmap_stack.nii,registered_res10_P3030_-2_26_Iron_heatmap_stack_fwhm_1_stack.nii,registered_res10_P3030_-2_26_Iron_heatmap_stack_fwhm_2_stack.nii}; do echo $id; mri_convert '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Blockface/P3030_-2/nii/histomatched/'$id -at /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P3030_-2/Blockface/P3030_-2_blockface_volume_histogram_matched_mapped_to_MRI_for_-1.nii.lta '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P3030_-2/Landmark_registration/1stStep_Manual/transformed_'$id; done
+
+for id in {registered_P3030_-2_42_MAOB_2.65x_wenda_stack_heatmap_res10_stack.nii,registered_P3030_-2_42_MAOB_2.65x_wenda_stack_heatmap_res10_fwhm_1_stack.nii,registered_P3030_-2_42_MAOB_2.65x_wenda_stack_heatmap_res10_fwhm_2_stack.nii,registered_res10_P3030_-2_40_Iron_heatmap_stack.nii,registered_res10_P3030_-2_40_Iron_heatmap_stack_fwhm_1_stack.nii,registered_res10_P3030_-2_40_Iron_heatmap_stack_fwhm_2_stack.nii}; do echo $id; mri_convert '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Blockface/P3030_-2/nii/histogrammatch/'$id -at /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P3030_-2/Blockface/P3030_-2_blockface_histogrammatched_mapped_to_MRI_for_-2_only_header.nii.lta '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P3030_-2/Landmark_registration/1stStep_Manual/transformed_'$id; done
+
+for id in {registered_res10_P2694_-8_39_CP13_heatmap_fwhm_1_stack.nii,registered_res10_P2694_-8_39_CP13_heatmap_fwhm_2_stack.nii,registered_res10_P2694_-8_39_CP13_heatmap_stack.nii}; do echo $id; mri_convert '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Blockface/P2694_-8/blockface/nii/histogrammatched/'$id -at /home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2694_-8/Blockface/P2694_-8_stack_histogrammatch_opposite_mapped_to_MRI_for_-8.nii.lta '/home/maryana/R_DRIVE/Experiments/1_End_of_Life/Iron/Renaud_Tau_Pet_resampled/data_July_2020/P2694_-8/Landmark_registration/1stStep_Manual/transformed_'$id; done
+
+
+
+#resample
+ResampleImage 3 registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_for_resample.nii registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_resampled_final.niii 1x1x1 0 1 4
+
+#mri_convert
+for id in {P2694_-4_mask_stack,P2694_-4_MAOB_heatmap_fwhm_1_stack,P2694_-4_iron_heatmap_fwhm_1_stack,P2694_-4_CP13_heatmap_fwhm_1_stack,P2694_-4_stack_w_Iron_heatmap_fwhm_1_stack}; do echo $id; mri_convert $id'.nii' -at P2694_-4_stack_opposite_histogrammatch_mapped_header.nii.lta $id'_resampled.nii'; done
+
+for id in {P2694_-8_CP13_heatmap_fwhm_1_stack,P2694_-8_iron_heatmap_fwhm_1_stack,P2694_-8_MAOB_heatmap_fwhm_1_stack,P2694_-8_mask_stack,P2694_-8_stack_w_Iron_heatmap_fwhm_1_stack}; do echo $id; mri_convert $id'.nii' -at P2694_-8_stack_histogrammatch_opposite_mapped_header.nii.lta $id'_resampled.nii'; done
+
+#P2865_-3
+for id in {P2865_-3_mask_stack,P2865_-3_CP13_heatmap_fwhm_1_stack,P2865_-3_MAOB_heatmap_fwhm_1_stack,P2865_-3_iron_heatmap_fwhm_1_stack,P2865_-3_blockface_reversed}; do echo $id; mri_convert $id'.nii' -at P2865_-3_blockface_reversed_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2865_-3_stack_w_Iron_heatmap_fwhm_1_stack.nii -at P2865_-3_blockface_reversed_header.nii.lta P2865_-3_stack_w_Iron_heatmap_fwhm_1_stack_resampled.nii
+
+#P2913_-2
+for id in {P2913_-2_CP13_heatmap_fwhm_1_stack,P2913_-2_iron_heatmap_fwhm_1_stack,P2913_-2_MAOB_heatmap_fwhm_1_stack,P2913_-2_stack_w_Iron_heatmap_fwhm_1_stack,P2913_-2_stack}; do echo $id; mri_convert $id'.nii' -at P2913_-2_stack_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2913_-2_stack_w_CP13_heatmap_fwhm_1_stack.nii -at P2913_-2_stack_mapped_header.nii.lta P2913_-2_stack_w_CP13_heatmap_fwhm_1_stack_resampled.nii
+
+mri_convert P2913_-2_stack.nii -at P2913_-2_stack_header.nii.lta P2913_-2_stack_resampled.nii
+
+for id in {B14-260_PIB_smoothed_suvr_cereg,B14-260_PIB_unsmthd_suvr_cereg,B14-260_FTP_unsmthd_suvr_cereg,B14-260_FTP_smoothed_suvr_cereg}; do echo $id; mri_convert $id'.nii' -at P2913_mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+for id in {raparc+aseg_WM,raparc+aseg_wholecort,raparc+aseg_BG}; do echo $id; mri_convert $id'.nii' -at P2913_mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+#P2865_-7
+for id in {P2865_-7_wm_mask_stack,P2865_-7_full_mask_stack,P2865_-7_CP13_heatmap_fwhm_1_stack,P2865_-7_MAOB_heatmap_fwhm_1_stack,P2865_-7_iron_heatmap_fwhm_1_stack,P2865_-7_stack_w_Iron_heatmap_fwhm_1_stack,P2865_-7_blockface_reversed}; do echo $id; mri_convert $id'.nii' -at P2865_-7_blockface_reversed_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2865_-7_blockface_reversed.nii -at P2865_-7_blockface_reversed_mapped_header.nii.lta P2865_-7_blockface_reversed_resampled.nii
+
+for id in {B12-219_FTP_unsmthd_suvr_cereg,B12-219_FTP_smoothed_suvr_cereg,B12-219_PIB2_smoothed_suvr_cereg,B12-219_PIB2_unsmthd_suvr_cereg}; do echo $id; mri_convert $id'.nii' -at mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+for id in {raparc+aseg_WM,raparc+aseg_wholecort,raparc+aseg_BG}; do echo $id; mri_convert $id'.nii' -at mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+#P2865_+3
+for id in {P2694_-8_mask_stack,}; do echo $id; mri_convert $id'.nii' -at P2865_-3_blockface_reversed_mapped_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2865_+3_blockface.nii -at P2865_+3_blockface_mapped_header.nii.lta P2865_+3_blockface_resampled.nii
+
+for id in {P2865_+3_mask_stack,P2865_+3_CP13_heatmap_fwhm_1_stack,P2865_+3_MAOB_heatmap_fwhm_1_stack,P2865_+3_iron_heatmap_fwhm_1_stack,P2865_+3_blockface,P2865_+3_stack_w_CP13_heatmap_fwhm_1_stack}; do echo $id; mri_convert $id'.nii' -at P2865_+3_blockface_header.nii.lta $id'_resampled.nii'; done
+
+#P2694_-8
+for id in {raparc+aseg_WM,raparc+aseg_wholecort,raparc+aseg_BG}; do echo $id; mri_convert $id'.nii' -at P2694_-8_mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2694_-8_stack_histogrammatch_opposite.nii -at P2694_-8_stack_histogrammatch_opposite_mapped_header.nii.lta P2694_-8_stack_histogrammatch_opposite_resampled.nii
+
+#P2694_-8_round_2
+for id in {P2694_-8_mask_stack,P2694_-8_CP13_heatmap_fwhm_1_stack,P2694_-8_MAOB_heatmap_fwhm_1_stack,P2694_-8_iron_heatmap_fwhm_1_stack,P2694_-8_stack_w_Iron_heatmap_fwhm_1_stack,P2694_-8_stack_histogrammatch_opposite}; do echo $id; mri_convert $id'.nii' -at P2694_-8_stack_histogrammatch_opposite_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2694_-8_stack_histogrammatch_opposite.nii -at P2694_-8_stack_histogrammatch_opposite_header.nii.lta P2694_-8_stack_histogrammatch_opposite_resampled.nii
+
+#P2694_-4
+for id in {B15-298_PIB_unsmthd_suvr_cereg,B15-298_PIB_smoothed_suvr_cereg,B15-298_FTP_unsmthd_suvr_cereg,B15-298_FTP_smoothed_suvr_cereg,raparc+aseg_WM,raparc+aseg_wholecort,raparc+aseg_BG}; do echo $id; mri_convert $id'.nii' -at P2694_-4_mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+for id in {P2694_-4_CP13_heatmap_fwhm_1_stack,P2694_-4_iron_heatmap_fwhm_1_stack,P2694_-4_MAOB_heatmap_fwhm_1_stack,P2694_-4_mask_stack,P2694_-4_stack_opposite_histogrammatch,P2694_-4_stack_w_Iron_heatmap_fwhm_1_stack}; do echo $id; mri_convert $id'.nii' -at P2694_-4_stack_opposite_histogrammatch_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2694_-4_stack_opposite_histogrammatch.nii -at P2694_-4_stack_opposite_histogrammatch_header.nii.lta P2694_-4_stack_opposite_histogrammatch_resampled.nii
+
+#P2694_-4_round_2
+for id in {B15-298_PIB_unsmthd_suvr_cereg_resampled,B15-298_PIB_smoothed_suvr_cereg_resampled,B15-298_FTP_unsmthd_suvr_cereg_resampled,B15-298_FTP_smoothed_suvr_cereg_resampled,raparc+aseg_WM_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_BG_resampled}; do echo $id; mri_convert $id'.nii' -at P2694_-4_mri_mapped_resampled.nii.lta $id'_resampled.nii'; done
+
+mri_convert P2694_-4_stack_opposite_histogrammatch.nii -at P2694_-4_stack_opposite_histogrammatch_mapped_header.nii.lta P2694_-4_stack_opposite_histogrammatch_resampled.nii
+
+#P3030
+for id in {aparc+aseg_WM,aparc+aseg_wholecort,aparc+aseg_BG}; do echo $id; mri_convert $id'.nii' -at MRI_mapped_to_block.nii.lta $id'_resampled.nii'; done
+
+for id in {P3030_-2_blockface_histogrammatched,P3030_-2_iron_heatmap_fwhm_1_stack,P3030_-2_MAOB_heatmap_fwhm_1_stack,P3030_-2_blockface_histogrammatched_w_iron_heatmap_fwhm_1_stack}; do echo $id; mri_convert $id'.nii' -at P3030_-2_blockface_histogrammatched_header.nii.lta $id'_resampled.nii'; done
+
+mri_convert converted_B15-298_FTP_smoothed_suvr_cereg_resampled_2nd_2d.nii -at converted_B15-298_FTP_smoothed_suvr_cereg_resampled_2nd_3d.nii.lta converted_B15-298_FTP_smoothed_suvr_cereg_resampled_2nd_2d_new.nii
+
+mri_convert converted_B15-298_PIB_smoothed_suvr_cereg_resampled_2nd_2d.nii -at converted_B15-298_PIB_smoothed_suvr_cereg_resampled_2nd_3d.nii.lta converted_B15-298_PIB_smoothed_suvr_cereg_resampled_2nd_2d_new.nii
+
+
+
+
+
+#Extract slice from 3D
+
+#P3030_-2
+for id in {aparc+aseg_WM_resampled,aparc+aseg_BG_resampled,aparc+aseg_wholecort_resampled,FTP_SUVR_resampled,AV45_SUVR_resampled,MRI_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 2 155 0; done
+
+for id in {P3030_-2_blockface_histogrammatched_resampled,P3030_-2_iron_heatmap_fwhm_1_stack_resampled,P3030_-2_MAOB_heatmap_fwhm_1_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 2 126 0; done
+
+#P2927_-1
+for id in {freeviewed_raparc+aseg_WM,freeviewed_raparc+aseg_BG,freeviewed_raparc+aseg_wholecort}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 250 0; done
+
+#P2913_-2
+for id in {B14-260_FTP_smoothed_suvr_cereg_resampled,B14-260_FTP_unsmthd_suvr_cereg_resampled,B14-260_PIB_unsmthd_suvr_cereg_resampled,B14-260_PIB_smoothed_suvr_cereg_resampled,raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_WM_resampled,P2913_mri_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 165 0; done
+
+ExtractSliceFromImage 3 P2913_-2_stack_resampled.nii P2913_-2_stack_resampled_2d.nii 1 122 0
+
+for id in {P2913_-2_CP13_heatmap_fwhm_1_stack_resampled,P2913_-2_iron_heatmap_fwhm_1_stack_resampled,P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled,P2913_-2_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 122 0; done
+
+ExtractSliceFromImage 3 P2913_mri_mapped_resampled.nii P2913_mri_mapped_resampled_2d.nii 1 158 0
+
+
+for id in {raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_WM_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 140 0; done
+
+#P2865_+3
+for id in {B12-219_FTP_unsmthd_suvr_cereg_resampled,B12-219_FTP_smoothed_suvr_cereg_resampled,B12-219_PIB2_smoothed_suvr_cereg_resampled,B12-219_PIB2_unsmthd_suvr_cereg_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_BG_resampled,raparc+aseg_WM_resampled,P2865_mri_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 216 0; done
+
+for id in {P2865_+3_blockface_resampled,P2865_+3_iron_heatmap_fwhm_1_stack_resampled,P2865_+3_MAOB_heatmap_fwhm_1_stack_resampled,P2865_+3_CP13_heatmap_fwhm_1_stack_resampled,P2865_+3_mask_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 139 0; done
+
+ExtractSliceFromImage 3 P2865_-7_blockface_reversed_resampled.nii P2865_-7_blockface_reversed_resampled_2d.nii 1 217 0
+
+#P2865_-7
+
+for id in {B12-219_FTP_unsmthd_suvr_cereg_resampled,B12-219_FTP_smoothed_suvr_cereg_resampled,B12-219_PIB2_smoothed_suvr_cereg_resampled,B12-219_PIB2_unsmthd_suvr_cereg_resampled,raparc+aseg_WM_resampled,raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,mri_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 117 0; done
+
+for id in {P2865_-7_blockface_reversed_resampled,P2865_-7_iron_heatmap_fwhm_1_stack_resampled,P2865_-7_MAOB_heatmap_fwhm_1_stack_resampled,P2865_-7_CP13_heatmap_fwhm_1_stack_resampled,P2865_-7_full_mask_stack_resampled,P2865_-7_wm_mask_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 138 0; done
+
+ExtractSliceFromImage 3 P2865_-7_blockface_reversed_resampled.nii P2865_-7_blockface_reversed_resampled_2d.nii 2 138 0
+
+ExtractSliceFromImage 3 mri_mapped_resampled.nii mri_mapped_resampled_2d.nii 1 117 0
+
+#P2865_-3
+for id in {B12-219_FTP_unsmthd_suvr_cereg_resampled,B12-219_FTP_smoothed_suvr_cereg_resampled,B12-219_PIB2_smoothed_suvr_cereg_resampled,B12-219_PIB2_unsmthd_suvr_cereg_resampled,raparc+aseg_WM_resampled,raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,P2865_rnu_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 157 0; done
+
+for id in {P2865_-3_blockface_reversed_resampled,P2865_-3_iron_heatmap_fwhm_1_stack_resampled,P2865_-3_MAOB_heatmap_fwhm_1_stack_resampled,P2865_-3_CP13_heatmap_fwhm_1_stack_resampled,P2865_-3_mask_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 140 0; done
+
+ExtractSliceFromImage 3 P2865_-3_blockface_reversed_resampled.nii P2865_-3_blockface_reversed_resampled_2d.nii 2 140 0
+
+for id in {raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_WM_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 140 0; done
+
+ExtractSliceFromImage 3 P2865_mri_mapped_resampled.nii P2865_mri_mapped_resampled_2d.nii 1 134 0
+
+#P2694_-8
+for id in {B15-298_FTP_smoothed_suvr_cereg_resampled,B15-298_FTP_unsmthd_suvr_cereg_resampled,B15-298_PIB_smoothed_suvr_cereg_resampled,B15-298_PIB_unsmthd_suvr_cereg_resampled,raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_WM_resampled,mri_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 108 0; done
+
+ExtractSliceFromImage 3 P2694_-8_stack_histogrammatch_opposite_resampled.nii P2694_-8_stack_histogrammatch_opposite_resampled_2d.nii 1 139 0
+
+for id in {P2694_-8_stack_histogrammatch_opposite_resampled,P2694_-8_iron_heatmap_fwhm_1_stack_resampled,P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled,P2694_-8_CP13_heatmap_fwhm_1_stack_resampled,P2694_-8_mask_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 139 0; done
+
+ExtractSliceFromImage 3 P2694_-8_mri_mapped_resampled.nii P2694_-8_mri_mapped_resampled_2d.nii 1 118 0
+
+#P2694_-4
+for id in {B15-298_FTP_smoothed_suvr_cereg_resampled,B15-298_FTP_unsmthd_suvr_cereg_resampled,B15-298_PIB_smoothed_suvr_cereg_resampled,B15-298_PIB_unsmthd_suvr_cereg_resampled,raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_WM_resampled,P2694_-4_stack_w_Iron_heatmap_fwhm_1_stack_resampled,P2694_-4_CP13_heatmap_fwhm_1_stack_resampled,P2694_-4_iron_heatmap_fwhm_1_stack_resampled,P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled,P2694_-4_mask_stack_resampled}; do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 139 0; done
+
+ExtractSliceFromImage 3 P2694_-4_stack_opposite_histogrammatch_resampled.nii P2694_-4_stack_opposite_histogrammatch_resampled_2d.nii 1 139 0
+
+ExtractSliceFromImage 3 P2694_-4_mri_mapped_resampled.nii P2694_-4_mri_mapped_resampled_2d.nii 1 111 0
+
+#P2694_-4_round_2
+for id in {B15-298_FTP_smoothed_suvr_cereg_resampled,B15-298_FTP_unsmthd_suvr_cereg_resampled,B15-298_PIB_smoothed_suvr_cereg_resampled,B15-298_PIB_unsmthd_suvr_cereg_resampled,raparc+aseg_BG_resampled,raparc+aseg_wholecort_resampled,raparc+aseg_WM_resampled,rnu_resampled};do echo $id; ExtractSliceFromImage 3 $id'.nii' $id'_2d.nii' 1 121 0; done
+
+ExtractSliceFromImage 3 P2694_-4_stack_opposite_histogrammatch_resampled.nii P2694_-4_stack_opposite_histogrammatch_resampled_2d.nii 1 139 0
+
+ExtractSliceFromImage 3 P2694_-4_mri_mapped_resampled_2nd.nii P2694_-4_mri_mapped_resampled_2nd_2d.nii 1 122 0
+
+#Smoothing effect to heatmap data
+
+for id in {converted_mipaved_P2865_+3_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_+3_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_+3_CP13_heatmap_fwhm_1_stack_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -prefix $id'_fwhm_20.nii' -rate 0.05 -FWHM 20.8; done
+
+for id in {converted_mipaved_P3030_-2_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P3030_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -prefix $id'_fwhm_20.nii' -rate 0.05 -FWHM 20; done
+
+for id in {converted_mipaved_P2927_-1_MAOB_heatmap_fwhm_1_stack_resampled_2d_ROI,converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI,converted_mipaved_freeviewed_registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_resampled_final_7}; do echo $id; 3dBlurToFWHM -input $id'.nii' -mask converted_mipaved_freeviewed_registered_res10_P2927_-1_21_5_versions_Wenda_stack_tiles_background_mask_fwhm_1_block_resampled_final_7.nii -prefix $id'_fwhm_20.nii' -rate 0.05 -FWHM 20; done
+
+for id in {converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -prefix $id'_fwhm_10.nii' -rate 0.05 -FWHM 10; done
+
+3dBlurToFWHM -input converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI.nii -mask BG_mask_for_smoothing.nii -prefix converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20_new.nii -rate 0.05 -FWHM 20
+
+for id in {converted_mipaved_P2865_-7_CP13_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_-7_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_-7_MAOB_heatmap_fwhm_1_stack_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -prefix $id'_fwhm_10.nii' -rate 0.05 -FWHM 10; done
+
+3dBlurToFWHM -input B12-219_FTP_smoothed_suvr_cereg_resampled_2d.nii -prefix B12-219_FTP_smoothed_suvr_cereg_resampled_2d_fwhm_10.nii -rate 0.05 -FWHM 10
+
+for id in {converted_mipaved_P2865_-3_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_-3_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_-3_CP13_heatmap_fwhm_1_stack_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -prefix $id'_fwhm_10.nii' -rate 0.05 -FWHM 10; done
+
+for id in {converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -mask $id'.nii' -prefix $id'_fwhm_10.nii' -rate 0.05 -FWHM 10; done
+
+for id in {}; do echo $id; 3dBlurToFWHM -input $id'.nii' -prefix $id'_fwhm_10.nii' -rate 0.05 -FWHM 10; done
+
+#Smoothing the unsmoothed PET
+
+for id in {B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d}; do echo $id; 3dBlurToFWHM -input $id'.nii' -mask hemi_raparc+aseg_BG_resampled_3d_thresholded.nii -prefix $id'_bg_fwhm_10.nii' -rate 0.05 -FWHM 10; done
+
+#change header
+nifti_tool -mod_hdr -mod_field pixdim '0 0.198 0.198 0.36 0 0 0 0' -infiles registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block.nii -prefix registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_for_resample.nii
+
+nifti_tool -mod_hdr -mod_field dim '2 505 581 1 1 1 1 1' -infiles BG_mask_for_smoothing.nii -prefix BG_mask_for_smoothing_2d.nii
+
+#mri_mask
+
+for id in {converted_mipaved_P3030_-2_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_20,converted_mipaved_P3030_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_20,AV45_SUVR_resampled_2d,FTP_SUVR_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' aparc+aseg_WM_resampled_2d.nii $id'_wm_masked.nii'; done
+
+for id in {converted_mipaved_P3030_-2_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_20,converted_mipaved_P3030_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_20,AV45_SUVR_resampled_2d,FTP_SUVR_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' aparc+aseg_BG_resampled_2d.nii $id'_bg_masked.nii'; done
+
+for id in {converted_flipped_freeviewed_B16-292_PIB_smoothed_suvr_cereg_ver_2_250,converted_flipped_freeviewed_B16-292_FTP_smoothed_suvr_cereg_ver_2_250,converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20_bg_local,converted_mipaved_freeviewed_registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_resampled_final_7_fwhm_20,converted_mipaved_P2927_-1_MAOB_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20}; do echo $id; mri_mask -T 0.1 $id'.nii' converted_flipped_hemi_freeviewed_raparc+aseg_WM_3d.nii $id'_wm_masked.nii'; done
+for id in {converted_flipped_freeviewed_B16-292_PIB_smoothed_suvr_cereg_ver_2_250,converted_flipped_freeviewed_B16-292_FTP_smoothed_suvr_cereg_ver_2_250,converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20_bg_local,converted_mipaved_freeviewed_registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_resampled_final_7_fwhm_20,converted_mipaved_P2927_-1_MAOB_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20}; do echo $id; mri_mask -T 0.1 $id'.nii' converted_flipped_hemi_freeviewed_raparc+aseg_wholecort_3d.nii $id'_wholecort_masked.nii'; done
+for id in {converted_flipped_freeviewed_B16-292_PIB_smoothed_suvr_cereg_ver_2_250,converted_flipped_freeviewed_B16-292_FTP_smoothed_suvr_cereg_ver_2_250,converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20_bg_local,converted_mipaved_freeviewed_registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_resampled_final_7_fwhm_20,converted_mipaved_P2927_-1_MAOB_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20}; do echo $id; mri_mask -T 0.1 $id'.nii' converted_flipped_hemi_freeviewed_raparc+aseg_BG_3d.nii $id'_BG_masked.nii'; done
+
+for id in {converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20_bg_local,converted_mipaved_freeviewed_registered_P2927_-1_21_5_versions_Wenda_stack_tiles_heatmap_res10_fwhm_1_new_block_resampled_final_7_fwhm_20,converted_mipaved_P2927_-1_MAOB_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20,converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20,converted_flipped_freeviewed_B16-292_PIB_smoothed_suvr_cereg_ver_2_250,converted_flipped_freeviewed_B16-292_FTP_smoothed_suvr_cereg_ver_2_250}; do echo $id; mri_mask -T 30000 $id'.nii' converted_mipaved_freeviewed_P2927_-1_blockface_volume_histogram_matched_resampled_final_7.nii $id'_hemi.nii'; done
+
+mri_mask -T 0.1 converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20.nii BG_mask_for_smoothing.nii converted_mipaved_P2927_-1_iron_heatmap_fwhm_1_stack_resampled_2d_ROI_fwhm_20_bg_only.nii
+
+
+for id in {converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d,B14-260_PIB_smoothed_suvr_cereg_resampled_2d,B14-260_PIB_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_WM_resampled_3d.nii $id'_wm_masked.nii'; done
+for id in {converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d,B14-260_PIB_smoothed_suvr_cereg_resampled_2d,B14-260_PIB_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_wholecort_resampled_3d.nii $id'_wholecort_masked.nii'; done
+for id in {converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d,B14-260_PIB_smoothed_suvr_cereg_resampled_2d,B14-260_PIB_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_BG_resampled_3d.nii $id'_BG_masked.nii'; done
+for id in {converted_mipaved_P2913_-2_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2913_-2_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,B14-260_PIB_smoothed_suvr_cereg_resampled_2d,B14-260_PIB_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_unsmthd_suvr_cereg_resampled_2d,B14-260_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 70 $id'.nii' converted_mipaved_P2913_-2_stack_resampled_2d.nii $id'_hemi.nii'; done
+
+
+
+for id in {converted_mipaved_P2865_+3_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_+3_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2865_+3_CP13_heatmap_fwhm_1_stack_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d}; do echo $id; mri_mask $id'.nii' converted_mipaved_P2865_+3_blockface_resampled_2d.nii $id'_hemi.nii'; done
+
+
+
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-7_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_WM_resampled_3d.nii $id'_wm_masked.nii'; done
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-7_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_wholecort_resampled_3d.nii $id'_wholecort_masked.nii'; done
+
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-7_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 20000 $id'.nii' converted_mipaved_P2865_-7_blockface_reversed_resampled_2d.nii $id'_hemi.nii'; done
+
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-7_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-7_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_BG_resampled_3d.nii $id'_BG_masked.nii'; done
+
+
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-3_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_WM_resampled_3d.nii $id'_wm_masked.nii'; done
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-3_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_wholecort_resampled_3d.nii $id'_wholecort_masked.nii'; done
+
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-3_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 100 $id'.nii' converted_mipaved_P2865_-3_mask_stack_resampled_2d.nii $id'_hemi.nii'; done
+
+for id in {B12-219_FTP_smoothed_suvr_cereg_resampled_2d,B12-219_FTP_unsmthd_suvr_cereg_resampled_2d,B12-219_PIB2_smoothed_suvr_cereg_resampled_2d,B12-219_PIB2_unsmthd_suvr_cereg_resampled_2d,converted_mipaved_P2865_-3_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2865_-3_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_BG_resampled_3d.nii $id'_BG_masked.nii'; done
+
+
+for id in {converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_wholecort_resampled_3d.nii $id'_wm_masked.nii'; done
+for id in {converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_WM_resampled_3d.nii $id'_wholecort_masked.nii'; done
+
+for id in {converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 100 $id'.nii' converted_mipaved_P2694_-8_mask_stack_resampled_3d_fixed.nii $id'_hemi.nii'; done
+
+for id in {converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 100 $id'.nii' converted_mipaved_P2694_-8_mask_stack_resampled_3d_fixed_cut_inferior.nii $id'_hemi_mask.nii'; done
+
+for id in {converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-8_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-8_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_BG_resampled_3d.nii $id'_BG_masked.nii'; done
+
+
+
+for id in {converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_wholecort_resampled_3d.nii $id'_wm_masked.nii'; done
+
+for id in {converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_WM_resampled_3d.nii $id'_wholecort_masked.nii'; done
+
+for id in {converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask $id'.nii' converted_mipaved_P2694_-4_stack_opposite_histogrammatch_resampled_3d_fixed.nii $id'_hemi.nii'; done
+
+for id in {converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d_fwhm_10,converted_mipaved_P2694_-4_MAOB_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_iron_heatmap_fwhm_1_stack_resampled_2d,converted_mipaved_P2694_-4_CP13_heatmap_fwhm_1_stack_resampled_2d,B15-298_PIB_unsmthd_suvr_cereg_resampled_2d,B15-298_PIB_smoothed_suvr_cereg_resampled_2d,B15-298_FTP_unsmthd_suvr_cereg_resampled_2d,B15-298_FTP_smoothed_suvr_cereg_resampled_2d}; do echo $id; mri_mask -T 0.1 $id'.nii' hemi_raparc+aseg_BG_resampled_3d.nii $id'_BG_masked.nii'; done
+
+
+
+
