@@ -36,7 +36,7 @@ echo 'Export XML'
 #python /Users/prabhleenkaur/Box/Imaging_RO1_project/Wynton/LargeSlideScan/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
 # Use Below version for when creating the image!
 #python /root/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
-python2 /usr/local/bin/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
+python2 /usr/local/bin/high-res-3D-tau/wynton_image_files/create_terastitch_xml.py $ROOT_DIR'/Metadata.txt' $RAW_DIR'/xml_import.xml' $RAW_DIR
 touch $ROOT_DIR'/expxml'
 
 echo 'Import'
