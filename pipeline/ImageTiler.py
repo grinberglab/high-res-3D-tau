@@ -32,8 +32,10 @@ class ImageTiler(object):
         self.logger.addHandler(handler)
 
         #default values
-        self.PIX_1MM = 819  # 1mm= 819 pixels
-        self.PIX_5MM = 4095  # 5mm = 4095 pixels
+        #self.PIX_1MM = 819  # 1mm= 819 pixels (in old scanner)
+        #self.PIX_5MM = 4095  # 5mm = 4095 pixels (in old scanner)
+        self.PIX_1MM = 2890  # 1mm= 2890 pixels (in Zeiss scanner 10x)
+        self.PIX_5MM = 14450  # 5mm = 14450 pixels (in Zeiss scanner 10x)
         self.MEM_MAX = '14Gb'
         self.SCRIPT_DIR=''
 
