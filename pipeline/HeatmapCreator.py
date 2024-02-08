@@ -42,12 +42,16 @@ class HeatmapCreator(object):
         self.logger.addHandler(handler)
 
         #default values
-        self.PIX_1MM = 819  # 1mm= 819 pixels
-        self.PIX_5MM = 4095  # 5mm = 4095 pixels
+        #self.PIX_1MM = 819  # 1mm= 819 pixels
+        #self.PIX_5MM = 4095  # 5mm = 4095 pixels
+        self.PIX_1MM = 2890  # 1mm= 2890 pixels (in Zeiss scanner 10x)
+        self.PIX_5MM = 14450  # 5mm = 14450 pixels (in Zeiss scanner 10x)
         self.HMAP_RES = 0.1
         self.SCALE_FACTOR_VAL = 1000.0
-        self.X_DIM = 0.0123
-        self.Y_DIM = 0.0123
+        #self.X_DIM = 0.0123 # 1mm= 819 pixels
+        #self.Y_DIM = 0.0123 # 1mm= 819 pixels
+        self.X_DIM = 0.00346 # 1mm= 819 pixels
+        self.Y_DIM = 0.00346 # 1mm= 819 pixels
         self.Z_DIM = 0.122
 
 
