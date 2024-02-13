@@ -189,7 +189,7 @@ class TiffTileLoader(object):
 
         for row in range(int(grid_rows)):
             for col in range(int(grid_cols)):
-                ind = sub2ind((grid_rows,grid_cols),row,col)
+                ind = sub2ind((int(grid_rows),int(grid_cols)),row,col)
                 up_row, up_col, low_row, low_col = coords_arr[ind,:].astype('int') #[up_row, up_col, low_row, low_col]
                 cols_mat[row,col] = low_col - up_col #tile width
                 rows_mat[row,col] = low_row - up_row #tile height
