@@ -10,7 +10,7 @@ from MaskTiler import MaskTiler
 from TileMasker import TileMasker
 from HeatmapCreator import HeatmapCreator
 from ColormapCreator import ColormapCreator
-import ConfigParser
+import configparser
 
 
 def main():
