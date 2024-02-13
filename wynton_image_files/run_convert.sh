@@ -35,7 +35,7 @@ else
         IMG_DIR=$DIR_IN'/'$f
         IMG_DIR_ESC="$(echo "$IMG_DIR" | sed -e 's/[()&]/\\&/g')"
         cd $IMG_DIR
-        IMG=`ls *.tif`
+        IMG=`ls *{tif,tiff}`
         IMG_OUT='res10_'$IMG
 
 	echo $IMG
