@@ -7,7 +7,7 @@ import glob
 import mahotas as mht
 import numpy as np
 import logging
-import ConfigParser
+import configparser
 
 
 class TileMasker(object):
