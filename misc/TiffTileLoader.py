@@ -187,20 +187,20 @@ class TiffTileLoader(object):
         cols_mat = np.zeros([int(grid_rows),int(grid_cols)]) #tiles width
         #orig_size = self.get_file_dim()
 
-        for row in range(grid_rows):
-            for col in range(grid_cols):
+        for row in range(int(grid_rows)):
+            for col in range(int(grid_cols)):
                 ind = sub2ind((grid_rows,grid_cols),row,col)
                 up_row, up_col, low_row, low_col = coords_arr[ind,:] #[up_row, up_col, low_row, low_col]
                 cols_mat[row,col] = low_col - up_col #tile width
                 rows_mat[row,col] = low_row - up_row #tile height
 
-        for rr in range(grid_rows): #check each row's width
+        for rr in range(int(grid_rows)): #check each row's width
             width = np.sum(cols_mat[rr,:])
             if width != orig_size[1]: #num. cols == width
                 print('Coord: Row {} width ({}) differs from original image size ({}).'.format(rr, width, orig_size[1]))
                 ok = False
 
-        for cc in range(grid_cols): #check each row's width
+        for cc in range(int(grid_cols)): #check each row's width
             height = np.sum(rows_mat[:,cc])
             if height != orig_size[0]: #num. rows == height
                 print('Coord: Column {} height ({}) differs from original image size ({}).'.format(cc, height, orig_size[0]))
@@ -221,8 +221,8 @@ class TiffTileLoader(object):
         cols_mat = np.zeros([int(grid_rows),int(grid_cols)]) #tiles width
         #orig_size = self.get_file_dim()
 
-        for row in range(grid_rows):
-            for col in range(grid_cols):
+        for row in range(int(grid_rows)):
+            for col in range(int(grid_cols)):
                 ind = sub2ind((grid_rows,grid_cols),row,col)
                 f = os.path.join(tiles_dir,'tile_{:04}.tif'.format(ind))
                 tiff = tifffile.TiffFile(f)  # load tiff header only
@@ -231,13 +231,13 @@ class TiffTileLoader(object):
                 rows_mat[row,col] = size[0]
                 cols_mat[row,col] = size[1]
 
-        for rr in range(grid_rows): #check each row's width
+        for rr in range(int(grid_rows)): #check each row's width
             width = np.sum(cols_mat[rr,:])
             if width != orig_size[1]: #num. cols == width
                 print('Row {} width ({}) differs from original image size ({}).'.format(rr, width, orig_size[1]))
                 ok = False
 
-        for cc in range(grid_cols): #check each row's width
+        for cc in range(int(grid_cols)): #check each row's width
             height = np.sum(rows_mat[:,cc])
             if height != orig_size[0]: #num. rows == height
                 print('Column {} height ({}) differs from original image size ({}).'.format(cc, height, orig_size[0]))
