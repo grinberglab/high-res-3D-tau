@@ -6,7 +6,7 @@ import glob
 import numpy as np
 #sys.path.append ('/usr/share')
 #import gdal
-from osgeo import gdal
+import gdal
 
 
 def ind2sub(array_shape, ind):
