@@ -143,7 +143,8 @@ class MaskTiler(object):
 
         #create Image Magick tmp directory
         TMP_DIR = os.path.join(root_dir,'magick_tmp')
-        if not os.path.exists(0o777)
+        if not os.path.exists(TMP_DIR):
+            os.mkdir(TMP_DIR,0o777)
         #export Image Magick env variables
         os.environ['MAGICK_TMPDIR'] = TMP_DIR
         os.environ['MAGICK_MEMORY_LIMIT'] = self.MAX_MEM
