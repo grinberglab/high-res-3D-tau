@@ -1,0 +1,95 @@
+BootStrap: docker
+From: ubuntu:22.04
+
+%environment
+    # Custom environment variables
+    # E.g., export LAL_DATA_PATH=/
+
+%post
+
+    chmod 777 /root
+    apt-get update && apt-get -y upgrade
+    apt-get -y install \
+    build-essential \
+    software-properties-common \
+    python2-dev \
+    curl
+    
+    apt-get update && apt-get -y upgrade
+    apt-get -y install \
+    python3-dev \
+    libxml2-dev \
+    libxslt-dev \
+    zlib1g-dev \
+    libsasl2-dev \
+    libldap2-dev \
+    libssl-dev \
+    libffi-dev \
+    libmysqlclient-dev \
+    libjpeg-dev \
+    libpq-dev \
+    libjpeg8-dev \
+    liblcms2-dev \
+    libblas-dev \
+    libatlas-base-dev \
+    ghostscript \
+    imagemagick \
+    wget \
+    pip \
+    git
+    
+    add-apt-repository ppa:ubuntugis/ppa && apt-get update
+    apt-get install -y gdal-bin
+    ogrinfo --version
+    apt-get install -y libgdal-dev
+    export CPLUS_INCLUDE_PATH=/usr/include/gdal
+    export C_INCLUDE_PATH=/usr/include/gdal
+    
+    pip install numpy GDAL mahotas
+    pip install utils lxml scikit-image nibabel matplotlib tifffile
+    
+    curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+    python2 get-pip.py
+    
+    python2 -m pip install --no-cache-dir --force-reinstall 'GDAL[numpy]==3.1.4'
+    
+    python2 -m pip install utils lxml scikit-image nibabel matplotlib==2.0.0 tifffile
+    
+    python2 -m pip install mahotas==1.4.13
+    
+    add-apt-repository ppa:ubuntuhandbook1/apps
+    apt -y install hugin
+    
+    DEBIAN_FRONTEND=noninteractive apt-get -y install \
+    python-tk
+    
+    # Installing teraconverter and terastitcher
+    wget -c https://github.com/grinberglab/high-res-3D-tau/raw/main/TeraStitcher-portable-1.11.10-Linux_2.tar.gz
+    tar xvzf TeraStitcher-portable-1.11.10-Linux_2.tar.gz
+
+    # Making them executable from anywhere
+    cp TeraStitcher-portable-1.11.10-Linux/teraconverter /usr/local/bin/
+    cp TeraStitcher-portable-1.11.10-Linux/terastitcher /usr/local/bin/
+
+    # Uploading relevant files from GitHub instead
+    cd /usr/local/bin/
+    git clone https://github.com/grinberglab/high-res-3D-tau.git
+    
+    # Making them executable and available from anywhere
+    chmod -R 777 /usr/local/bin/
+    
+    cp /usr/local/bin/high-res-3D-tau/wynton_image_files/policy.xml /etc/ImageMagick-6/
+    chmod +x /etc/ImageMagick-6/policy.xml
+    chmod +w /etc/ImageMagick-6/policy.xml
+    
+    python3 -c "from osgeo import gdal"
+    python3 -c "from osgeo import gdal_array"
+    python3 -c "from osgeo import osr"
+    python3 -c "from osgeo import ogr"
+    python3 -c "from osgeo import gdalconst"
+    
+    #python2 -c "from osgeo import gdal"
+    #python2 -c "from osgeo import gdal_array"
+    #python2 -c "from osgeo import osr"
+    #python2 -c "from osgeo import ogr"
+    #python2 -c "from osgeo import gdalconst"
