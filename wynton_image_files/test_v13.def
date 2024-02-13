@@ -45,7 +45,7 @@ From: ubuntu:22.04
     export CPLUS_INCLUDE_PATH=/usr/include/gdal
     export C_INCLUDE_PATH=/usr/include/gdal
     
-    pip install numpy GDAL mahotas
+    python3 -m pip install numpy GDAL==3.6.4 mahotas
     pip install utils lxml scikit-image nibabel matplotlib tifffile
     
     curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
