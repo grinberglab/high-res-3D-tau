@@ -183,8 +183,8 @@ class TiffTileLoader(object):
     def _coords_sanity_check(self,coords_arr, grid_rows,grid_cols, orig_size):
         ok = True
 
-        rows_mat = np.zeros([grid_rows,grid_cols]) #tiles height
-        cols_mat = np.zeros([grid_rows,grid_cols]) #tiles width
+        rows_mat = np.zeros([int(grid_rows),int(grid_cols)]) #tiles height
+        cols_mat = np.zeros([int(grid_rows),int(grid_cols)]) #tiles width
         #orig_size = self.get_file_dim()
 
         for row in range(grid_rows):
@@ -217,8 +217,8 @@ class TiffTileLoader(object):
     def _sanity_check(self,tiles_dir,grid_rows,grid_cols,orig_size):
         ok = True
 
-        rows_mat = np.zeros([grid_rows,grid_cols]) #tiles height
-        cols_mat = np.zeros([grid_rows,grid_cols]) #tiles width
+        rows_mat = np.zeros([int(grid_rows),int(grid_cols)]) #tiles height
+        cols_mat = np.zeros([int(grid_rows),int(grid_cols)]) #tiles width
         #orig_size = self.get_file_dim()
 
         for row in range(grid_rows):
