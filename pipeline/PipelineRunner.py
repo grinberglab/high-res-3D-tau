@@ -1,7 +1,7 @@
 import os
 import skimage.io as io
 import logging
-import ConfigParser
+import configparser
 
 
 class PipelineRunner(object):
@@ -24,7 +24,7 @@ class PipelineRunner(object):
         self.logger.addHandler(handler)
 
         #load config
-        self.config = ConfigParser.RawConfigParser()
+        self.config = configparser.RawConfigParser()
 
         self.logger.info('Loading configuration file %s',conf_file)
         self.config.read(conf_file)
