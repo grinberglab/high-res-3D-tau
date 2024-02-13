@@ -21,7 +21,7 @@ def sub2ind(size,r,c):
 
 class TiffTileLoader(object):
 
-    def __init__(self, p1MM=819, p5MM=4095):
+    def __init__(self, p1MM=2890, p5MM=14450):
         self.ds = None
         gdal.UseExceptions()
         #default values
