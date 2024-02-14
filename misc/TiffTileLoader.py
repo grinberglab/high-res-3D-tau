@@ -273,7 +273,7 @@ class TileIterator(object):
     def __iter__(self):
         return self
 
-    def next(self):
+    def __next__(self):
         if self.curr >= self.nTiles:
             raise StopIteration
         else:
