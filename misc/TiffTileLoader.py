@@ -4,8 +4,6 @@ import skimage.io as io
 import tifffile
 import glob
 import numpy as np
-#sys.path.append ('/usr/share')
-#import gdal
 from osgeo import gdal
 
 
