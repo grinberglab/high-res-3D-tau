@@ -32,10 +32,8 @@ class ImageTiler(object):
         self.logger.addHandler(handler)
 
         #default values
-        #self.PIX_1MM = 819  # 1mm= 819 pixels (in old scanner)
-        #self.PIX_5MM = 4095  # 5mm = 4095 pixels (in old scanner)
-        self.PIX_1MM = 2890  # 1mm= 2890 pixels (in Zeiss scanner 10x)
-        self.PIX_5MM = 14450  # 5mm = 14450 pixels (in Zeiss scanner 10x)
+        self.PIX_1MM = 2890  # 1mm= 819 pixels
+        self.PIX_5MM = 14450  # 5mm = 4095 pixels
         self.MEM_MAX = '14Gb'
         self.SCRIPT_DIR=''
 
@@ -64,7 +62,7 @@ class ImageTiler(object):
 
         for root, dir, files in os.walk(root_dir):
             if fnmatch.fnmatch(root,'*/RES*'): #it's inside /RES*
-                for fn in fnmatch.filter(files,'*.tif'): #get only full resolution images
+                for fn in fnmatch.filter(files,'*000000.tif'): #get only full resolution images
                     if fn.find('res10') > -1: #skip res10 images
                         continue
                     file_name = os.path.join(root,fn)
@@ -83,7 +81,7 @@ class ImageTiler(object):
     def save_metadata(self,img_name,info_dic,log_file):
         tiles = info_dic['tile_grid']
 
-        tile_info = {'name':'Tiles','attrib':{'grid_rows':str(tiles[0]),'grid_cols':str(tiles[1])}}
+        tile_info = {'name':'Tiles','attrib':{'grid_rows':str(int(tiles[0])),'grid_cols':str(int(tiles[1]))}}
         s = info_dic['size']
         img_info = {'name':'Image', 'attrib':{'rows':str(s[0]), 'cols':str(s[1]), 'file':img_name, 'home':info_dic['home'], 'children':[tile_info]}}
         XMLUtils.dict2xmlfile(img_info,log_file)
@@ -92,8 +90,10 @@ class ImageTiler(object):
     def check_num_tiles(self,tiles_dir,correct_num):
         flist = glob.glob(tiles_dir+'/*.tif')
         if len(flist) != correct_num:
+            print('Numbers of tiles are different from calculation:  {} tiles in reality but {} tiles through calculation!'.format(len(flist),correct_num))
             return False
         else:
+            print('Numbers of tiles are correct!')
             return True
 
 
@@ -157,7 +157,7 @@ class ImageTiler(object):
             self.logger.info('Finished saving tiles')
 
             #check if all tiles were saved
-            if self.check_num_tiles(tiles_dir,tile_grid[1]*tile_grid[0]):
+            if self.check_num_tiles(tiles_dir,int(tile_grid[1])*int(tile_grid[0])):
                 # save metadata (used by export_heatmap_metadata.py)
                 meta_file = os.path.join(tiles_dir, 'tiling_info.xml')
                 self.save_metadata(fi, fdic, meta_file) #save metadata

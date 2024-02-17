@@ -37,11 +37,9 @@ class MaskTiler(object):
         self.logger.addHandler(handler)
 
         #Default values
-        #self.PIX_1MM = 819  # 1mm= 819 pixels (in old scanner)
-        #self.PIX_5MM = 4095  # 5mm = 4095 pixels (in old scanner)
-        self.PIX_1MM = 2890  # 1mm= 2890 pixels (in Zeiss scanner 10x)
-        self.PIX_5MM = 14450  # 5mm = 14450 pixels (in Zeiss scanner 10x)
-        self.MEM_MAX = '14Gb'
+        self.PIX_1MM = 2890  # 1mm= 819 pixels
+        self.PIX_5MM = 14450  # 5mm = 4095 pixels
+        self.MAX_MEM = '14Gb'
 
     def get_stage_name(self):
         return self.stage_name
@@ -69,7 +67,7 @@ class MaskTiler(object):
         #get info from all histology images
         for root, dir, files in os.walk(root_dir):
             if fnmatch.fnmatch(root,'*/RES*'): #it's inside /RES*
-                for fn in fnmatch.filter(files,'*.tif'): #get only full resolution images
+                for fn in fnmatch.filter(files,'*000000.tif'): #get only full resolution images
                     if fn.find('res10') > -1: #skip res10 images
                         continue
                     file_name = os.path.join(root,fn)
@@ -124,7 +122,7 @@ class MaskTiler(object):
     def save_metadata(self,img_name,info_dic,log_file):
 
         tiles = info_dic['tile_grid']
-        tile_info = {'name':'Tiles','attrib':{'grid_rows':str(tiles[0]),'grid_cols':str(tiles[1])}}
+        tile_info = {'name':'Tiles','attrib':{'grid_rows':str(int(tiles[0])),'grid_cols':str(int(tiles[1]))}}
         s = info_dic['full_size']
         img_info = {'name':'Image', 'attrib':{'rows':str(s[0]), 'cols':str(s[1]), 'file':img_name, 'home':info_dic['home'], 'children':[tile_info]}}
 
@@ -134,8 +132,10 @@ class MaskTiler(object):
     def check_num_tiles(self,tiles_dir,correct_num):
         flist = glob.glob(tiles_dir+'/*.tif')
         if len(flist) != correct_num:
+            print('Numbers of tiles are different from calculation:  {} tiles in reality but {} tiles through calculation!'.format(len(flist),correct_num))
             return False
         else:
+            print('Numbers of tiles are correct!')
             return True
 
 
