@@ -3,8 +3,9 @@ import sys
 import skimage.io as io
 import tifffile
 import glob
+import gdal
+import logging
 import numpy as np
-from osgeo import gdal
 
 
 def ind2sub(array_shape, ind):
@@ -20,6 +21,7 @@ def sub2ind(size,r,c):
 class TiffTileLoader(object):
 
     def __init__(self, p1MM=2890, p5MM=14450):
+
         self.ds = None
         gdal.UseExceptions()
         #default values
@@ -62,7 +64,7 @@ class TiffTileLoader(object):
         ysize = int(ysize)
 
         if self.nChannels > 1:
-            R = self.rCh.ReadAsArray(x, y, xsize,ysize)
+            R = self.rCh.ReadAsArray(x, y, xsize, ysize)
             G = self.gCh.ReadAsArray(x, y, xsize, ysize)
             B = self.bCh.ReadAsArray(x, y, xsize, ysize)
             s = R.shape
@@ -96,21 +98,28 @@ class TiffTileLoader(object):
         size = self.get_file_dim()
 
         #compute row coords
-        tile_coords = np.zeros([int(grid_rows*grid_cols),4]) #[row_upper_left, col_upper_left, row_lower_right, col_lower_right]
+        tile_coords = np.zeros([(int(grid_rows)*int(grid_cols)),4]) #[row_upper_left, col_upper_left, row_lower_right, col_lower_right]
 
         row_off = np.floor(size[0]/grid_rows) #initial block size
+        #self.logger.debug(print('row_off = {}.'.format(row_off)))
         row_off = int(row_off)
-        row_rem = size[0] % int(grid_rows)
+        row_rem = size[0] % int(row_off)
+        #self.logger.debug(print('row_rem = {}.'.format(row_rem)))
         row_add = np.zeros([int(grid_rows),1]) #correction factor
+
         if row_rem > 0: # we have to compensate for uneven block sizes (reminder > 0). Make the last block in the row bigger since it's more likely to be background.
             row_add[-1] = row_rem
+            #self.logger.debug(print('row_add = {}.'.format(row_add)))
 
         col_off = np.floor(size[1]/grid_cols) #initial block size
+        #self.logger.debug(print('col_off = {}.'.format(col_off)))
         col_off = int(col_off)
-        col_rem = size[1] % int(grid_cols)
+        col_rem = size[1] % int(col_off)
+        #self.logger.debug(print('col_rem = {}.'.format(col_rem)))
         col_add = np.zeros([int(grid_cols),1]) #correction factor
         if col_rem > 0:
             col_add[-1] = col_rem
+            #self.logger.debug(print('col_add = {}.'.format(col_add)))
 
         tile_ind = 0
         up_row = 0
@@ -188,7 +197,7 @@ class TiffTileLoader(object):
         for row in range(int(grid_rows)):
             for col in range(int(grid_cols)):
                 ind = sub2ind((int(grid_rows),int(grid_cols)),row,col)
-                up_row, up_col, low_row, low_col = coords_arr[ind,:].astype('int') #[up_row, up_col, low_row, low_col]
+                up_row, up_col, low_row, low_col = coords_arr[ind,:] #[up_row, up_col, low_row, low_col]
                 cols_mat[row,col] = low_col - up_col #tile width
                 rows_mat[row,col] = low_row - up_row #tile height
 
@@ -221,7 +230,7 @@ class TiffTileLoader(object):
 
         for row in range(int(grid_rows)):
             for col in range(int(grid_cols)):
-                ind = sub2ind((grid_rows,grid_cols),row,col)
+                ind = sub2ind((int(grid_rows),int(grid_cols)),row,col)
                 f = os.path.join(tiles_dir,'tile_{:04}.tif'.format(ind))
                 tiff = tifffile.TiffFile(f)  # load tiff header only
                 size = tiff.series[0].shape
@@ -267,7 +276,6 @@ class TileIterator(object):
             self.bCh = None
             self.nChannels = 1
 
-
     def __iter__(self):
         return self
 
@@ -281,7 +289,6 @@ class TileIterator(object):
             tile = self.get_tile(c1,r1,xsize,ysize)
             self.curr += 1
             return tile
-
 
     def get_tile(self, x, y, xsize, ysize):
 

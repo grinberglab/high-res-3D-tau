@@ -69,7 +69,7 @@ class XMLUtils(object):
             dic = [dic]
         head = XMLUtils.parse_dict(dic)
         tree = Tree(head)
-        with open(xml_file, 'w+') as out:
+        with open(xml_file, 'wb+') as out:
             out.write(tree.export_xml_string())
 
 
