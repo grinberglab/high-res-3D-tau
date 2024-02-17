@@ -67,7 +67,7 @@ class MaskTiler(object):
         #get info from all histology images
         for root, dir, files in os.walk(root_dir):
             if fnmatch.fnmatch(root,'*/RES*'): #it's inside /RES*
-                for fn in fnmatch.filter(files,'*000000.tif'): #get only full resolution images
+                for fn in fnmatch.filter(files,'*Z_stack.tif'): #get only full resolution images
                     if fn.find('res10') > -1: #skip res10 images
                         continue
                     file_name = os.path.join(root,fn)
