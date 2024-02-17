@@ -3,7 +3,7 @@ import sys
 import skimage.io as io
 import tifffile
 import glob
-import gdal
+from osgeo import gdal
 import logging
 import numpy as np
 
