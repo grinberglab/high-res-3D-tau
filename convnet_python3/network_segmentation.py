@@ -19,6 +19,8 @@ import cv2
 import time
 from scipy import stats
 
+tf.config.list_physical_devices('GPU')
+
 class Segmentation:
 
     def __init__(self, config_file):
