@@ -11,5 +11,6 @@ CONF_FILE=$1
 
 echo $CONF_FILE
 
-python3 -m pip list
+module load cuda
+
 python3 /usr/local/bin/high-res-3D-tau/convnet_python3/network_trainer.py train $CONF_FILE 0.001
