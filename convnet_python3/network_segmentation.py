@@ -171,7 +171,7 @@ class Segmentation:
                 img = img[self.patch_height:img.shape[0] - self.patch_height, self.patch_width:img.shape[1] - self.patch_width, ...]
 
                 # threshold
-                mask = img > 0.5
+                mask = img > 0.7
                 # mask = img > 0.5  # threshold class probabilities
                 #mask = (img < 0.9) & (img > 0.4)
                 #img_copy = img.copy()
