@@ -91,8 +91,15 @@ class NetworkTrainer:
                                      self.img_dim, self.mask_dim, self.nClasses, self.batch_size,
                                      do_augmentation=False, augment_percent=0.40)
 
-        model.fit(generator=train_gen.get_batch(),
-                            validation_data=test_gen.get_batch(),
+        # model.fit_generator(generator=train_gen.get_batch(),
+        #                     validation_data=test_gen.get_batch(),
+        #                     steps_per_epoch=train_gen.__len__(),
+        #                     validation_steps=test_gen.__len__(),
+        #                     #epochs=100,
+        #                     epochs=self.N_epochs,
+        #                     verbose=1,
+        #                     callbacks=[checkpointer, tensorboard])
+        model.fit(validation_data=test_gen.get_batch(),
                             steps_per_epoch=train_gen.__len__(),
                             validation_steps=test_gen.__len__(),
                             #epochs=100,
