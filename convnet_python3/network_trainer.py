@@ -3,8 +3,8 @@ import configparser
 import sys
 import matplotlib.pyplot as plt
 import os
-# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 from tensorflow.keras.callbacks import ModelCheckpoint, LearningRateScheduler, TensorBoard
 from convnet.net.TauImageGenerator import TauImageGenerator
@@ -91,7 +91,7 @@ class NetworkTrainer:
                                      self.img_dim, self.mask_dim, self.nClasses, self.batch_size,
                                      do_augmentation=False, augment_percent=0.40)
 
-        model.fit_generator(generator=train_gen.get_batch(),
+        model.fit(generator=train_gen.get_batch(),
                             validation_data=test_gen.get_batch(),
                             steps_per_epoch=train_gen.__len__(),
                             validation_steps=test_gen.__len__(),
