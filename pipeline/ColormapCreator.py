@@ -19,8 +19,8 @@ from skimage import img_as_ubyte
 
 TILE_COORDS_FILE = 'tiles/tile_coordinates.npy' #inside output/RES???/, stores tiles coordinates
 TILING_INFO_FILE = 'tiles/tiling_info.xml' #inside output/RES???/, stores gridsize and original file size
-TILES_ADJ_METADATA = 'heat_map/TAU_seg_tiles/tiles_metadata.xml' # stores tiles adjacency information
-TAU_SEG_DIR = 'heat_map/TAU_seg_tiles'
+TILES_ADJ_METADATA = 'heat_map/Syn_seg_tiles/tiles_metadata.xml' # stores tiles adjacency information
+TAU_SEG_DIR = 'heat_map/Syn_seg_tiles'
 SEG_TILE_DIR = 'heat_map/seg_tiles'
 HISTO_TILE_NAME = 'tile_{:04d}.tif'
 SEG_TILE_NAME = 'tile_{:04d}_mask.tif'
@@ -52,8 +52,10 @@ class ColormapCreator(object):
         self.logger.addHandler(handler)
 
         #default values
-        self.PIX_1MM = 819  # 1mm= 819 pixels
-        self.PIX_5MM = 4095  # 5mm = 4095 pixels
+        #self.PIX_1MM = 2890  # 1mm= 2890 pixels for 10x RO1
+        #self.PIX_5MM = 14450  # 5mm = 14450 pixels for 10x RO1
+        self.PIX_1MM = 5814  # 1mm= 5814 pixels for 20x Luke Syn
+        self.PIX_5MM = 29070  # 5mm = 29070 pixels for 20x Luke Syn
         self.HMAP_RES = 0.1
         self.SCALE_FACTOR_VAL = 1000.0
 
