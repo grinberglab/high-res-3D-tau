@@ -20,7 +20,8 @@ def sub2ind(size,r,c):
 
 class TiffTileLoader(object):
 
-    def __init__(self, p1MM=5814, p5MM=29070):
+    def __init__(self, p1MM=5814, p5MM=29070): #for 20x Luke Syn
+    #def __init__(self, p1MM=5814, p5MM=29070): #for 10x RO1
 
         self.ds = None
         gdal.UseExceptions()
