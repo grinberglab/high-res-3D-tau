@@ -237,8 +237,8 @@ def collect_samples(root_dir, x_len, y_len, patch_count, hdir):
 
             #extract square patches with center coordinate
             for i in range(len(patch_centers)):
-                patch_x = coordinates[patch_centers[i]][0] - x/2
-                patch_y = coordinates[patch_centers[i]][1] - y/2
+                patch_x = coordinates[patch_centers[i]][0] - x//2
+                patch_y = coordinates[patch_centers[i]][1] - y//2
                 #patch = extract_color_patch(patch_x, x, patch_y, y, (count-1), colored_file_list)
                 patch = extract_color_patch(patch_x, x, patch_y, y, colored_file_name)
 
