@@ -53,7 +53,7 @@ def get_files_info(root_dir):
         output_dir = os.path.join(d,'output')
         res_dir = ''
         for root, dir, files in os.walk(output_dir):
-            if fnmatch.fnmatch(root,'*/RES(*'): #it's inside /RES*
+            if fnmatch.fnmatch(root,'*/RES*'): #it's inside /RES*
                 res_dir = root
                 break
         histo_tiles_dir = os.path.join(res_dir,'tiles')
