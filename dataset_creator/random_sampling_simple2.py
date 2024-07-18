@@ -4,7 +4,7 @@ import fnmatch
 import numpy as np
 import os
 import random
-import scipy.misc
+import scipy
 import sys
 import matplotlib.pyplot as plt
 import skimage.transform as xform
