@@ -72,8 +72,8 @@ class ImageTiler(object):
                     size = tiff.series[0].shape
                     # compute tile grid.
                     # note that there's always a rounding problem since image size are hardly ever multiples of PIX_5MM
-                    nB_rows = size[0] / self.PIX_5MM  # num. of 5mm high blocks along the 'row' dimension
-                    nB_cols = size[1] / self.PIX_5MM  # num. of 5mm wide blocks along the 'columns' dimension
+                    nB_rows = size[0] / self.PIX_1MM  # num. of 5mm high blocks along the 'row' dimension
+                    nB_cols = size[1] / self.PIX_1MM  # num. of 5mm wide blocks along the 'columns' dimension
                     file_list[file_name] = {'home':root, 'size':size, 'tile_grid':[nB_rows, nB_cols]}
                     del tiff
 
