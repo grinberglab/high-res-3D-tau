@@ -37,10 +37,10 @@ class MaskTiler(object):
         self.logger.addHandler(handler)
 
         #Default values
-        #self.PIX_1MM = 2890  # 1mm= 2890 pixels for 10x RO1
-        #self.PIX_5MM = 14450  # 5mm = 14450 pixels for 10x RO1
-        self.PIX_1MM = 5814  # 1mm= 5814 pixels for 20x Luke Syn
-        self.PIX_5MM = 29070  # 5mm = 29070 pixels for 20x Luke Syn
+        self.PIX_1MM = 2890  # 1mm= 2890 pixels for 10x RO1
+        self.PIX_5MM = 14450  # 5mm = 14450 pixels for 10x RO1
+        #self.PIX_1MM = 5814  # 1mm= 5814 pixels for 20x Luke Syn
+        #self.PIX_5MM = 29070  # 5mm = 29070 pixels for 20x Luke Syn
         self.MAX_MEM = '14Gb'
 
     def get_stage_name(self):
