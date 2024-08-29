@@ -52,10 +52,10 @@ class ColormapCreator(object):
         self.logger.addHandler(handler)
 
         #default values
-        #self.PIX_1MM = 2890  # 1mm= 2890 pixels for 10x RO1
-        #self.PIX_5MM = 14450  # 5mm = 14450 pixels for 10x RO1
-        self.PIX_1MM = 5814  # 1mm= 5814 pixels for 20x Luke Syn
-        self.PIX_5MM = 29070  # 5mm = 29070 pixels for 20x Luke Syn
+        self.PIX_1MM = 2890  # 1mm= 2890 pixels for 10x RO1
+        self.PIX_5MM = 14450  # 5mm = 14450 pixels for 10x RO1
+        #self.PIX_1MM = 5814  # 1mm= 5814 pixels for 20x Luke Syn
+        #self.PIX_5MM = 29070  # 5mm = 29070 pixels for 20x Luke Syn
         self.HMAP_RES = 0.1
         self.SCALE_FACTOR_VAL = 1000.0
 
