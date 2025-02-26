@@ -301,7 +301,7 @@ class HeatmapCreator(object):
         res_dir = ''
         res10_file = ''
         for root, dir, files in os.walk(root_dir):
-            if fnmatch.fnmatch(root,'*/RES(*'): #it's inside /RES*
+            if fnmatch.fnmatch(root,'*/RES*'): #it's inside /RES*
                 if res_dir == '':
                     res_dir = root
                 for fn in fnmatch.filter(files,'*.tif'): #get only full resolution images
