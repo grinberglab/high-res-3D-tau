@@ -63,7 +63,7 @@ class ImageTiler(object):
         file_list = {}
 
         for root, dir, files in os.walk(root_dir):
-            if fnmatch.fnmatch(root,'*/RES*'): #it's inside /RES*
+            if fnmatch.fnmatch(root,'*/RES'): #it's inside /RES*
                 for fn in fnmatch.filter(files,'*.tiff'): #get only full resolution images
                     if fn.find('res10') > -1: #skip res10 images
                         continue
